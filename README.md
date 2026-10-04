@@ -5,6 +5,8 @@ work). Every answer is retrieved and cited against the source text, or the syste
 guesses. Built up in phases, from a single-shot retrieval pipeline to a service-oriented deployment with
 asynchronous jobs, session persistence, MCP tool access, PostgreSQL-backed metadata, and OpenTelemetry tracing.
 
+Demonstration and explanation video link- https://drive.google.com/file/d/1M74sb6NFH8FlprWxU1pLssUKaQGRzh8t/view?usp=sharing
+
 ## What it does
 
 - **Adaptive, bounded retrieval**: dense (the project's own arctic-m index) + BM25 fused by reciprocal rank,
