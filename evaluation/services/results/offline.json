@@ -1,0 +1,1231 @@
+{
+ "phase2": [
+  {
+   "id": "mi-uc-card",
+   "mode": "single",
+   "restart": false,
+   "turns": [
+    {
+     "question": "What is the UConn University Travel Card submission deadline, and what happens if charges aren't submitted on time?",
+     "http": 200,
+     "kind": "self_contained",
+     "checks": [],
+     "job_id": "dbec3fd950d741978f1309b4027ab18f",
+     "status": "completed",
+     "strategy": "delegate",
+     "evidence": 6,
+     "citations": 0
+    }
+   ],
+   "model_calls": 1,
+   "identical_model_input": true,
+   "stored_session_equals_direct": true,
+   "retrieval_requests": null
+  },
+  {
+   "id": "mi-penn",
+   "mode": "single",
+   "restart": false,
+   "turns": [
+    {
+     "question": "At Penn, what happens to purchase orders of $50,000 or more before issuance, and when are competitive bids not required?",
+     "http": 200,
+     "kind": "self_contained",
+     "checks": [],
+     "job_id": "e84b49f127834a3db0480ab5d7dd2ddd",
+     "status": "completed",
+     "strategy": "delegate",
+     "evidence": 6,
+     "citations": 0
+    }
+   ],
+   "model_calls": 1,
+   "identical_model_input": true,
+   "stored_session_equals_direct": true,
+   "retrieval_requests": null
+  },
+  {
+   "id": "mi-mi-air",
+   "mode": "single",
+   "restart": false,
+   "turns": [
+    {
+     "question": "What airfare does the University of Michigan pay for, and how far in advance does the University of Michigan recommend booking airfare?",
+     "http": 200,
+     "kind": "self_contained",
+     "checks": [],
+     "job_id": "68b021ccd4df49bbaed0d6d471603e80",
+     "status": "completed",
+     "strategy": "delegate",
+     "evidence": 6,
+     "citations": 0
+    }
+   ],
+   "model_calls": 1,
+   "identical_model_input": true,
+   "stored_session_equals_direct": true,
+   "retrieval_requests": null
+  },
+  {
+   "id": "mi-or-emergency",
+   "mode": "single",
+   "restart": false,
+   "turns": [
+    {
+     "question": "At Oregon State, what procurement method applies to a $180,000 purchase, and what happens to the required process if the procurement is an emergency costing less than $2 million?",
+     "http": 200,
+     "kind": "self_contained",
+     "checks": [],
+     "job_id": "54dec2a641bc493a990d2d1bd23e0419",
+     "status": "completed",
+     "strategy": "delegate",
+     "evidence": 6,
+     "citations": 0
+    }
+   ],
+   "model_calls": 1,
+   "identical_model_input": true,
+   "stored_session_equals_direct": true,
+   "retrieval_requests": null
+  },
+  {
+   "id": "mi-ut-ru",
+   "mode": "single",
+   "restart": false,
+   "turns": [
+    {
+     "question": "How often must UT Austin user accounts be reviewed, and is there a limit on the gratuities Rutgers will reimburse for business travel?",
+     "http": 200,
+     "kind": "self_contained",
+     "checks": [],
+     "job_id": "a9c6c3a9845c4d159dfe53e2612a2480",
+     "status": "completed",
+     "strategy": "fused",
+     "evidence": 6,
+     "citations": 0
+    }
+   ],
+   "model_calls": 1,
+   "identical_model_input": true,
+   "stored_session_equals_direct": true,
+   "retrieval_requests": null
+  },
+  {
+   "id": "mi-st-ro",
+   "mode": "single",
+   "restart": false,
+   "turns": [
+    {
+     "question": "Under what conditions can Stanford pay an invoice that exceeds the purchase order amount without a written change order, and how far ahead should a University of Rochester traveler submit a request for travel to a high-risk location?",
+     "http": 200,
+     "kind": "self_contained",
+     "checks": [],
+     "job_id": "6057c7a53fc54342beba16fc92ed563d",
+     "status": "completed",
+     "strategy": "fused",
+     "evidence": 6,
+     "citations": 0
+    }
+   ],
+   "model_calls": 1,
+   "identical_model_input": true,
+   "stored_session_equals_direct": true,
+   "retrieval_requests": null
+  },
+  {
+   "id": "mi-mi-ru-dated",
+   "mode": "single",
+   "restart": false,
+   "turns": [
+    {
+     "question": "What mileage rate does the University of Michigan reimburse for business travel that starts on or after August 1, 2026, and how far in advance of departure must a Rutgers travel advance request be submitted?",
+     "http": 200,
+     "kind": "self_contained",
+     "checks": [],
+     "job_id": "4ff19aedd92740c08506b7096fde2cc4",
+     "status": "completed",
+     "strategy": "per_intent",
+     "evidence": 12,
+     "citations": 0
+    }
+   ],
+   "model_calls": 2,
+   "identical_model_input": true,
+   "stored_session_equals_direct": true,
+   "retrieval_requests": null
+  },
+  {
+   "id": "mi-three",
+   "mode": "single",
+   "restart": false,
+   "turns": [
+    {
+     "question": "How often must UT Austin user accounts be reviewed, what mileage rate does the University of Michigan reimburse for travel starting on or after August 1, 2026, and how far in advance must a Rutgers travel advance request be submitted?",
+     "http": 200,
+     "kind": "self_contained",
+     "checks": [],
+     "job_id": "cc4cfa5426d7455ca88b60580256654b",
+     "status": "completed",
+     "strategy": "per_intent",
+     "evidence": 18,
+     "citations": 0
+    }
+   ],
+   "model_calls": 3,
+   "identical_model_input": true,
+   "stored_session_equals_direct": true,
+   "retrieval_requests": null
+  },
+  {
+   "id": "mi-uc-mixed-temporal",
+   "mode": "single",
+   "restart": false,
+   "turns": [
+    {
+     "question": "What did UConn's February 2026 procedures say about when a University Travel Card is suspended, and may a traveler currently pay for a multi-bedroom accommodation with a University Travel Card?",
+     "http": 200,
+     "kind": "self_contained",
+     "checks": [],
+     "job_id": "a2a88168be404f60ac42f1851f3f6842",
+     "status": "completed",
+     "strategy": "per_intent",
+     "evidence": 12,
+     "citations": 0
+    }
+   ],
+   "model_calls": 2,
+   "identical_model_input": true,
+   "stored_session_equals_direct": true,
+   "retrieval_requests": null
+  },
+  {
+   "id": "mi-uc-jul-scope",
+   "mode": "single",
+   "restart": false,
+   "turns": [
+    {
+     "question": "Under UConn's procedures effective July 1, 2026, how is a suspended University Travel Card reinstated, and what approval is needed before a spouse's travel expenses can be reimbursed?",
+     "http": 200,
+     "kind": "self_contained",
+     "checks": [],
+     "job_id": "d4dbf210a4ed4d85a2832c7912e6f1ac",
+     "status": "completed",
+     "strategy": "delegate",
+     "evidence": 6,
+     "citations": 0
+    }
+   ],
+   "model_calls": 1,
+   "identical_model_input": true,
+   "stored_session_equals_direct": true,
+   "retrieval_requests": null
+  },
+  {
+   "id": "mi-ro-harvard",
+   "mode": "single",
+   "restart": false,
+   "turns": [
+    {
+     "question": "How far ahead should a University of Rochester traveler submit a request for travel to a high-risk location, and what purchase amount requires competitive bids at Harvard University?",
+     "http": 200,
+     "kind": "self_contained",
+     "checks": [],
+     "job_id": "ad21a228507e4e388b0060868a6e4212",
+     "status": "completed",
+     "strategy": "fused",
+     "evidence": 6,
+     "citations": 0
+    }
+   ],
+   "model_calls": 1,
+   "identical_model_input": true,
+   "stored_session_equals_direct": true,
+   "retrieval_requests": null
+  },
+  {
+   "id": "mi-ru-yale",
+   "mode": "single",
+   "restart": false,
+   "turns": [
+    {
+     "question": "How far in advance of departure must a Rutgers travel advance request be submitted, and does Yale reimburse home internet costs for staff who work remotely?",
+     "http": 200,
+     "kind": "self_contained",
+     "checks": [],
+     "job_id": "837f0de8c2ea45759b73978067aa9fe1",
+     "status": "completed",
+     "strategy": "fused",
+     "evidence": 6,
+     "citations": 0
+    }
+   ],
+   "model_calls": 1,
+   "identical_model_input": true,
+   "stored_session_equals_direct": true,
+   "retrieval_requests": null
+  },
+  {
+   "id": "mi-ctl-single",
+   "mode": "single",
+   "restart": false,
+   "turns": [
+    {
+     "question": "What does the University of Rochester policy say about tipping reimbursement?",
+     "http": 200,
+     "kind": "self_contained",
+     "checks": [],
+     "job_id": "8f6dd633e296403e91b5348d79ee9992",
+     "status": "completed",
+     "strategy": "delegate",
+     "evidence": 6,
+     "citations": 0
+    }
+   ],
+   "model_calls": 1,
+   "identical_model_input": true,
+   "stored_session_equals_direct": true,
+   "retrieval_requests": null
+  },
+  {
+   "id": "mi-ctl-explain",
+   "mode": "single",
+   "restart": false,
+   "turns": [
+    {
+     "question": "At Stanford, can a $240 invoice overage on a $2,000 standard purchase order be paid without a written change order? Explain why.",
+     "http": 200,
+     "kind": "self_contained",
+     "checks": [],
+     "job_id": "e94a11ef54274cfdabf780c75fa98fe1",
+     "status": "completed",
+     "strategy": "delegate",
+     "evidence": 6,
+     "citations": 0
+    }
+   ],
+   "model_calls": 1,
+   "identical_model_input": true,
+   "stored_session_equals_direct": true,
+   "retrieval_requests": null
+  },
+  {
+   "id": "mi-ctl-refers",
+   "mode": "single",
+   "restart": false,
+   "turns": [
+    {
+     "question": "Which clause of UT Austin's information resources policy sets how often user accounts must be reviewed, and how often is that?",
+     "http": 200,
+     "kind": "self_contained",
+     "checks": [],
+     "job_id": "3c1c1e6a37964980b812f0a91ac1fb56",
+     "status": "completed",
+     "strategy": "delegate",
+     "evidence": 6,
+     "citations": 0
+    }
+   ],
+   "model_calls": 1,
+   "identical_model_input": true,
+   "stored_session_equals_direct": true,
+   "retrieval_requests": null
+  },
+  {
+   "id": "mi-ctl-compare",
+   "mode": "single",
+   "restart": false,
+   "turns": [
+    {
+     "question": "Compare the February 1, 2026 and July 1, 2026 UConn Travel Card penalty rules.",
+     "http": 200,
+     "kind": "self_contained",
+     "checks": [],
+     "job_id": "b03489669f44485dbdba00de92a22eb5",
+     "status": "completed",
+     "strategy": "delegate",
+     "evidence": 6,
+     "citations": 0
+    }
+   ],
+   "model_calls": 1,
+   "identical_model_input": true,
+   "stored_session_equals_direct": true,
+   "retrieval_requests": null
+  }
+ ],
+ "phase3": [
+  {
+   "id": "s-direct",
+   "mode": "single",
+   "restart": false,
+   "turns": [
+    {
+     "question": "What are Rutgers' rules for travel advances?",
+     "http": 200,
+     "kind": "self_contained",
+     "checks": [],
+     "job_id": "a677445251534001b09eaaed526bacc9",
+     "status": "completed",
+     "strategy": "delegate",
+     "evidence": 6,
+     "citations": 0
+    },
+    {
+     "question": "What documentation is required after the trip?",
+     "http": 200,
+     "kind": "follow_up",
+     "checks": [],
+     "job_id": "9feb82af5d9a404ab1755c95b523fbcd",
+     "status": "completed",
+     "strategy": "delegate",
+     "evidence": 6,
+     "citations": 0
+    }
+   ],
+   "model_calls": 2,
+   "identical_model_input": true,
+   "stored_session_equals_direct": true,
+   "retrieval_requests": null
+  },
+  {
+   "id": "s-reference",
+   "mode": "single",
+   "restart": false,
+   "turns": [
+    {
+     "question": "What is UConn's University Travel Card suspension rule?",
+     "http": 200,
+     "kind": "self_contained",
+     "checks": [],
+     "job_id": "f4babd9ca2e940bf9c578422fe6f067f",
+     "status": "completed",
+     "strategy": "delegate",
+     "evidence": 6,
+     "citations": 0
+    },
+    {
+     "question": "What happens if they are still unresolved after 90 days?",
+     "http": 200,
+     "kind": "follow_up",
+     "checks": [],
+     "job_id": "8db596ec0bd4405e8a68823a13ca0456",
+     "status": "completed",
+     "strategy": "delegate",
+     "evidence": 6,
+     "citations": 0
+    }
+   ],
+   "model_calls": 2,
+   "identical_model_input": true,
+   "stored_session_equals_direct": true,
+   "retrieval_requests": null
+  },
+  {
+   "id": "s-temporal",
+   "mode": "single",
+   "restart": false,
+   "turns": [
+    {
+     "question": "What did UConn's February 2026 procedures say about when a University Travel Card is suspended?",
+     "http": 200,
+     "kind": "self_contained",
+     "checks": [],
+     "job_id": "7284c4c03b774e8d8464ae3b645038c1",
+     "status": "completed",
+     "strategy": "delegate",
+     "evidence": 6,
+     "citations": 0
+    },
+    {
+     "question": "Does that still apply under the current procedures?",
+     "http": 200,
+     "kind": "follow_up",
+     "checks": [],
+     "job_id": "48fb435205354d6bbe5eccd1103c7948",
+     "status": "completed",
+     "strategy": "delegate",
+     "evidence": 6,
+     "citations": 0
+    }
+   ],
+   "model_calls": 2,
+   "identical_model_input": true,
+   "stored_session_equals_direct": true,
+   "retrieval_requests": null
+  },
+  {
+   "id": "s-chain",
+   "mode": "single",
+   "restart": false,
+   "turns": [
+    {
+     "question": "What is UConn's University Travel Card suspension rule?",
+     "http": 200,
+     "kind": "self_contained",
+     "checks": [],
+     "job_id": "98b32a0447644373beb318647d1718ed",
+     "status": "completed",
+     "strategy": "delegate",
+     "evidence": 6,
+     "citations": 0
+    },
+    {
+     "question": "Does that apply currently?",
+     "http": 200,
+     "kind": "follow_up",
+     "checks": [],
+     "job_id": "ec624a3254ad467ea8db781e69a94ea8",
+     "status": "completed",
+     "strategy": "delegate",
+     "evidence": 6,
+     "citations": 0
+    },
+    {
+     "question": "What happens after 90 days?",
+     "http": 200,
+     "kind": "follow_up",
+     "checks": [],
+     "job_id": "c34440c144734b60a5c5711eee55f4c6",
+     "status": "completed",
+     "strategy": "delegate",
+     "evidence": 6,
+     "citations": 0
+    }
+   ],
+   "model_calls": 3,
+   "identical_model_input": true,
+   "stored_session_equals_direct": true,
+   "retrieval_requests": null
+  },
+  {
+   "id": "s-constraint",
+   "mode": "single",
+   "restart": false,
+   "turns": [
+    {
+     "question": "At Oregon State, what procurement method applies to a $180,000 purchase?",
+     "http": 200,
+     "kind": "self_contained",
+     "checks": [],
+     "job_id": "562dabac7a864e6bb30ad5892e42deed",
+     "status": "completed",
+     "strategy": "delegate",
+     "evidence": 6,
+     "citations": 0
+    },
+    {
+     "question": "What if it is an emergency costing less than $2 million?",
+     "http": 200,
+     "kind": "follow_up",
+     "checks": [],
+     "job_id": "eb682b711cf94bae863e0240d30636bb",
+     "status": "completed",
+     "strategy": "delegate",
+     "evidence": 6,
+     "citations": 0
+    }
+   ],
+   "model_calls": 2,
+   "identical_model_input": true,
+   "stored_session_equals_direct": true,
+   "retrieval_requests": null
+  },
+  {
+   "id": "s-unrelated",
+   "mode": "single",
+   "restart": false,
+   "turns": [
+    {
+     "question": "What is UConn's University Travel Card suspension rule?",
+     "http": 200,
+     "kind": "self_contained",
+     "checks": [],
+     "job_id": "d0479efd9a064f6faa8f20f7d00faaaf",
+     "status": "completed",
+     "strategy": "delegate",
+     "evidence": 6,
+     "citations": 0
+    },
+    {
+     "question": "How often must UT Austin user accounts be reviewed?",
+     "http": 200,
+     "kind": "self_contained",
+     "checks": [],
+     "job_id": "9a30bdaebbbb431b8284b0aec8967350",
+     "status": "completed",
+     "strategy": "delegate",
+     "evidence": 6,
+     "citations": 0
+    }
+   ],
+   "model_calls": 2,
+   "identical_model_input": true,
+   "stored_session_equals_direct": true,
+   "retrieval_requests": null
+  },
+  {
+   "id": "s-ambiguous",
+   "mode": "single",
+   "restart": false,
+   "turns": [
+    {
+     "question": "How often must UT Austin user accounts be reviewed, and is there a limit on the gratuities Rutgers will reimburse for business travel?",
+     "http": 200,
+     "kind": "self_contained",
+     "checks": [],
+     "job_id": "71619efe75c74f39a89b9c00ddb25e77",
+     "status": "completed",
+     "strategy": "fused",
+     "evidence": 6,
+     "citations": 0
+    },
+    {
+     "question": "Does that apply currently?",
+     "http": 200,
+     "kind": "unresolved",
+     "checks": [],
+     "job_id": "9750282e9a774a9b99973c29086601e6",
+     "status": "completed",
+     "strategy": null,
+     "evidence": 0,
+     "citations": 0
+    }
+   ],
+   "model_calls": 1,
+   "identical_model_input": true,
+   "stored_session_equals_direct": true,
+   "retrieval_requests": null
+  },
+  {
+   "id": "s-unsupported",
+   "mode": "single",
+   "restart": false,
+   "turns": [
+    {
+     "question": "What are Rutgers' rules for travel advances?",
+     "http": 200,
+     "kind": "self_contained",
+     "checks": [],
+     "job_id": "f8190f57a63a4ed4b269093a66e93bfb",
+     "status": "completed",
+     "strategy": "delegate",
+     "evidence": 6,
+     "citations": 0
+    },
+    {
+     "question": "Does Harvard University have the same rule?",
+     "http": 200,
+     "kind": "unresolved",
+     "checks": [],
+     "job_id": "456bd209e7be49eabd974d24a7409112",
+     "status": "completed",
+     "strategy": null,
+     "evidence": 0,
+     "citations": 0
+    }
+   ],
+   "model_calls": 1,
+   "identical_model_input": true,
+   "stored_session_equals_direct": true,
+   "retrieval_requests": null
+  }
+ ],
+ "phase5": [
+  {
+   "id": "s-direct",
+   "mode": "single",
+   "restart": true,
+   "turns": [
+    {
+     "question": "What are Rutgers' rules for travel advances?",
+     "http": 200,
+     "kind": "self_contained",
+     "checks": [],
+     "job_id": "bda3c180a52448f4aa7136763f64f5c9",
+     "status": "completed",
+     "strategy": "delegate",
+     "evidence": 6,
+     "citations": 0
+    },
+    {
+     "question": "What documentation is required after the trip?",
+     "http": 200,
+     "kind": "follow_up",
+     "checks": [],
+     "job_id": "94171d62680c44d39077d17d106cf927",
+     "status": "completed",
+     "strategy": "delegate",
+     "evidence": 6,
+     "citations": 0
+    }
+   ],
+   "model_calls": 2,
+   "identical_model_input": true,
+   "stored_session_equals_direct": true,
+   "retrieval_requests": null
+  },
+  {
+   "id": "s-reference",
+   "mode": "single",
+   "restart": true,
+   "turns": [
+    {
+     "question": "What is UConn's University Travel Card suspension rule?",
+     "http": 200,
+     "kind": "self_contained",
+     "checks": [],
+     "job_id": "1c9e4fee6f474944995325400670fede",
+     "status": "completed",
+     "strategy": "delegate",
+     "evidence": 6,
+     "citations": 0
+    },
+    {
+     "question": "What happens if they are still unresolved after 90 days?",
+     "http": 200,
+     "kind": "follow_up",
+     "checks": [],
+     "job_id": "64366e96881b4a0a8be3222b6b858578",
+     "status": "completed",
+     "strategy": "delegate",
+     "evidence": 6,
+     "citations": 0
+    }
+   ],
+   "model_calls": 2,
+   "identical_model_input": true,
+   "stored_session_equals_direct": true,
+   "retrieval_requests": null
+  },
+  {
+   "id": "s-temporal",
+   "mode": "single",
+   "restart": true,
+   "turns": [
+    {
+     "question": "What did UConn's February 2026 procedures say about when a University Travel Card is suspended?",
+     "http": 200,
+     "kind": "self_contained",
+     "checks": [],
+     "job_id": "46bdb665e506416b847413d9742bb1ba",
+     "status": "completed",
+     "strategy": "delegate",
+     "evidence": 6,
+     "citations": 0
+    },
+    {
+     "question": "Does that still apply under the current procedures?",
+     "http": 200,
+     "kind": "follow_up",
+     "checks": [],
+     "job_id": "2d2dd43b74e7455796661e8d780bd8b9",
+     "status": "completed",
+     "strategy": "delegate",
+     "evidence": 6,
+     "citations": 0
+    }
+   ],
+   "model_calls": 2,
+   "identical_model_input": true,
+   "stored_session_equals_direct": true,
+   "retrieval_requests": null
+  },
+  {
+   "id": "s-chain",
+   "mode": "single",
+   "restart": true,
+   "turns": [
+    {
+     "question": "What is UConn's University Travel Card suspension rule?",
+     "http": 200,
+     "kind": "self_contained",
+     "checks": [],
+     "job_id": "9cdcbdcca39c48f69d987cb39f4400ae",
+     "status": "completed",
+     "strategy": "delegate",
+     "evidence": 6,
+     "citations": 0
+    },
+    {
+     "question": "Does that apply currently?",
+     "http": 200,
+     "kind": "follow_up",
+     "checks": [],
+     "job_id": "0c4d52e530024be38fb8eb80a1725220",
+     "status": "completed",
+     "strategy": "delegate",
+     "evidence": 6,
+     "citations": 0
+    },
+    {
+     "question": "What happens after 90 days?",
+     "http": 200,
+     "kind": "follow_up",
+     "checks": [],
+     "job_id": "5da3a44495b84834aae7b7697cd3cf7f",
+     "status": "completed",
+     "strategy": "delegate",
+     "evidence": 6,
+     "citations": 0
+    }
+   ],
+   "model_calls": 3,
+   "identical_model_input": true,
+   "stored_session_equals_direct": true,
+   "retrieval_requests": null
+  },
+  {
+   "id": "s-constraint",
+   "mode": "single",
+   "restart": true,
+   "turns": [
+    {
+     "question": "At Oregon State, what procurement method applies to a $180,000 purchase?",
+     "http": 200,
+     "kind": "self_contained",
+     "checks": [],
+     "job_id": "71ec638de4ff41c68ddf1af8207d3c2e",
+     "status": "completed",
+     "strategy": "delegate",
+     "evidence": 6,
+     "citations": 0
+    },
+    {
+     "question": "What if it is an emergency costing less than $2 million?",
+     "http": 200,
+     "kind": "follow_up",
+     "checks": [],
+     "job_id": "e842c1ec353142c78e2ec8cd5a51ab9d",
+     "status": "completed",
+     "strategy": "delegate",
+     "evidence": 6,
+     "citations": 0
+    }
+   ],
+   "model_calls": 2,
+   "identical_model_input": true,
+   "stored_session_equals_direct": true,
+   "retrieval_requests": null
+  },
+  {
+   "id": "s-unrelated",
+   "mode": "single",
+   "restart": true,
+   "turns": [
+    {
+     "question": "What is UConn's University Travel Card suspension rule?",
+     "http": 200,
+     "kind": "self_contained",
+     "checks": [],
+     "job_id": "74b4a963d98d48d6b0ab0da158ecb551",
+     "status": "completed",
+     "strategy": "delegate",
+     "evidence": 6,
+     "citations": 0
+    },
+    {
+     "question": "How often must UT Austin user accounts be reviewed?",
+     "http": 200,
+     "kind": "self_contained",
+     "checks": [],
+     "job_id": "ec6fcf8f6f8c47a7976ad41e9212abe0",
+     "status": "completed",
+     "strategy": "delegate",
+     "evidence": 6,
+     "citations": 0
+    }
+   ],
+   "model_calls": 2,
+   "identical_model_input": true,
+   "stored_session_equals_direct": true,
+   "retrieval_requests": null
+  },
+  {
+   "id": "s-ambiguous",
+   "mode": "single",
+   "restart": true,
+   "turns": [
+    {
+     "question": "How often must UT Austin user accounts be reviewed, and is there a limit on the gratuities Rutgers will reimburse for business travel?",
+     "http": 200,
+     "kind": "self_contained",
+     "checks": [],
+     "job_id": "68ef36278b8e4c0eb9f0e6ecc8c02e64",
+     "status": "completed",
+     "strategy": "fused",
+     "evidence": 6,
+     "citations": 0
+    },
+    {
+     "question": "Does that apply currently?",
+     "http": 200,
+     "kind": "unresolved",
+     "checks": [],
+     "job_id": "f797480f09164cf1b1e5400b7c427189",
+     "status": "completed",
+     "strategy": null,
+     "evidence": 0,
+     "citations": 0
+    }
+   ],
+   "model_calls": 1,
+   "identical_model_input": true,
+   "stored_session_equals_direct": true,
+   "retrieval_requests": null
+  },
+  {
+   "id": "s-unsupported",
+   "mode": "single",
+   "restart": true,
+   "turns": [
+    {
+     "question": "What are Rutgers' rules for travel advances?",
+     "http": 200,
+     "kind": "self_contained",
+     "checks": [],
+     "job_id": "04566d4b0f694f3e937044951ebdbe57",
+     "status": "completed",
+     "strategy": "delegate",
+     "evidence": 6,
+     "citations": 0
+    },
+    {
+     "question": "Does Harvard University have the same rule?",
+     "http": 200,
+     "kind": "unresolved",
+     "checks": [],
+     "job_id": "030b2fa480364606b8a7cfa690413e37",
+     "status": "completed",
+     "strategy": null,
+     "evidence": 0,
+     "citations": 0
+    }
+   ],
+   "model_calls": 1,
+   "identical_model_input": true,
+   "stored_session_equals_direct": true,
+   "retrieval_requests": null
+  }
+ ],
+ "phase6": [
+  {
+   "id": "s-direct",
+   "mode": "iterative",
+   "restart": false,
+   "turns": [
+    {
+     "question": "What are Rutgers' rules for travel advances?",
+     "http": 200,
+     "kind": "self_contained",
+     "checks": [],
+     "job_id": "671a70f38a20406fb5a9176a259dfdde",
+     "status": "completed",
+     "strategy": "delegate",
+     "evidence": 6,
+     "citations": 0
+    },
+    {
+     "question": "What documentation is required after the trip?",
+     "http": 200,
+     "kind": "follow_up",
+     "checks": [],
+     "job_id": "3e73270707004e20ac489d2f9a035c75",
+     "status": "completed",
+     "strategy": "delegate",
+     "evidence": 6,
+     "citations": 0
+    }
+   ],
+   "model_calls": 2,
+   "identical_model_input": true,
+   "stored_session_equals_direct": true,
+   "retrieval_requests": null
+  },
+  {
+   "id": "s-reference",
+   "mode": "iterative",
+   "restart": false,
+   "turns": [
+    {
+     "question": "What is UConn's University Travel Card suspension rule?",
+     "http": 200,
+     "kind": "self_contained",
+     "checks": [],
+     "job_id": "6d905582c24a42c7932c5c75d8c4938b",
+     "status": "completed",
+     "strategy": "delegate",
+     "evidence": 6,
+     "citations": 0
+    },
+    {
+     "question": "What happens if they are still unresolved after 90 days?",
+     "http": 200,
+     "kind": "follow_up",
+     "checks": [],
+     "job_id": "2373aa3634ca4f58a1f978fb36a8501f",
+     "status": "completed",
+     "strategy": "delegate",
+     "evidence": 6,
+     "citations": 0
+    }
+   ],
+   "model_calls": 2,
+   "identical_model_input": true,
+   "stored_session_equals_direct": true,
+   "retrieval_requests": null
+  },
+  {
+   "id": "s-temporal",
+   "mode": "iterative",
+   "restart": false,
+   "turns": [
+    {
+     "question": "What did UConn's February 2026 procedures say about when a University Travel Card is suspended?",
+     "http": 200,
+     "kind": "self_contained",
+     "checks": [],
+     "job_id": "9d46b025324c40458a7a3488b1a1b517",
+     "status": "completed",
+     "strategy": "delegate",
+     "evidence": 6,
+     "citations": 0
+    },
+    {
+     "question": "Does that still apply under the current procedures?",
+     "http": 200,
+     "kind": "follow_up",
+     "checks": [],
+     "job_id": "054793b893f84790bf1b4d7e96189864",
+     "status": "completed",
+     "strategy": "delegate",
+     "evidence": 6,
+     "citations": 0
+    }
+   ],
+   "model_calls": 2,
+   "identical_model_input": true,
+   "stored_session_equals_direct": true,
+   "retrieval_requests": null
+  },
+  {
+   "id": "s-chain",
+   "mode": "iterative",
+   "restart": false,
+   "turns": [
+    {
+     "question": "What is UConn's University Travel Card suspension rule?",
+     "http": 200,
+     "kind": "self_contained",
+     "checks": [],
+     "job_id": "013b550dc7224fdf8bc8f1f88b4cbda3",
+     "status": "completed",
+     "strategy": "delegate",
+     "evidence": 6,
+     "citations": 0
+    },
+    {
+     "question": "Does that apply currently?",
+     "http": 200,
+     "kind": "follow_up",
+     "checks": [],
+     "job_id": "c95c4a6d25464c0db358df66b91a3d57",
+     "status": "completed",
+     "strategy": "delegate",
+     "evidence": 6,
+     "citations": 0
+    },
+    {
+     "question": "What happens after 90 days?",
+     "http": 200,
+     "kind": "follow_up",
+     "checks": [],
+     "job_id": "04bde75330064188a3a5060cdb23518f",
+     "status": "completed",
+     "strategy": "delegate",
+     "evidence": 6,
+     "citations": 0
+    }
+   ],
+   "model_calls": 3,
+   "identical_model_input": true,
+   "stored_session_equals_direct": true,
+   "retrieval_requests": null
+  },
+  {
+   "id": "s-constraint",
+   "mode": "iterative",
+   "restart": false,
+   "turns": [
+    {
+     "question": "At Oregon State, what procurement method applies to a $180,000 purchase?",
+     "http": 200,
+     "kind": "self_contained",
+     "checks": [],
+     "job_id": "26098f8556694c3fb1db51ed002312eb",
+     "status": "completed",
+     "strategy": "delegate",
+     "evidence": 6,
+     "citations": 0
+    },
+    {
+     "question": "What if it is an emergency costing less than $2 million?",
+     "http": 200,
+     "kind": "follow_up",
+     "checks": [],
+     "job_id": "ad436052300c4d41a622cdb49316a46f",
+     "status": "completed",
+     "strategy": "delegate",
+     "evidence": 6,
+     "citations": 0
+    }
+   ],
+   "model_calls": 2,
+   "identical_model_input": true,
+   "stored_session_equals_direct": true,
+   "retrieval_requests": null
+  },
+  {
+   "id": "s-unrelated",
+   "mode": "iterative",
+   "restart": false,
+   "turns": [
+    {
+     "question": "What is UConn's University Travel Card suspension rule?",
+     "http": 200,
+     "kind": "self_contained",
+     "checks": [],
+     "job_id": "b0be887b833348cab641b365bc42b4a7",
+     "status": "completed",
+     "strategy": "delegate",
+     "evidence": 6,
+     "citations": 0
+    },
+    {
+     "question": "How often must UT Austin user accounts be reviewed?",
+     "http": 200,
+     "kind": "self_contained",
+     "checks": [],
+     "job_id": "f749b3eabc4942fa80333479c68c8435",
+     "status": "completed",
+     "strategy": "delegate",
+     "evidence": 6,
+     "citations": 0
+    }
+   ],
+   "model_calls": 2,
+   "identical_model_input": true,
+   "stored_session_equals_direct": true,
+   "retrieval_requests": null
+  },
+  {
+   "id": "s-ambiguous",
+   "mode": "iterative",
+   "restart": false,
+   "turns": [
+    {
+     "question": "How often must UT Austin user accounts be reviewed, and is there a limit on the gratuities Rutgers will reimburse for business travel?",
+     "http": 200,
+     "kind": "self_contained",
+     "checks": [],
+     "job_id": "9370daceb7414c27831a967836f700c5",
+     "status": "completed",
+     "strategy": "fused",
+     "evidence": 6,
+     "citations": 0
+    },
+    {
+     "question": "Does that apply currently?",
+     "http": 200,
+     "kind": "unresolved",
+     "checks": [],
+     "job_id": "bcd1c64543434f4aad3daa8108193d8b",
+     "status": "completed",
+     "strategy": null,
+     "evidence": 0,
+     "citations": 0
+    }
+   ],
+   "model_calls": 1,
+   "identical_model_input": true,
+   "stored_session_equals_direct": true,
+   "retrieval_requests": null
+  },
+  {
+   "id": "s-unsupported",
+   "mode": "iterative",
+   "restart": false,
+   "turns": [
+    {
+     "question": "What are Rutgers' rules for travel advances?",
+     "http": 200,
+     "kind": "self_contained",
+     "checks": [],
+     "job_id": "11e19b906048416d87db9bdf39e88971",
+     "status": "completed",
+     "strategy": "delegate",
+     "evidence": 6,
+     "citations": 0
+    },
+    {
+     "question": "Does Harvard University have the same rule?",
+     "http": 200,
+     "kind": "unresolved",
+     "checks": [],
+     "job_id": "97f161e25ef04b519b17379a573c09a4",
+     "status": "completed",
+     "strategy": null,
+     "evidence": 0,
+     "citations": 0
+    }
+   ],
+   "model_calls": 1,
+   "identical_model_input": true,
+   "stored_session_equals_direct": true,
+   "retrieval_requests": null
+  },
+  {
+   "id": "s6-uc-ru-scope",
+   "mode": "iterative",
+   "restart": false,
+   "turns": [
+    {
+     "question": "At UConn, what is the University Travel Card suspension rule, and at Rutgers, what is the travel advance rule?",
+     "http": 200,
+     "kind": "self_contained",
+     "checks": [],
+     "job_id": "7793a14a8e994c718a0b32ac1e2b8ea0",
+     "status": "completed",
+     "strategy": "delegate",
+     "evidence": 6,
+     "citations": 0
+    }
+   ],
+   "model_calls": 1,
+   "identical_model_input": true,
+   "stored_session_equals_direct": true,
+   "retrieval_requests": null
+  },
+  {
+   "id": "s6-harvard-penn-scope",
+   "mode": "iterative",
+   "restart": false,
+   "turns": [
+    {
+     "question": "At Harvard University, what is the procurement policy, and at Penn, what is the procurement policy?",
+     "http": 200,
+     "kind": "self_contained",
+     "checks": [],
+     "job_id": "9f782216f84b44ac813c565c186f2dd1",
+     "status": "completed",
+     "strategy": "delegate",
+     "evidence": 6,
+     "citations": 0
+    }
+   ],
+   "model_calls": 1,
+   "identical_model_input": true,
+   "stored_session_equals_direct": true,
+   "retrieval_requests": null
+  }
+ ]
+}

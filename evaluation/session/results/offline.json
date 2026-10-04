@@ -1,0 +1,883 @@
+{
+ "conversations": [
+  {
+   "id": "s-direct",
+   "tags": [
+    "direct_follow_up",
+    "new_retrieval"
+   ],
+   "turns": [
+    {
+     "question": "What are Rutgers' rules for travel advances?",
+     "kind": "self_contained",
+     "reason": "first turn of the session",
+     "query": "What are Rutgers' rules for travel advances?",
+     "topic": [
+      "What are Rutgers' rules for travel advances?"
+     ],
+     "temporal_in_effect": "",
+     "organizations": [
+      "Rutgers University"
+     ],
+     "anchor": null,
+     "signals": {
+      "references": [],
+      "organizations_named": [
+       "Rutgers University"
+      ],
+      "outside_corpus": [],
+      "unknown_names": [],
+      "own_temporal": "neutral"
+     },
+     "strategy": "delegate",
+     "temporal_intent": "neutral",
+     "selected_versions": {},
+     "model_calls": 1,
+     "context": [
+      "chapter-11-university-procurement-services-1dbc68::021-c2e36bbe00a2",
+      "chapter-11-university-procurement-services-1dbc68::019-a3a75ea77ccd",
+      "chapter-11-university-procurement-services-1dbc68::020-e24805cff174",
+      "chapter-11-university-procurement-services-1dbc68::021-98b06fbdaea3",
+      "chapter-11-university-procurement-services-1dbc68::020-a93e7b177764",
+      "chapter-11-university-procurement-services-1dbc68::004-eab1021a5168"
+     ],
+     "context_organizations": [
+      "Rutgers University"
+     ],
+     "gold_shown": [
+      true
+     ],
+     "identical_to_phase2": true,
+     "checks": []
+    },
+    {
+     "question": "What documentation is required after the trip?",
+     "kind": "follow_up",
+     "reason": "names no organization",
+     "query": "(Earlier in this conversation: What are Rutgers' rules for travel advances). What documentation is required after the trip?",
+     "topic": [
+      "What are Rutgers' rules for travel advances?"
+     ],
+     "temporal_in_effect": "",
+     "organizations": [
+      "Rutgers University"
+     ],
+     "anchor": 0,
+     "signals": {
+      "references": [],
+      "organizations_named": [],
+      "outside_corpus": [],
+      "unknown_names": [],
+      "own_temporal": "neutral"
+     },
+     "strategy": "delegate",
+     "temporal_intent": "neutral",
+     "selected_versions": {},
+     "model_calls": 1,
+     "context": [
+      "chapter-11-university-procurement-services-1dbc68::019-a3a75ea77ccd",
+      "chapter-11-university-procurement-services-1dbc68::020-e24805cff174",
+      "chapter-11-university-procurement-services-1dbc68::021-c2e36bbe00a2",
+      "chapter-11-university-procurement-services-1dbc68::006-65bf665b350c",
+      "chapter-11-university-procurement-services-1dbc68::020-a93e7b177764",
+      "chapter-11-university-procurement-services-1dbc68::021-98b06fbdaea3"
+     ],
+     "context_organizations": [
+      "Rutgers University"
+     ],
+     "gold_shown": [
+      true
+     ],
+     "identical_to_phase2": null,
+     "checks": [],
+     "without_session": {
+      "gold_shown": [
+       false
+      ],
+      "context_organizations": [
+       "McGill University",
+       "University of Connecticut"
+      ],
+      "model_calls": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "s-reference",
+   "tags": [
+    "reference"
+   ],
+   "turns": [
+    {
+     "question": "What is UConn's University Travel Card suspension rule?",
+     "kind": "self_contained",
+     "reason": "first turn of the session",
+     "query": "What is UConn's University Travel Card suspension rule?",
+     "topic": [
+      "What is UConn's University Travel Card suspension rule?"
+     ],
+     "temporal_in_effect": "",
+     "organizations": [
+      "University of Connecticut"
+     ],
+     "anchor": null,
+     "signals": {
+      "references": [],
+      "organizations_named": [
+       "University of Connecticut"
+      ],
+      "outside_corpus": [],
+      "unknown_names": [],
+      "own_temporal": "neutral"
+     },
+     "strategy": "delegate",
+     "temporal_intent": "neutral",
+     "selected_versions": {},
+     "model_calls": 1,
+     "context": [
+      "travel-and-entertainment-procedures-final-ccccf9::005-bb1bf7113880",
+      "2026-07-01-travel-and-entertainment-procedures-ca903b::005-73722dbc7d99",
+      "travel-and-entertainment-policy-university-5f7c66::007-5a42d416ec2b",
+      "chapter-11-university-procurement-services-1dbc68::019-779fa7091a27",
+      "2026-07-01-travel-and-entertainment-procedures-ca903b::006-abef9578bb4a",
+      "travel-and-entertainment-procedures-final-ccccf9::006-e9e2ec455623"
+     ],
+     "context_organizations": [
+      "Rutgers University",
+      "University of Connecticut"
+     ],
+     "gold_shown": [
+      true
+     ],
+     "identical_to_phase2": true,
+     "checks": []
+    },
+    {
+     "question": "What happens if they are still unresolved after 90 days?",
+     "kind": "follow_up",
+     "reason": "names no organization",
+     "query": "(Earlier in this conversation: What is UConn's University Travel Card suspension rule). What happens if they are still unresolved after 90 days?",
+     "topic": [
+      "What is UConn's University Travel Card suspension rule?"
+     ],
+     "temporal_in_effect": "",
+     "organizations": [
+      "University of Connecticut"
+     ],
+     "anchor": 0,
+     "signals": {
+      "references": [],
+      "organizations_named": [],
+      "outside_corpus": [],
+      "unknown_names": [],
+      "own_temporal": "neutral"
+     },
+     "strategy": "delegate",
+     "temporal_intent": "neutral",
+     "selected_versions": {},
+     "model_calls": 1,
+     "context": [
+      "travel-and-entertainment-procedures-final-ccccf9::005-bb1bf7113880",
+      "2026-07-01-travel-and-entertainment-procedures-ca903b::005-73722dbc7d99",
+      "travel-and-entertainment-policy-university-5f7c66::007-5a42d416ec2b",
+      "2026-07-01-travel-and-entertainment-procedures-ca903b::005-a7d23de3a5c6",
+      "travel-and-entertainment-procedures-final-ccccf9::005-7b9397f6ba84",
+      "chapter-11-university-procurement-services-1dbc68::019-779fa7091a27"
+     ],
+     "context_organizations": [
+      "Rutgers University",
+      "University of Connecticut"
+     ],
+     "gold_shown": [
+      true
+     ],
+     "identical_to_phase2": null,
+     "checks": [],
+     "without_session": {
+      "gold_shown": [
+       true
+      ],
+      "context_organizations": [
+       "McGill University",
+       "Oregon State University",
+       "University of Connecticut"
+      ],
+      "model_calls": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "s-temporal",
+   "tags": [
+    "temporal_refinement",
+    "version_change"
+   ],
+   "turns": [
+    {
+     "question": "What did UConn's February 2026 procedures say about when a University Travel Card is suspended?",
+     "kind": "self_contained",
+     "reason": "first turn of the session",
+     "query": "What did UConn's February 2026 procedures say about when a University Travel Card is suspended?",
+     "topic": [
+      "What did UConn's February 2026 procedures say about when a University Travel Card is suspended?"
+     ],
+     "temporal_in_effect": "February 2026",
+     "organizations": [
+      "University of Connecticut"
+     ],
+     "anchor": null,
+     "signals": {
+      "references": [],
+      "organizations_named": [
+       "University of Connecticut"
+      ],
+      "outside_corpus": [],
+      "unknown_names": [],
+      "own_temporal": "point_in_time"
+     },
+     "strategy": "delegate",
+     "temporal_intent": "point_in_time",
+     "selected_versions": {
+      "uconn-travel-entertainment-procedures": [
+       "travel-and-entertainment-procedures-final-ccccf9"
+      ]
+     },
+     "model_calls": 1,
+     "context": [
+      "travel-and-entertainment-procedures-final-ccccf9::005-bb1bf7113880",
+      "travel-and-entertainment-procedures-final-ccccf9::001-fc82968e5020",
+      "chapter-11-university-procurement-services-1dbc68::019-779fa7091a27",
+      "travel-and-entertainment-procedures-final-ccccf9::005-4ef3bf9cbcdd",
+      "travel-and-entertainment-procedures-final-ccccf9::006-e9e2ec455623",
+      "travel-and-entertainment-policy-university-5f7c66::002-f93cb786c1a0"
+     ],
+     "context_organizations": [
+      "Rutgers University",
+      "University of Connecticut"
+     ],
+     "gold_shown": [
+      true
+     ],
+     "identical_to_phase2": true,
+     "checks": []
+    },
+    {
+     "question": "Does that still apply under the current procedures?",
+     "kind": "follow_up",
+     "reason": "refers back (Does that)",
+     "query": "(Earlier in this conversation: What did UConn's procedures say about when a University Travel Card is suspended). Does that still apply under the current procedures?",
+     "topic": [
+      "What did UConn's February 2026 procedures say about when a University Travel Card is suspended?"
+     ],
+     "temporal_in_effect": "current",
+     "organizations": [
+      "University of Connecticut"
+     ],
+     "anchor": 0,
+     "signals": {
+      "references": [
+       "Does that"
+      ],
+      "organizations_named": [],
+      "outside_corpus": [],
+      "unknown_names": [],
+      "own_temporal": "current"
+     },
+     "strategy": "delegate",
+     "temporal_intent": "current",
+     "selected_versions": {
+      "uconn-travel-entertainment-procedures": [
+       "2026-07-01-travel-and-entertainment-procedures-ca903b"
+      ]
+     },
+     "model_calls": 1,
+     "context": [
+      "2026-07-01-travel-and-entertainment-procedures-ca903b::005-73722dbc7d99",
+      "chapter-11-university-procurement-services-1dbc68::019-779fa7091a27",
+      "2026-07-01-travel-and-entertainment-procedures-ca903b::001-b18d26ad0b00",
+      "2026-07-01-travel-and-entertainment-procedures-ca903b::005-0d8a2cb5d481",
+      "2026-07-01-travel-and-entertainment-procedures-ca903b::006-abef9578bb4a",
+      "travel-and-entertainment-policy-university-5f7c66::007-5a42d416ec2b"
+     ],
+     "context_organizations": [
+      "Rutgers University",
+      "University of Connecticut"
+     ],
+     "gold_shown": [
+      true
+     ],
+     "identical_to_phase2": null,
+     "checks": [],
+     "without_session": {
+      "gold_shown": [
+       false
+      ],
+      "context_organizations": [
+       "McGill University",
+       "Oregon State University",
+       "Rutgers University"
+      ],
+      "model_calls": 0
+     }
+    }
+   ]
+  },
+  {
+   "id": "s-chain",
+   "tags": [
+    "temporal_inherited",
+    "three_turns"
+   ],
+   "turns": [
+    {
+     "question": "What is UConn's University Travel Card suspension rule?",
+     "kind": "self_contained",
+     "reason": "first turn of the session",
+     "query": "What is UConn's University Travel Card suspension rule?",
+     "topic": [
+      "What is UConn's University Travel Card suspension rule?"
+     ],
+     "temporal_in_effect": "",
+     "organizations": [
+      "University of Connecticut"
+     ],
+     "anchor": null,
+     "signals": {
+      "references": [],
+      "organizations_named": [
+       "University of Connecticut"
+      ],
+      "outside_corpus": [],
+      "unknown_names": [],
+      "own_temporal": "neutral"
+     },
+     "strategy": "delegate",
+     "temporal_intent": "neutral",
+     "selected_versions": {},
+     "model_calls": 1,
+     "context": [
+      "travel-and-entertainment-procedures-final-ccccf9::005-bb1bf7113880",
+      "2026-07-01-travel-and-entertainment-procedures-ca903b::005-73722dbc7d99",
+      "travel-and-entertainment-policy-university-5f7c66::007-5a42d416ec2b",
+      "chapter-11-university-procurement-services-1dbc68::019-779fa7091a27",
+      "2026-07-01-travel-and-entertainment-procedures-ca903b::006-abef9578bb4a",
+      "travel-and-entertainment-procedures-final-ccccf9::006-e9e2ec455623"
+     ],
+     "context_organizations": [
+      "Rutgers University",
+      "University of Connecticut"
+     ],
+     "gold_shown": [
+      true
+     ],
+     "identical_to_phase2": true,
+     "checks": []
+    },
+    {
+     "question": "Does that apply currently?",
+     "kind": "follow_up",
+     "reason": "refers back (Does that)",
+     "query": "(Earlier in this conversation: What is UConn's University Travel Card suspension rule). Does that apply currently?",
+     "topic": [
+      "What is UConn's University Travel Card suspension rule?"
+     ],
+     "temporal_in_effect": "currently",
+     "organizations": [
+      "University of Connecticut"
+     ],
+     "anchor": 0,
+     "signals": {
+      "references": [
+       "Does that"
+      ],
+      "organizations_named": [],
+      "outside_corpus": [],
+      "unknown_names": [],
+      "own_temporal": "current"
+     },
+     "strategy": "delegate",
+     "temporal_intent": "current",
+     "selected_versions": {
+      "uconn-travel-entertainment-procedures": [
+       "2026-07-01-travel-and-entertainment-procedures-ca903b"
+      ]
+     },
+     "model_calls": 1,
+     "context": [
+      "2026-07-01-travel-and-entertainment-procedures-ca903b::005-73722dbc7d99",
+      "travel-and-entertainment-policy-university-5f7c66::007-5a42d416ec2b",
+      "2026-07-01-travel-and-entertainment-procedures-ca903b::001-b18d26ad0b00",
+      "travel-and-entertainment-policy-university-5f7c66::002-f93cb786c1a0",
+      "2026-07-01-travel-and-entertainment-procedures-ca903b::006-abef9578bb4a",
+      "travel-and-entertainment-policy-university-5f7c66::003-af9fed9b1ef4"
+     ],
+     "context_organizations": [
+      "University of Connecticut"
+     ],
+     "gold_shown": [
+      true
+     ],
+     "identical_to_phase2": null,
+     "checks": [],
+     "without_session": {
+      "gold_shown": [
+       false
+      ],
+      "context_organizations": [
+       "Rutgers University",
+       "The University of Texas at Austin",
+       "University of Connecticut",
+       "University of Rochester"
+      ],
+      "model_calls": 0
+     }
+    },
+    {
+     "question": "What happens after 90 days?",
+     "kind": "follow_up",
+     "reason": "names no organization",
+     "query": "(Earlier in this conversation: What is UConn's University Travel Card suspension rule; Does that apply; version: currently). What happens after 90 days?",
+     "topic": [
+      "What is UConn's University Travel Card suspension rule?",
+      "Does that apply currently?"
+     ],
+     "temporal_in_effect": "currently",
+     "organizations": [
+      "University of Connecticut"
+     ],
+     "anchor": 1,
+     "signals": {
+      "references": [],
+      "organizations_named": [],
+      "outside_corpus": [],
+      "unknown_names": [],
+      "own_temporal": "neutral"
+     },
+     "strategy": "delegate",
+     "temporal_intent": "current",
+     "selected_versions": {
+      "uconn-travel-entertainment-procedures": [
+       "2026-07-01-travel-and-entertainment-procedures-ca903b"
+      ]
+     },
+     "model_calls": 1,
+     "context": [
+      "2026-07-01-travel-and-entertainment-procedures-ca903b::005-73722dbc7d99",
+      "travel-and-entertainment-policy-university-5f7c66::007-5a42d416ec2b",
+      "2026-07-01-travel-and-entertainment-procedures-ca903b::001-b18d26ad0b00",
+      "2026-07-01-travel-and-entertainment-procedures-ca903b::006-abef9578bb4a",
+      "chapter-11-university-procurement-services-1dbc68::019-779fa7091a27",
+      "2026-07-01-travel-and-entertainment-procedures-ca903b::005-a7d23de3a5c6"
+     ],
+     "context_organizations": [
+      "Rutgers University",
+      "University of Connecticut"
+     ],
+     "gold_shown": [
+      true
+     ],
+     "identical_to_phase2": null,
+     "checks": [],
+     "without_session": {
+      "gold_shown": [
+       true
+      ],
+      "context_organizations": [
+       "McGill University",
+       "The University of Texas at Austin",
+       "University of Connecticut"
+      ],
+      "model_calls": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "s-constraint",
+   "tags": [
+    "new_constraint",
+    "new_retrieval"
+   ],
+   "turns": [
+    {
+     "question": "At Oregon State, what procurement method applies to a $180,000 purchase?",
+     "kind": "self_contained",
+     "reason": "first turn of the session",
+     "query": "At Oregon State, what procurement method applies to a $180,000 purchase?",
+     "topic": [
+      "At Oregon State, what procurement method applies to a $180,000 purchase?"
+     ],
+     "temporal_in_effect": "",
+     "organizations": [
+      "Oregon State University"
+     ],
+     "anchor": null,
+     "signals": {
+      "references": [],
+      "organizations_named": [
+       "Oregon State University"
+      ],
+      "outside_corpus": [],
+      "unknown_names": [],
+      "own_temporal": "neutral"
+     },
+     "strategy": "delegate",
+     "temporal_intent": "neutral",
+     "selected_versions": {},
+     "model_calls": 1,
+     "context": [
+      "03-010-procurement-thresholds-and-methods-071526-0eb37f::003-e99d262956d2",
+      "03-010-procurement-thresholds-and-methods-071526-0eb37f::006-9c5e3de87200",
+      "03-010-procurement-thresholds-and-methods-071526-0eb37f::005-9a54aa8be9f8",
+      "03-010-procurement-thresholds-and-methods-071526-0eb37f::009-19d519d804ae",
+      "03-010-procurement-thresholds-and-methods-071526-0eb37f::001-7a470922f1bf",
+      "03-010-procurement-thresholds-and-methods-071526-0eb37f::001-f1b07bac0720"
+     ],
+     "context_organizations": [
+      "Oregon State University"
+     ],
+     "gold_shown": [
+      true
+     ],
+     "identical_to_phase2": true,
+     "checks": []
+    },
+    {
+     "question": "What if it is an emergency costing less than $2 million?",
+     "kind": "follow_up",
+     "reason": "refers back (What if)",
+     "query": "(Earlier in this conversation: At Oregon State, what procurement method applies to a $180,000 purchase). What if it is an emergency costing less than $2 million?",
+     "topic": [
+      "At Oregon State, what procurement method applies to a $180,000 purchase?"
+     ],
+     "temporal_in_effect": "",
+     "organizations": [
+      "Oregon State University"
+     ],
+     "anchor": 0,
+     "signals": {
+      "references": [
+       "What if"
+      ],
+      "organizations_named": [],
+      "outside_corpus": [],
+      "unknown_names": [],
+      "own_temporal": "neutral"
+     },
+     "strategy": "delegate",
+     "temporal_intent": "neutral",
+     "selected_versions": {},
+     "model_calls": 1,
+     "context": [
+      "03-010-procurement-thresholds-and-methods-071526-0eb37f::003-e99d262956d2",
+      "03-010-procurement-thresholds-and-methods-071526-0eb37f::005-9a54aa8be9f8",
+      "03-010-procurement-thresholds-and-methods-071526-0eb37f::006-9c5e3de87200",
+      "03-010-procurement-thresholds-and-methods-071526-0eb37f::004-c3dcf461e498",
+      "03-010-procurement-thresholds-and-methods-071526-0eb37f::001-f1b07bac0720",
+      "03-010-procurement-thresholds-and-methods-071526-0eb37f::001-7a470922f1bf"
+     ],
+     "context_organizations": [
+      "Oregon State University"
+     ],
+     "gold_shown": [
+      true
+     ],
+     "identical_to_phase2": null,
+     "checks": [],
+     "without_session": {
+      "gold_shown": [
+       true
+      ],
+      "context_organizations": [
+       "McGill University",
+       "Oregon State University",
+       "University of Pennsylvania"
+      ],
+      "model_calls": 0
+     }
+    }
+   ]
+  },
+  {
+   "id": "s-unrelated",
+   "tags": [
+    "self_contained"
+   ],
+   "turns": [
+    {
+     "question": "What is UConn's University Travel Card suspension rule?",
+     "kind": "self_contained",
+     "reason": "first turn of the session",
+     "query": "What is UConn's University Travel Card suspension rule?",
+     "topic": [
+      "What is UConn's University Travel Card suspension rule?"
+     ],
+     "temporal_in_effect": "",
+     "organizations": [
+      "University of Connecticut"
+     ],
+     "anchor": null,
+     "signals": {
+      "references": [],
+      "organizations_named": [
+       "University of Connecticut"
+      ],
+      "outside_corpus": [],
+      "unknown_names": [],
+      "own_temporal": "neutral"
+     },
+     "strategy": "delegate",
+     "temporal_intent": "neutral",
+     "selected_versions": {},
+     "model_calls": 1,
+     "context": [
+      "travel-and-entertainment-procedures-final-ccccf9::005-bb1bf7113880",
+      "2026-07-01-travel-and-entertainment-procedures-ca903b::005-73722dbc7d99",
+      "travel-and-entertainment-policy-university-5f7c66::007-5a42d416ec2b",
+      "chapter-11-university-procurement-services-1dbc68::019-779fa7091a27",
+      "2026-07-01-travel-and-entertainment-procedures-ca903b::006-abef9578bb4a",
+      "travel-and-entertainment-procedures-final-ccccf9::006-e9e2ec455623"
+     ],
+     "context_organizations": [
+      "Rutgers University",
+      "University of Connecticut"
+     ],
+     "gold_shown": [
+      true
+     ],
+     "identical_to_phase2": true,
+     "checks": []
+    },
+    {
+     "question": "How often must UT Austin user accounts be reviewed?",
+     "kind": "self_contained",
+     "reason": "names its own organization and does not refer back",
+     "query": "How often must UT Austin user accounts be reviewed?",
+     "topic": [
+      "How often must UT Austin user accounts be reviewed?"
+     ],
+     "temporal_in_effect": "",
+     "organizations": [
+      "The University of Texas at Austin"
+     ],
+     "anchor": null,
+     "signals": {
+      "references": [],
+      "organizations_named": [
+       "The University of Texas at Austin"
+      ],
+      "outside_corpus": [],
+      "unknown_names": [],
+      "own_temporal": "neutral"
+     },
+     "strategy": "delegate",
+     "temporal_intent": "neutral",
+     "selected_versions": {},
+     "model_calls": 1,
+     "context": [
+      "information-resources-use-and-security-policy-76b891::037-c46c35eec642",
+      "information-resources-use-and-security-policy-76b891::038-040d5223d33a",
+      "information-resources-use-and-security-policy-76b891::043-6a16ed06ef73",
+      "information-resources-use-and-security-policy-76b891::066-d1b3a8506cb7",
+      "information-resources-use-and-security-policy-76b891::042-7aa4b6bd89ac",
+      "information-resources-use-and-security-policy-76b891::055-763884405bc8"
+     ],
+     "context_organizations": [
+      "The University of Texas at Austin"
+     ],
+     "gold_shown": [
+      true
+     ],
+     "identical_to_phase2": true,
+     "checks": []
+    }
+   ]
+  },
+  {
+   "id": "s-ambiguous",
+   "tags": [
+    "ambiguous_reference"
+   ],
+   "turns": [
+    {
+     "question": "How often must UT Austin user accounts be reviewed, and is there a limit on the gratuities Rutgers will reimburse for business travel?",
+     "kind": "self_contained",
+     "reason": "first turn of the session",
+     "query": "How often must UT Austin user accounts be reviewed, and is there a limit on the gratuities Rutgers will reimburse for business travel?",
+     "topic": [
+      "How often must UT Austin user accounts be reviewed, and is there a limit on the gratuities Rutgers will reimburse for business travel?"
+     ],
+     "temporal_in_effect": "",
+     "organizations": [
+      "The University of Texas at Austin",
+      "Rutgers University"
+     ],
+     "anchor": null,
+     "signals": {
+      "references": [],
+      "organizations_named": [
+       "The University of Texas at Austin",
+       "Rutgers University"
+      ],
+      "outside_corpus": [],
+      "unknown_names": [],
+      "own_temporal": "neutral"
+     },
+     "strategy": "fused",
+     "temporal_intent": "neutral",
+     "selected_versions": {},
+     "model_calls": 1,
+     "context": [
+      "information-resources-use-and-security-policy-76b891::037-c46c35eec642",
+      "chapter-11-university-procurement-services-1dbc68::017-7d78efa70791",
+      "information-resources-use-and-security-policy-76b891::038-040d5223d33a",
+      "chapter-11-university-procurement-services-1dbc68::001-fd57fb4529df",
+      "information-resources-use-and-security-policy-76b891::043-6a16ed06ef73",
+      "travel-and-entertainment-policy-university-5f7c66::008-b105422da05e"
+     ],
+     "context_organizations": [
+      "Rutgers University",
+      "The University of Texas at Austin",
+      "University of Connecticut"
+     ],
+     "gold_shown": [],
+     "identical_to_phase2": true,
+     "checks": []
+    },
+    {
+     "question": "Does that apply currently?",
+     "kind": "unresolved",
+     "reason": "refers back (Does that), but the previous turn asked 2 questions, so the reference is ambiguous",
+     "query": "",
+     "topic": [],
+     "temporal_in_effect": "",
+     "organizations": [],
+     "anchor": 0,
+     "signals": {
+      "references": [
+       "Does that"
+      ],
+      "organizations_named": [],
+      "outside_corpus": [],
+      "unknown_names": [],
+      "own_temporal": "current"
+     },
+     "strategy": null,
+     "temporal_intent": null,
+     "selected_versions": {},
+     "model_calls": 0,
+     "context": [],
+     "context_organizations": [],
+     "gold_shown": [],
+     "identical_to_phase2": null,
+     "checks": [],
+     "without_session": {
+      "gold_shown": [],
+      "context_organizations": [
+       "Rutgers University",
+       "The University of Texas at Austin",
+       "University of Connecticut",
+       "University of Rochester"
+      ],
+      "model_calls": 0
+     }
+    }
+   ]
+  },
+  {
+   "id": "s-unsupported",
+   "tags": [
+    "unsupported_follow_up",
+    "other_organization"
+   ],
+   "turns": [
+    {
+     "question": "What are Rutgers' rules for travel advances?",
+     "kind": "self_contained",
+     "reason": "first turn of the session",
+     "query": "What are Rutgers' rules for travel advances?",
+     "topic": [
+      "What are Rutgers' rules for travel advances?"
+     ],
+     "temporal_in_effect": "",
+     "organizations": [
+      "Rutgers University"
+     ],
+     "anchor": null,
+     "signals": {
+      "references": [],
+      "organizations_named": [
+       "Rutgers University"
+      ],
+      "outside_corpus": [],
+      "unknown_names": [],
+      "own_temporal": "neutral"
+     },
+     "strategy": "delegate",
+     "temporal_intent": "neutral",
+     "selected_versions": {},
+     "model_calls": 1,
+     "context": [
+      "chapter-11-university-procurement-services-1dbc68::021-c2e36bbe00a2",
+      "chapter-11-university-procurement-services-1dbc68::019-a3a75ea77ccd",
+      "chapter-11-university-procurement-services-1dbc68::020-e24805cff174",
+      "chapter-11-university-procurement-services-1dbc68::021-98b06fbdaea3",
+      "chapter-11-university-procurement-services-1dbc68::020-a93e7b177764",
+      "chapter-11-university-procurement-services-1dbc68::004-eab1021a5168"
+     ],
+     "context_organizations": [
+      "Rutgers University"
+     ],
+     "gold_shown": [
+      true
+     ],
+     "identical_to_phase2": true,
+     "checks": []
+    },
+    {
+     "question": "Does Harvard University have the same rule?",
+     "kind": "unresolved",
+     "reason": "refers back (the same rule), but it names Harvard University while the topic is about Rutgers University",
+     "query": "",
+     "topic": [],
+     "temporal_in_effect": "",
+     "organizations": [
+      "Harvard University"
+     ],
+     "anchor": 0,
+     "signals": {
+      "references": [
+       "the same rule"
+      ],
+      "organizations_named": [],
+      "outside_corpus": [
+       "Harvard University"
+      ],
+      "unknown_names": [],
+      "own_temporal": "neutral"
+     },
+     "strategy": null,
+     "temporal_intent": null,
+     "selected_versions": {},
+     "model_calls": 0,
+     "context": [],
+     "context_organizations": [],
+     "gold_shown": [],
+     "identical_to_phase2": null,
+     "checks": [],
+     "without_session": {
+      "gold_shown": [],
+      "context_organizations": [
+       "The University of Texas at Austin",
+       "University of Connecticut",
+       "Yale University"
+      ],
+      "model_calls": 0
+     }
+    }
+   ]
+  }
+ ]
+}

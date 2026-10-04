@@ -1,0 +1,777 @@
+[
+ {
+  "id": "g-direct",
+  "category": "direct_fact",
+  "passed": true,
+  "failures": [],
+  "seconds": 1.15,
+  "answer": {
+   "question": "Which system must UConn workforce members and students use to submit a Travel Request?",
+   "status": "answered",
+   "text": "UConn workforce members and students must submit a Travel Request form through the Concur system.[1]",
+   "citations": [
+    {
+     "number": 1,
+     "label": "S1",
+     "chunk_id": "2026-07-01-travel-and-entertainment-procedures-ca903b::001-8d1922a01072",
+     "doc_id": "2026-07-01-travel-and-entertainment-procedures-ca903b",
+     "organization": "University of Connecticut",
+     "document": "Travel and Entertainment Procedures",
+     "effective_date": "2026-07-01",
+     "pages": "p. 1",
+     "section": "PRE-TRIP > Pre-Approval Requirements: University Workforce Members and Students",
+     "clause": null
+    }
+   ],
+   "claims": [
+    {
+     "text": "UConn workforce members and students must submit a Travel Request form through the Concur system.",
+     "citations": [
+      1
+     ],
+     "quotes": [
+      "All University Workforce Members and students must submit a Travel Request form through the Concur system."
+     ]
+    }
+   ],
+   "abstention_reason": null,
+   "abstention_detail": "",
+   "sources_considered": [
+    {
+     "label": "S1",
+     "chunk_id": "2026-07-01-travel-and-entertainment-procedures-ca903b::001-8d1922a01072",
+     "retrieval_rank": 1,
+     "duplicate_of": null
+    },
+    {
+     "label": "S2",
+     "chunk_id": "international-travel-policy-policies-procedures-f05fa2::005-d0d3faeda922",
+     "retrieval_rank": 2,
+     "duplicate_of": null
+    },
+    {
+     "label": "S3",
+     "chunk_id": "travel-and-entertainment-policy-university-5f7c66::004-62d79af9768e",
+     "retrieval_rank": 3,
+     "duplicate_of": null
+    }
+   ],
+   "model": "openai/gpt-oss-20b",
+   "provider": "groq",
+   "prompt_version": "grounded-qa-1",
+   "raw_output": "{\"status\":\"answered\",\"claims\":[{\"text\":\"UConn workforce members and students must submit a Travel Request form through the Concur system.\",\"sources\":[\"S1\"],\"quotes\":[\"All University Workforce Members and students must submit a Travel Request form through the Concur system.\"]}],\"abstention_reason\":\"\"}",
+   "verification_problems": []
+  },
+  "rendered": "UConn workforce members and students must submit a Travel Request form through the Concur system.[1]\n\nSources:\n[1] University of Connecticut — Travel and Entertainment Procedures (effective 2026-07-01), PRE-TRIP > Pre-Approval Requirements: University Workforce Members and Students, p. 1 · chunk 2026-07-01-travel-and-entertainment-procedures-ca903b::001-8d1922a01072"
+ },
+ {
+  "id": "g-numeric",
+  "category": "numeric_threshold",
+  "passed": true,
+  "failures": [],
+  "seconds": 0.75,
+  "answer": {
+   "question": "What is the dollar threshold for a direct procurement (micro-purchase) at Oregon State University?",
+   "status": "answered",
+   "text": "The dollar threshold for a direct procurement (micro-purchase) is $25,000.00 or less.[1]",
+   "citations": [
+    {
+     "number": 1,
+     "label": "S2",
+     "chunk_id": "03-010-procurement-thresholds-and-methods-071526-0eb37f::003-e99d262956d2",
+     "doc_id": "03-010-procurement-thresholds-and-methods-071526-0eb37f",
+     "organization": "Oregon State University",
+     "document": "Procurement Thresholds and Methods",
+     "effective_date": null,
+     "pages": "pp. 3-4",
+     "section": "Procurement Thresholds and Methods > 5. Responsibilities & Procedures > 5.1. General Procurement Threshold",
+     "clause": "5.1"
+    }
+   ],
+   "claims": [
+    {
+     "text": "The dollar threshold for a direct procurement (micro-purchase) is $25,000.00 or less.",
+     "citations": [
+      1
+     ],
+     "quotes": [
+      "$25,000.00 or less — Direct Procurement (micro-purchase);"
+     ]
+    }
+   ],
+   "abstention_reason": null,
+   "abstention_detail": "",
+   "sources_considered": [
+    {
+     "label": "S1",
+     "chunk_id": "03-010-procurement-thresholds-and-methods-071526-0eb37f::006-9c5e3de87200",
+     "retrieval_rank": 1,
+     "duplicate_of": null
+    },
+    {
+     "label": "S2",
+     "chunk_id": "03-010-procurement-thresholds-and-methods-071526-0eb37f::003-e99d262956d2",
+     "retrieval_rank": 2,
+     "duplicate_of": null
+    }
+   ],
+   "model": "openai/gpt-oss-20b",
+   "provider": "groq",
+   "prompt_version": "grounded-qa-1",
+   "raw_output": "{\"status\":\"answered\",\"claims\":[{\"text\":\"The dollar threshold for a direct procurement (micro-purchase) is $25,000.00 or less.\",\"sources\":[\"S2\"],\"quotes\":[\"$25,000.00 or less — Direct Procurement (micro-purchase);\"]}],\"abstention_reason\":\"\"}",
+   "verification_problems": []
+  },
+  "rendered": "The dollar threshold for a direct procurement (micro-purchase) is $25,000.00 or less.[1]\n\nSources:\n[1] Oregon State University — Procurement Thresholds and Methods, Procurement Thresholds and Methods > 5. Responsibilities & Procedures > 5.1. General Procurement Threshold, clause 5.1, pp. 3-4 · chunk 03-010-procurement-thresholds-and-methods-071526-0eb37f::003-e99d262956d2"
+ },
+ {
+  "id": "g-conditional",
+  "category": "conditional",
+  "passed": true,
+  "failures": [],
+  "seconds": 1.32,
+  "answer": {
+   "question": "When is a Rutgers traveler considered to be in travel status for meal reimbursement?",
+   "status": "answered",
+   "text": "A Rutgers traveler is considered to be in travel status for meal reimbursement when traveling for a period of at least 12 consecutive hours or when traveling at least 100 miles from the Rutgers departure point.[1]",
+   "citations": [
+    {
+     "number": 1,
+     "label": "S2",
+     "chunk_id": "chapter-11-university-procurement-services-1dbc68::016-2aca1bfd0e1b",
+     "doc_id": "chapter-11-university-procurement-services-1dbc68",
+     "organization": "Rutgers University",
+     "document": "STANDARD OPERATING PROCEDURE: 11.0 TRAVEL AND EXPENSE MANAGEMENT",
+     "effective_date": null,
+     "pages": "p. 16",
+     "section": "11.0 TRAVEL AND EXPENSE MANAGEMENT > Procedures > 11.6 Guidelines by Expense Type - Meal Expenses > 11.6.1 Individual Travel Meals",
+     "clause": "11.6.1"
+    }
+   ],
+   "claims": [
+    {
+     "text": "A Rutgers traveler is considered to be in travel status for meal reimbursement when traveling for a period of at least 12 consecutive hours or when traveling at least 100 miles from the Rutgers departure point.",
+     "citations": [
+      1
+     ],
+     "quotes": [
+      "Rutgers reimburses meals when travelers are in active travel status.",
+      "Travel status is defined as traveling: • For a period of at least 12 consecutive hours; or • At least 100 miles from the Rutgers departure point"
+     ]
+    }
+   ],
+   "abstention_reason": null,
+   "abstention_detail": "",
+   "sources_considered": [
+    {
+     "label": "S1",
+     "chunk_id": "chapter-11-university-procurement-services-1dbc68::014-94ac4ce45139",
+     "retrieval_rank": 1,
+     "duplicate_of": null
+    },
+    {
+     "label": "S2",
+     "chunk_id": "chapter-11-university-procurement-services-1dbc68::016-2aca1bfd0e1b",
+     "retrieval_rank": 2,
+     "duplicate_of": null
+    }
+   ],
+   "model": "openai/gpt-oss-20b",
+   "provider": "groq",
+   "prompt_version": "grounded-qa-1",
+   "raw_output": "{\"status\":\"answered\",\"claims\":[{\"text\":\"A Rutgers traveler is considered to be in travel status for meal reimbursement when traveling for a period of at least 12 consecutive hours or when traveling at least 100 miles from the Rutgers departure point.\",\"sources\":[\"S2\"],\"quotes\":[\"Rutgers reimburses meals when travelers are in active travel status.\",\"Travel status is defined as traveling: • For a period of at least 12 consecutive hours; or • At least 100 miles from the Rutgers departure point\"]}],\"abstention_reason\":\"\"}",
+   "verification_problems": []
+  },
+  "rendered": "A Rutgers traveler is considered to be in travel status for meal reimbursement when traveling for a period of at least 12 consecutive hours or when traveling at least 100 miles from the Rutgers departure point.[1]\n\nSources:\n[1] Rutgers University — STANDARD OPERATING PROCEDURE: 11.0 TRAVEL AND EXPENSE MANAGEMENT, 11.0 TRAVEL AND EXPENSE MANAGEMENT > Procedures > 11.6 Guidelines by Expense Type - Meal Expenses > 11.6.1 Individual Travel Meals, clause 11.6.1, p. 16 · chunk chapter-11-university-procurement-services-1dbc68::016-2aca1bfd0e1b"
+ },
+ {
+  "id": "g-exception",
+  "category": "exception",
+  "passed": true,
+  "failures": [],
+  "seconds": 0.7,
+  "answer": {
+   "question": "Does Yale's remote work policy apply to staff in bargaining unit positions?",
+   "status": "answered",
+   "text": "The policy explicitly states that staff members working in bargaining unit positions are not covered by the remote work policy.[1]",
+   "citations": [
+    {
+     "number": 1,
+     "label": "S2",
+     "chunk_id": "5002-remote-work-policy-its-your-yale-full-text-28569a::001-f8a2b978c1f8",
+     "doc_id": "5002-remote-work-policy-its-your-yale-full-text-28569a",
+     "organization": "Yale University",
+     "document": "5002 Remote Work Policy",
+     "effective_date": "2022-08-31",
+     "pages": "pp. 1-2",
+     "section": "5002 Remote Work Policy > Scope",
+     "clause": null
+    }
+   ],
+   "claims": [
+    {
+     "text": "The policy explicitly states that staff members working in bargaining unit positions are not covered by the remote work policy.",
+     "citations": [
+      1
+     ],
+     "quotes": [
+      "Note: Staff members working in bargaining unit positions are not covered by this policy, and terms for remote work for bargaining unit staff are governed by the applicable collective bargaining agreement."
+     ]
+    }
+   ],
+   "abstention_reason": null,
+   "abstention_detail": "",
+   "sources_considered": [
+    {
+     "label": "S1",
+     "chunk_id": "5002-remote-work-policy-its-your-yale-full-text-28569a::002-2a206c5033bb",
+     "retrieval_rank": 1,
+     "duplicate_of": null
+    },
+    {
+     "label": "S2",
+     "chunk_id": "5002-remote-work-policy-its-your-yale-full-text-28569a::001-f8a2b978c1f8",
+     "retrieval_rank": 2,
+     "duplicate_of": null
+    }
+   ],
+   "model": "openai/gpt-oss-20b",
+   "provider": "groq",
+   "prompt_version": "grounded-qa-1",
+   "raw_output": "{\"status\":\"answered\",\"claims\":[{\"text\":\"The policy explicitly states that staff members working in bargaining unit positions are not covered by the remote work policy.\",\"sources\":[\"S2\"],\"quotes\":[\"Note: Staff members working in bargaining unit positions are not covered by this policy, and terms for remote work for bargaining unit staff are governed by the applicable collective bargaining agreement.\"]}],\"abstention_reason\":\"\"}",
+   "verification_problems": []
+  },
+  "rendered": "The policy explicitly states that staff members working in bargaining unit positions are not covered by the remote work policy.[1]\n\nSources:\n[1] Yale University — 5002 Remote Work Policy (effective 2022-08-31), 5002 Remote Work Policy > Scope, pp. 1-2 · chunk 5002-remote-work-policy-its-your-yale-full-text-28569a::001-f8a2b978c1f8"
+ },
+ {
+  "id": "g-citation",
+  "category": "citation_correctness",
+  "passed": false,
+  "failures": [
+   "answer lacks '0.62'"
+  ],
+  "seconds": 1.19,
+  "answer": {
+   "question": "What mileage rate does McGill University reimburse for using a personal car?",
+   "status": "answered",
+   "text": "McGill University reimburses $1.00 per mile for personal automobile use.[1]",
+   "citations": [
+    {
+     "number": 1,
+     "label": "S2",
+     "chunk_id": "procedures-for-travel-and-other-expenses-3ded29::015-aa350b99fc63",
+     "doc_id": "procedures-for-travel-and-other-expenses-3ded29",
+     "organization": "McGill University",
+     "document": "PROCEDURES FOR TRAVEL AND OTHER EXPENSES",
+     "effective_date": "2026-05-01",
+     "pages": "p. 15",
+     "section": "PROCEDURES > PR7. Summary by Travel Expense Type > PR7.4. Travel - Personal Automobile",
+     "clause": "PR7.4"
+    }
+   ],
+   "claims": [
+    {
+     "text": "McGill University reimburses $1.00 per mile for personal automobile use.",
+     "citations": [
+      1
+     ],
+     "quotes": [
+      "$1.00/mile ($CAD)"
+     ]
+    }
+   ],
+   "abstention_reason": null,
+   "abstention_detail": "",
+   "sources_considered": [
+    {
+     "label": "S1",
+     "chunk_id": "travel-booking-procurement-services-university-74c4ef::003-854674a8d2df",
+     "retrieval_rank": 1,
+     "duplicate_of": null
+    },
+    {
+     "label": "S2",
+     "chunk_id": "procedures-for-travel-and-other-expenses-3ded29::015-aa350b99fc63",
+     "retrieval_rank": 2,
+     "duplicate_of": null
+    },
+    {
+     "label": "S3",
+     "chunk_id": "chapter-11-university-procurement-services-1dbc68::012-71980fd07d59",
+     "retrieval_rank": 3,
+     "duplicate_of": null
+    }
+   ],
+   "model": "openai/gpt-oss-20b",
+   "provider": "groq",
+   "prompt_version": "grounded-qa-1",
+   "raw_output": "{\"status\":\"answered\",\"claims\":[{\"text\":\"McGill University reimburses $1.00 per mile for personal automobile use.\",\"sources\":[\"S2\"],\"quotes\":[\"$1.00/mile ($CAD)\"]}],\"abstention_reason\":\"\"}",
+   "verification_problems": []
+  },
+  "rendered": "McGill University reimburses $1.00 per mile for personal automobile use.[1]\n\nSources:\n[1] McGill University — PROCEDURES FOR TRAVEL AND OTHER EXPENSES (effective 2026-05-01), PROCEDURES > PR7. Summary by Travel Expense Type > PR7.4. Travel - Personal Automobile, clause PR7.4, p. 15 · chunk procedures-for-travel-and-other-expenses-3ded29::015-aa350b99fc63"
+ },
+ {
+  "id": "g-multichunk",
+  "category": "multi_chunk",
+  "passed": true,
+  "failures": [],
+  "seconds": 4.9,
+  "answer": {
+   "question": "What approvals and documentation does UConn require before a spouse's travel expenses can be reimbursed?",
+   "status": "answered",
+   "text": "Before a spouse’s travel expenses can be reimbursed, the traveler must submit a written justification to a Senior Institutional Official that defines the essential business purpose, the spouse’s official role, and supporting documentation (event programs, invitations, correspondence, or a copy of an employment agreement if applicable). Written approval from the SIO must be obtained before incurring expenses, and the pre‑approval and supporting documents must be attached to the Concur Travel Request.[1][2]",
+   "citations": [
+    {
+     "number": 1,
+     "label": "S1",
+     "chunk_id": "travel-and-entertainment-policy-university-5f7c66::006-a0aaf7986e06",
+     "doc_id": "travel-and-entertainment-policy-university-5f7c66",
+     "organization": "University of Connecticut",
+     "document": "Travel and Entertainment Policy",
+     "effective_date": "2026-07-01",
+     "pages": "p. 6",
+     "section": "Travel and Entertainment Policy > POLICY STATEMENT > ELIGIBLE BUSINESS EXPENSES > Accompanying Individuals",
+     "clause": null
+    },
+    {
+     "number": 2,
+     "label": "S2",
+     "chunk_id": "2026-07-01-travel-and-entertainment-procedures-ca903b::001-8da795f439d4",
+     "doc_id": "2026-07-01-travel-and-entertainment-procedures-ca903b",
+     "organization": "University of Connecticut",
+     "document": "Travel and Entertainment Procedures",
+     "effective_date": "2026-07-01",
+     "pages": "pp. 1-2",
+     "section": "PRE-TRIP > Accompanying Individuals",
+     "clause": null
+    }
+   ],
+   "claims": [
+    {
+     "text": "Before a spouse’s travel expenses can be reimbursed, the traveler must submit a written justification to a Senior Institutional Official that defines the essential business purpose, the spouse’s official role, and supporting documentation (event programs, invitations, correspondence, or a copy of an employment agreement if applicable). Written approval from the SIO must be obtained before incurring expenses, and the pre‑approval and supporting documents must be attached to the Concur Travel Request.",
+     "citations": [
+      1,
+      2
+     ],
+     "quotes": [
+      "A detailed justification specifying the official role of the accompanying individual and supporting documentation, such as event programs or correspondence verifying their official role, must be submitted for approval to a Senior Institutional Official prior to travel.",
+      "The traveler must submit a written justification to a Senior Institutional Official (SIO) that clearly defines the essential business purpose for the accompanying individual, the office role the individual will fulfill, and supporting documentation such as event programs, invitations, or correspondence verifying the official role.",
+      "If the travel is supported by an employment agreement, a copy of the agreement must be submitted.",
+      "Written approval must be received from the SIO prior to incurring travel expenses. Once approved, the traveler must attach the pre-approval and documentation to the relevant Concur Travel Request."
+     ]
+    }
+   ],
+   "abstention_reason": null,
+   "abstention_detail": "",
+   "sources_considered": [
+    {
+     "label": "S1",
+     "chunk_id": "travel-and-entertainment-policy-university-5f7c66::006-a0aaf7986e06",
+     "retrieval_rank": 1,
+     "duplicate_of": null
+    },
+    {
+     "label": "S2",
+     "chunk_id": "2026-07-01-travel-and-entertainment-procedures-ca903b::001-8da795f439d4",
+     "retrieval_rank": 2,
+     "duplicate_of": null
+    }
+   ],
+   "model": "openai/gpt-oss-20b",
+   "provider": "groq",
+   "prompt_version": "grounded-qa-1",
+   "raw_output": "{\"status\":\"answered\",\"claims\":[{\"text\":\"Before a spouse’s travel expenses can be reimbursed, the traveler must submit a written justification to a Senior Institutional Official that defines the essential business purpose, the spouse’s official role, and supporting documentation (event programs, invitations, correspondence, or a copy of an employment agreement if applicable). Written approval from the SIO must be obtained before incurring expenses, and the pre‑approval and supporting documents must be attached to the Concur Travel Request.\",\"sources\":[\"S1\",\"S2\"],\"quotes\":[\"A detailed justification specifying the official role of the accompanying individual and supporting documentation, such as event programs or correspondence verifying their official role, must be submitted for approval to a Senior Institutional Official prior to travel.\",\"The traveler must submit a written justification to a Senior Institutional Official (SIO) that clearly defines the essential business purpose for the accompanying individual, the office role the individual will fulfill, and supporting documentation such as event programs, invitations, or correspondence verifying the official role.\",\"If the travel is supported by an employment agreement, a copy of the agreement must be submitted.\",\"Written approval must be received from the SIO prior to incurring travel expenses. Once approved, the traveler must attach the pre-approval and documentation to the relevant Concur Travel Request.\"]}],\"abstention_reason\":\"\"}",
+   "verification_problems": []
+  },
+  "rendered": "Before a spouse’s travel expenses can be reimbursed, the traveler must submit a written justification to a Senior Institutional Official that defines the essential business purpose, the spouse’s official role, and supporting documentation (event programs, invitations, correspondence, or a copy of an employment agreement if applicable). Written approval from the SIO must be obtained before incurring expenses, and the pre‑approval and supporting documents must be attached to the Concur Travel Request.[1][2]\n\nSources:\n[1] University of Connecticut — Travel and Entertainment Policy (effective 2026-07-01), Travel and Entertainment Policy > POLICY STATEMENT > ELIGIBLE BUSINESS EXPENSES > Accompanying Individuals, p. 6 · chunk travel-and-entertainment-policy-university-5f7c66::006-a0aaf7986e06\n[2] University of Connecticut — Travel and Entertainment Procedures (effective 2026-07-01), PRE-TRIP > Accompanying Individuals, pp. 1-2 · chunk 2026-07-01-travel-and-entertainment-procedures-ca903b::001-8da795f439d4"
+ },
+ {
+  "id": "g-insufficient",
+  "category": "insufficient_evidence",
+  "passed": true,
+  "failures": [],
+  "seconds": 11.94,
+  "answer": {
+   "question": "Does the University of Michigan reimburse pet boarding costs during business travel?",
+   "status": "abstained",
+   "text": "The retrieved documents do not contain enough evidence to answer this question.",
+   "citations": [],
+   "claims": [],
+   "abstention_reason": "model_insufficient_evidence",
+   "abstention_detail": "The provided sources do not contain any information about pet boarding reimbursement.",
+   "sources_considered": [
+    {
+     "label": "S1",
+     "chunk_id": "travel-booking-procurement-services-university-74c4ef::008-322b78084217",
+     "retrieval_rank": 1,
+     "duplicate_of": null
+    },
+    {
+     "label": "S2",
+     "chunk_id": "travel-booking-procurement-services-university-74c4ef::008-ca30a248d27c",
+     "retrieval_rank": 2,
+     "duplicate_of": null
+    }
+   ],
+   "model": "openai/gpt-oss-20b",
+   "provider": "groq",
+   "prompt_version": "grounded-qa-1",
+   "raw_output": "{\"status\":\"insufficient_evidence\",\"claims\":[],\"abstention_reason\":\"The provided sources do not contain any information about pet boarding reimbursement.\"}",
+   "verification_problems": []
+  },
+  "rendered": "The retrieved documents do not contain enough evidence to answer this question."
+ },
+ {
+  "id": "g-wrong-org",
+  "category": "insufficient_evidence",
+  "passed": true,
+  "failures": [],
+  "seconds": 11.92,
+  "answer": {
+   "question": "What is Oregon State University's threshold for formal procurement?",
+   "status": "abstained",
+   "text": "The retrieved documents do not contain enough evidence to answer this question.",
+   "citations": [],
+   "claims": [],
+   "abstention_reason": "model_insufficient_evidence",
+   "abstention_detail": "No source provided for Oregon State University threshold for formal procurement.",
+   "sources_considered": [
+    {
+     "label": "S1",
+     "chunk_id": "chapter-11-university-procurement-services-1dbc68::007-37315e9be280",
+     "retrieval_rank": 1,
+     "duplicate_of": null
+    },
+    {
+     "label": "S2",
+     "chunk_id": "chapter-11-university-procurement-services-1dbc68::005-d3693594d7b6",
+     "retrieval_rank": 2,
+     "duplicate_of": null
+    }
+   ],
+   "model": "openai/gpt-oss-20b",
+   "provider": "groq",
+   "prompt_version": "grounded-qa-1",
+   "raw_output": "{\"status\":\"insufficient_evidence\",\"claims\":[],\"abstention_reason\":\"No source provided for Oregon State University threshold for formal procurement.\"}",
+   "verification_problems": []
+  },
+  "rendered": "The retrieved documents do not contain enough evidence to answer this question."
+ },
+ {
+  "id": "g-conflict",
+  "category": "conflicting_versions",
+  "passed": false,
+  "failures": [
+   "status abstained (expected answered; reason ungrounded_output: claim 1: quote not found in cited source(s): '\"within 60 days of the transaction date or the trip end date (whichever is later'; claim 1: quote not found in cit)"
+  ],
+  "seconds": 6.37,
+  "answer": {
+   "question": "How long do UConn travelers have to submit University Travel Card charges before the card is suspended?",
+   "status": "abstained",
+   "text": "The retrieved documents do not contain enough evidence to answer this question.",
+   "citations": [],
+   "claims": [],
+   "abstention_reason": "ungrounded_output",
+   "abstention_detail": "claim 1: quote not found in cited source(s): '\"within 60 days of the transaction date or the trip end date (whichever is later'; claim 1: quote not found in cited source(s): '\"If University Issued Travel Card charges are not submitted within 60 days of th'",
+   "sources_considered": [
+    {
+     "label": "S1",
+     "chunk_id": "travel-and-entertainment-procedures-final-ccccf9::005-bb1bf7113880",
+     "retrieval_rank": 1,
+     "duplicate_of": null
+    },
+    {
+     "label": "S2",
+     "chunk_id": "2026-07-01-travel-and-entertainment-procedures-ca903b::005-73722dbc7d99",
+     "retrieval_rank": 2,
+     "duplicate_of": null
+    }
+   ],
+   "model": "openai/gpt-oss-20b",
+   "provider": "groq",
+   "prompt_version": "grounded-qa-1",
+   "raw_output": "{\"status\":\"answered\",\"claims\":[{\"text\":\"60 days\",\"sources\":[\"S2\",\"S1\"],\"quotes\":[\"\\\"within 60 days of the transaction date or the trip end date (whichever is later)\\\"\",\"\\\"If University Issued Travel Card charges are not submitted within 60 days of the trip end date or transaction date\\\"\"]}],\"abstention_reason\":\"\"}",
+   "verification_problems": [
+    "claim 1: quote not found in cited source(s): '\"within 60 days of the transaction date or the trip end date (whichever is later'",
+    "claim 1: quote not found in cited source(s): '\"If University Issued Travel Card charges are not submitted within 60 days of th'"
+   ]
+  },
+  "rendered": "The retrieved documents do not contain enough evidence to answer this question."
+ },
+ {
+  "id": "g-version-july",
+  "category": "uconn_version",
+  "passed": false,
+  "failures": [
+   "answer lacks 'personal credit card'"
+  ],
+  "seconds": 15.05,
+  "answer": {
+   "question": "Under UConn's travel procedures effective July 1, 2026, can a University Travel Card be used to pay for a multi-bedroom accommodation?",
+   "status": "answered",
+   "text": "Under the UConn Travel and Entertainment Procedures effective July 1 2026, a University Travel Card cannot be used to pay for a multi‑bedroom accommodation unless the additional bedrooms are required for other travelers on university business and the full cost is otherwise allowable under the Travel Policy.[1]",
+   "citations": [
+    {
+     "number": 1,
+     "label": "S2",
+     "chunk_id": "2026-07-01-travel-and-entertainment-procedures-ca903b::004-af625b230e93",
+     "doc_id": "2026-07-01-travel-and-entertainment-procedures-ca903b",
+     "organization": "University of Connecticut",
+     "document": "Travel and Entertainment Procedures",
+     "effective_date": "2026-07-01",
+     "pages": "p. 4",
+     "section": "LODGING",
+     "clause": null
+    }
+   ],
+   "claims": [
+    {
+     "text": "Under the UConn Travel and Entertainment Procedures effective July 1 2026, a University Travel Card cannot be used to pay for a multi‑bedroom accommodation unless the additional bedrooms are required for other travelers on university business and the full cost is otherwise allowable under the Travel Policy.",
+     "citations": [
+      1
+     ],
+     "quotes": [
+      "Travelers booking a multi-bedroom accommodation must use a personal credit card and may not use a University Travel Card for the reservation or payment, unless the additional bedrooms are required for other Travelers on University business and the full cost is otherwise allowable under the Travel Policy."
+     ]
+    }
+   ],
+   "abstention_reason": null,
+   "abstention_detail": "",
+   "sources_considered": [
+    {
+     "label": "S1",
+     "chunk_id": "travel-and-entertainment-procedures-final-ccccf9::004-6c3145fb7a01",
+     "retrieval_rank": 1,
+     "duplicate_of": null
+    },
+    {
+     "label": "S2",
+     "chunk_id": "2026-07-01-travel-and-entertainment-procedures-ca903b::004-af625b230e93",
+     "retrieval_rank": 2,
+     "duplicate_of": null
+    }
+   ],
+   "model": "openai/gpt-oss-20b",
+   "provider": "groq",
+   "prompt_version": "grounded-qa-1",
+   "raw_output": "{\"status\":\"answered\",\"claims\":[{\"text\":\"Under the UConn Travel and Entertainment Procedures effective July 1 2026, a University Travel Card cannot be used to pay for a multi‑bedroom accommodation unless the additional bedrooms are required for other travelers on university business and the full cost is otherwise allowable under the Travel Policy.\",\"sources\":[\"S2\"],\"quotes\":[\"Travelers booking a multi-bedroom accommodation must use a personal credit card and may not use a University Travel Card for the reservation or payment, unless the additional bedrooms are required for other Travelers on University business and the full cost is otherwise allowable under the Travel Policy.\"]}],\"abstention_reason\":\"\"}",
+   "verification_problems": []
+  },
+  "rendered": "Under the UConn Travel and Entertainment Procedures effective July 1 2026, a University Travel Card cannot be used to pay for a multi‑bedroom accommodation unless the additional bedrooms are required for other travelers on university business and the full cost is otherwise allowable under the Travel Policy.[1]\n\nSources:\n[1] University of Connecticut — Travel and Entertainment Procedures (effective 2026-07-01), LODGING, p. 4 · chunk 2026-07-01-travel-and-entertainment-procedures-ca903b::004-af625b230e93"
+ },
+ {
+  "id": "g-version-feb-trap",
+  "category": "uconn_version",
+  "passed": true,
+  "failures": [],
+  "seconds": 9.0,
+  "answer": {
+   "question": "Under the UConn procedures effective February 1, 2026, how is a suspended University Travel Card reinstated?",
+   "status": "abstained",
+   "text": "The retrieved documents do not contain enough evidence to answer this question.",
+   "citations": [],
+   "claims": [],
+   "abstention_reason": "model_insufficient_evidence",
+   "abstention_detail": "The February 1, 2026 procedures (S1) do not provide information on how a suspended University Travel Card is reinstated.",
+   "sources_considered": [
+    {
+     "label": "S1",
+     "chunk_id": "travel-and-entertainment-procedures-final-ccccf9::005-bb1bf7113880",
+     "retrieval_rank": 1,
+     "duplicate_of": null
+    },
+    {
+     "label": "S2",
+     "chunk_id": "2026-07-01-travel-and-entertainment-procedures-ca903b::005-73722dbc7d99",
+     "retrieval_rank": 2,
+     "duplicate_of": null
+    }
+   ],
+   "model": "openai/gpt-oss-20b",
+   "provider": "groq",
+   "prompt_version": "grounded-qa-1",
+   "raw_output": "{\"status\":\"insufficient_evidence\",\"claims\":[],\"abstention_reason\":\"The February 1, 2026 procedures (S1) do not provide information on how a suspended University Travel Card is reinstated.\"}",
+   "verification_problems": []
+  },
+  "rendered": "The retrieved documents do not contain enough evidence to answer this question."
+ },
+ {
+  "id": "g-e2e-tips",
+  "category": "end_to_end",
+  "passed": true,
+  "failures": [],
+  "seconds": 16.16,
+  "answer": {
+   "question": "What is the maximum tip percentage Rutgers will reimburse?",
+   "status": "answered",
+   "text": "Rutgers will reimburse tips up to a maximum of 20% of the tip amount.[1][2]",
+   "citations": [
+    {
+     "number": 1,
+     "label": "S1",
+     "chunk_id": "chapter-11-university-procurement-services-1dbc68::017-7d78efa70791",
+     "doc_id": "chapter-11-university-procurement-services-1dbc68",
+     "organization": "Rutgers University",
+     "document": "STANDARD OPERATING PROCEDURE: 11.0 TRAVEL AND EXPENSE MANAGEMENT",
+     "effective_date": null,
+     "pages": "pp. 17-18",
+     "section": "11.0 TRAVEL AND EXPENSE MANAGEMENT > Procedures > 11.6.3 Gratuities and Tipping",
+     "clause": "11.6.3"
+    },
+    {
+     "number": 2,
+     "label": "S6",
+     "chunk_id": "chapter-11-university-procurement-services-1dbc68::017-ad97a2492e67",
+     "doc_id": "chapter-11-university-procurement-services-1dbc68",
+     "organization": "Rutgers University",
+     "document": "STANDARD OPERATING PROCEDURE: 11.0 TRAVEL AND EXPENSE MANAGEMENT",
+     "effective_date": null,
+     "pages": "p. 17",
+     "section": "11.0 TRAVEL AND EXPENSE MANAGEMENT > Procedures > 11.6.2 Business Meals",
+     "clause": "11.6.2"
+    }
+   ],
+   "claims": [
+    {
+     "text": "Rutgers will reimburse tips up to a maximum of 20% of the tip amount.",
+     "citations": [
+      1,
+      2
+     ],
+     "quotes": [
+      "maximum of up to 20%",
+      "not to exceed 20%"
+     ]
+    }
+   ],
+   "abstention_reason": null,
+   "abstention_detail": "",
+   "sources_considered": [
+    {
+     "label": "S1",
+     "chunk_id": "chapter-11-university-procurement-services-1dbc68::017-7d78efa70791",
+     "retrieval_rank": 1,
+     "duplicate_of": null
+    },
+    {
+     "label": "S2",
+     "chunk_id": "chapter-11-university-procurement-services-1dbc68::016-2aca1bfd0e1b",
+     "retrieval_rank": 2,
+     "duplicate_of": null
+    },
+    {
+     "label": "S3",
+     "chunk_id": "chapter-11-university-procurement-services-1dbc68::003-618f22337934",
+     "retrieval_rank": 3,
+     "duplicate_of": null
+    },
+    {
+     "label": "S4",
+     "chunk_id": "chapter-11-university-procurement-services-1dbc68::005-c2ca5a09c71e",
+     "retrieval_rank": 4,
+     "duplicate_of": null
+    },
+    {
+     "label": "S5",
+     "chunk_id": "chapter-11-university-procurement-services-1dbc68::012-71980fd07d59",
+     "retrieval_rank": 5,
+     "duplicate_of": null
+    },
+    {
+     "label": "S6",
+     "chunk_id": "chapter-11-university-procurement-services-1dbc68::017-ad97a2492e67",
+     "retrieval_rank": 6,
+     "duplicate_of": null
+    }
+   ],
+   "model": "openai/gpt-oss-20b",
+   "provider": "groq",
+   "prompt_version": "grounded-qa-1",
+   "raw_output": "{\"status\":\"answered\",\"claims\":[{\"text\":\"Rutgers will reimburse tips up to a maximum of 20% of the tip amount.\",\"sources\":[\"S1\",\"S6\"],\"quotes\":[\"maximum of up to 20%\",\"not to exceed 20%\"]}],\"abstention_reason\":\"\"}",
+   "verification_problems": []
+  },
+  "rendered": "Rutgers will reimburse tips up to a maximum of 20% of the tip amount.[1][2]\n\nSources:\n[1] Rutgers University — STANDARD OPERATING PROCEDURE: 11.0 TRAVEL AND EXPENSE MANAGEMENT, 11.0 TRAVEL AND EXPENSE MANAGEMENT > Procedures > 11.6.3 Gratuities and Tipping, clause 11.6.3, pp. 17-18 · chunk chapter-11-university-procurement-services-1dbc68::017-7d78efa70791\n[2] Rutgers University — STANDARD OPERATING PROCEDURE: 11.0 TRAVEL AND EXPENSE MANAGEMENT, 11.0 TRAVEL AND EXPENSE MANAGEMENT > Procedures > 11.6.2 Business Meals, clause 11.6.2, p. 17 · chunk chapter-11-university-procurement-services-1dbc68::017-ad97a2492e67"
+ },
+ {
+  "id": "g-e2e-accounts",
+  "category": "end_to_end",
+  "passed": true,
+  "failures": [],
+  "seconds": 20.56,
+  "answer": {
+   "question": "How often must UT Austin user accounts be reviewed?",
+   "status": "answered",
+   "text": "Accounts must be reviewed at least annually.[1]",
+   "citations": [
+    {
+     "number": 1,
+     "label": "S2",
+     "chunk_id": "information-resources-use-and-security-policy-76b891::038-040d5223d33a",
+     "doc_id": "information-resources-use-and-security-policy-76b891",
+     "organization": "The University of Texas at Austin",
+     "document": "INFORMATION RESOURCES USE AND SECURITY POLICY",
+     "effective_date": null,
+     "pages": "pp. 38-39",
+     "section": "INFORMATION RESOURCES USE AND SECURITY POLICY > UT-IRUSP Standard 4: Access Management > 4.1 Access Management Requirements",
+     "clause": "4.1"
+    }
+   ],
+   "claims": [
+    {
+     "text": "Accounts must be reviewed at least annually.",
+     "citations": [
+      1
+     ],
+     "quotes": [
+      "Accounts must be reviewed at least annually to ensure their current state is correct."
+     ]
+    }
+   ],
+   "abstention_reason": null,
+   "abstention_detail": "",
+   "sources_considered": [
+    {
+     "label": "S1",
+     "chunk_id": "information-resources-use-and-security-policy-76b891::037-c46c35eec642",
+     "retrieval_rank": 1,
+     "duplicate_of": null
+    },
+    {
+     "label": "S2",
+     "chunk_id": "information-resources-use-and-security-policy-76b891::038-040d5223d33a",
+     "retrieval_rank": 2,
+     "duplicate_of": null
+    },
+    {
+     "label": "S3",
+     "chunk_id": "information-resources-use-and-security-policy-76b891::043-6a16ed06ef73",
+     "retrieval_rank": 3,
+     "duplicate_of": null
+    },
+    {
+     "label": "S4",
+     "chunk_id": "information-resources-use-and-security-policy-76b891::066-d1b3a8506cb7",
+     "retrieval_rank": 4,
+     "duplicate_of": null
+    },
+    {
+     "label": "S5",
+     "chunk_id": "information-resources-use-and-security-policy-76b891::042-7aa4b6bd89ac",
+     "retrieval_rank": 5,
+     "duplicate_of": null
+    },
+    {
+     "label": "S6",
+     "chunk_id": "information-resources-use-and-security-policy-76b891::055-763884405bc8",
+     "retrieval_rank": 6,
+     "duplicate_of": null
+    }
+   ],
+   "model": "openai/gpt-oss-20b",
+   "provider": "groq",
+   "prompt_version": "grounded-qa-1",
+   "raw_output": "{\"status\":\"answered\",\"claims\":[{\"text\":\"Accounts must be reviewed at least annually.\",\"sources\":[\"S2\"],\"quotes\":[\"Accounts must be reviewed at least annually to ensure their current state is correct.\"]}],\"abstention_reason\":\"\"}",
+   "verification_problems": []
+  },
+  "rendered": "Accounts must be reviewed at least annually.[1]\n\nSources:\n[1] The University of Texas at Austin — INFORMATION RESOURCES USE AND SECURITY POLICY, INFORMATION RESOURCES USE AND SECURITY POLICY > UT-IRUSP Standard 4: Access Management > 4.1 Access Management Requirements, clause 4.1, pp. 38-39 · chunk information-resources-use-and-security-policy-76b891::038-040d5223d33a"
+ }
+]

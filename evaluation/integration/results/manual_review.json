@@ -1,0 +1,32 @@
+{
+ "reviewer_note": "Manual review of every final answer / abstention (runs 1 and 2) against the source chunks and the expected answer in cases.py. For false abstentions caused by verification, the rejected raw model output was also read. Verdicts: correct | partial | false_abstention | correct_abstention | provider_failure. Nothing was tuned in response.",
+ "cases": {
+  "i-uc-jul-submit": {"run1": "correct", "run2": "correct", "note": "30 days submission; suspended if not submitted and fully approved within 60 days (whichever is later). Complete."},
+  "i-uc-feb-suspend": {"run1": "correct", "run2": "correct", "note": "60 days -> suspension; 90 days -> HR / payroll deduction. February chunk only. Identical text both runs."},
+  "i-uc-jul-owner": {"run1": "correct", "run2": "correct", "note": "EVP for Finance and CFO; approved June 17, 2026."},
+  "i-uc-cur-reinstate": {"run1": "correct", "run2": "correct", "note": "Kuali Build form after all charges submitted and fully approved; July chunk."},
+  "i-uc-cur-multibed": {"run1": "correct", "run2": "provider_failure", "note": "Run 1 states the prohibition and the exception but omits 'must use a personal credit card' (regex check failed; substance correct). Run 2: HTTP 429."},
+  "i-uc-cmp-card": {"run1": "correct", "run2": "correct", "note": "Each version stated and cited separately (Feb 60 days trip end / transaction date; July submitted and fully approved within 60 days, whichever is later). The g-conflict merge did not recur when both versions are named."},
+  "i-uc-neutral-card": {"run1": "partial", "run2": "partial", "stage": "generation", "note": "Both runs: one merged sentence '60 days of the transaction date or trip end date' citing both versions. The versions are not distinguished and July's 'fully approved' / 'whichever is later' conditions are lost. Same failure as g-conflict; every automatic check passed."},
+  "i-uc-cmp-lodging": {"run1": "false_abstention", "run2": "false_abstention", "stage": "generation", "note": "The July multi-bedroom rule was in context (S3) and the February lodging chunk was not; the model abstained because February's rule was missing. A partial answer (July rule; February states none in the retrieved text) was expected. The abstention is cautious and defensible, but it is not the expected answer."},
+  "i-uc-march-tickets": {"run1": "correct_abstention", "run2": "correct_abstention", "note": "July non-refundable rule correctly removed. The February Air Travel chunk moved from pool rank 4 to rerank rank 8, outside the 6-source context (the t-one-tickets-march weakness persists); the outcome was not affected."},
+  "i-uc-feb-reinstate": {"run1": "correct_abstention", "run2": "correct_abstention", "note": "July reinstatement chunk removed by temporal resolution; no misattribution."},
+  "i-uc-unavailable": {"run1": "correct_abstention", "run2": "correct_abstention", "note": "All procedures chunks removed (flag requested_version_unavailable). The July 2026 policy chunk on advances was in context (S3); the model did not misattribute it."},
+  "i-uc-neu-sio": {"run1": "false_abstention", "run2": "false_abstention", "stage": "generation", "note": "Rejected output was correct (21 days) but its quote spliced two non-adjacent bullet items, so it is not verbatim. The verifier worked as designed."},
+  "i-uc-spouse": {"run1": "correct", "run2": "false_abstention", "stage": "verification", "note": "Run 1 is complete: written justification to the SIO, employment-agreement copy, written approval before expenses, attachment to Concur; policy and procedures cited. Run 2 had the same content, but its quotes use U+2011 non-breaking hyphens ('pre‑approved'), which the verifier does not normalize."},
+  "i-uc-personal-leg": {"run1": "correct", "run2": "false_abstention", "stage": "verification", "note": "Run 1 is complete: additional cost not reimbursed, cost comparison at booking, lesser amount, 50% without a comparison. Run 2 quoted 'business-only segment'; the chunk text reads 'business-only o segment' (a stray list marker from extraction), so the faithful quote failed."},
+  "i-ru-tips": {"run1": "correct", "run2": "correct", "note": "Customary amount with a 20% maximum. The g-e2e-tips misstatement did not recur. Both runs add 'of the cost', which the source leaves implicit (minor)."},
+  "i-ru-advance": {"run1": "correct", "run2": "correct", "note": "4-6 weeks; the UConn 20-day chunks were in context as distractors and were not cited."},
+  "i-or-180k": {"run1": "false_abstention", "run2": "false_abstention", "stage": "verification", "note": "Rejected output was fully correct (informal procurement, $25,000.01-$250,000.00, simple competitive process). Rejected because the claim repeats the question's own number, $180,000, which is not in the source."},
+  "i-st-invoice": {"run1": "correct", "run2": "correct", "note": "Standard PO, within 10%, at most $250. Run 2 wrote 'the purchase order is standard' (regex check failed; substance correct)."},
+  "i-pe-exception": {"run1": "false_abstention", "run2": "false_abstention", "stage": "verification", "note": "Rejected output was correct ('does not require competitive bids'). Rejected because it contains the question's $75,000."},
+  "i-ut-clause": {"run1": "correct", "run2": "correct", "note": "Clause 4.1.7, at least annually. The citation metadata shows clause 4.1 (chunk-level clause id)."},
+  "i-mi-mileage": {"run1": "provider_failure", "run2": "correct", "note": "Run 1: HTTP 429. Run 2: 76 cents per mile. The named date also resolved the UConn series to July and dropped 11 February chunks (documented side effect, harmless here)."},
+  "i-ro-highrisk": {"run1": "false_abstention", "run2": "correct", "stage": "verification", "note": "Run 1 content was correct (two months), but the quote used a U+2011 hyphen ('high‑risk'). Run 2: at least two months prior."},
+  "i-ya-internet": {"run1": "correct_abstention", "run2": "correct_abstention"},
+  "i-st-mileage": {"run1": "correct_abstention", "run2": "correct_abstention", "note": "Michigan / Rutgers / McGill mileage in context; not used."},
+  "i-harvard-bids": {"run1": "correct_abstention", "run2": "correct_abstention", "note": "Penn $50,000 rule in context; not used."},
+  "i-ro-tips": {"run1": "correct_abstention", "run2": "correct_abstention", "note": "Rutgers 20% in context; not used."},
+  "i-uc-nyc-hotel": {"run1": "correct_abstention", "run2": "correct_abstention", "note": "Abstained at the evidence gate before any LLM call (best rerank logit -1.67 < 0)."}
+ }
+}

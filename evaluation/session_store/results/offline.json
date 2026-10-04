@@ -1,0 +1,418 @@
+{
+ "conversations": [
+  {
+   "id": "s-direct",
+   "tags": [
+    "direct_follow_up",
+    "new_retrieval"
+   ],
+   "turns": [
+    {
+     "question": "What are Rutgers' rules for travel advances?",
+     "kind": "self_contained",
+     "checks": [],
+     "memory": {
+      "completed": true,
+      "turn_index": true,
+      "phase3": true,
+      "answer": true
+     },
+     "restarted": {
+      "completed": true,
+      "turn_index": true,
+      "phase3": true,
+      "answer": true
+     }
+    },
+    {
+     "question": "What documentation is required after the trip?",
+     "kind": "follow_up",
+     "checks": [],
+     "memory": {
+      "completed": true,
+      "turn_index": true,
+      "phase3": true,
+      "answer": true
+     },
+     "restarted": {
+      "completed": true,
+      "turn_index": true,
+      "phase3": true,
+      "answer": true
+     }
+    }
+   ],
+   "model_calls": 2,
+   "identical_model_input": true,
+   "stored_session_equals_direct": {
+    "memory": true,
+    "restarted": true
+   },
+   "encoded_bytes": 10817
+  },
+  {
+   "id": "s-reference",
+   "tags": [
+    "reference"
+   ],
+   "turns": [
+    {
+     "question": "What is UConn's University Travel Card suspension rule?",
+     "kind": "self_contained",
+     "checks": [],
+     "memory": {
+      "completed": true,
+      "turn_index": true,
+      "phase3": true,
+      "answer": true
+     },
+     "restarted": {
+      "completed": true,
+      "turn_index": true,
+      "phase3": true,
+      "answer": true
+     }
+    },
+    {
+     "question": "What happens if they are still unresolved after 90 days?",
+     "kind": "follow_up",
+     "checks": [],
+     "memory": {
+      "completed": true,
+      "turn_index": true,
+      "phase3": true,
+      "answer": true
+     },
+     "restarted": {
+      "completed": true,
+      "turn_index": true,
+      "phase3": true,
+      "answer": true
+     }
+    }
+   ],
+   "model_calls": 2,
+   "identical_model_input": true,
+   "stored_session_equals_direct": {
+    "memory": true,
+    "restarted": true
+   },
+   "encoded_bytes": 12208
+  },
+  {
+   "id": "s-temporal",
+   "tags": [
+    "temporal_refinement",
+    "version_change"
+   ],
+   "turns": [
+    {
+     "question": "What did UConn's February 2026 procedures say about when a University Travel Card is suspended?",
+     "kind": "self_contained",
+     "checks": [],
+     "memory": {
+      "completed": true,
+      "turn_index": true,
+      "phase3": true,
+      "answer": true
+     },
+     "restarted": {
+      "completed": true,
+      "turn_index": true,
+      "phase3": true,
+      "answer": true
+     }
+    },
+    {
+     "question": "Does that still apply under the current procedures?",
+     "kind": "follow_up",
+     "checks": [],
+     "memory": {
+      "completed": true,
+      "turn_index": true,
+      "phase3": true,
+      "answer": true
+     },
+     "restarted": {
+      "completed": true,
+      "turn_index": true,
+      "phase3": true,
+      "answer": true
+     }
+    }
+   ],
+   "model_calls": 2,
+   "identical_model_input": true,
+   "stored_session_equals_direct": {
+    "memory": true,
+    "restarted": true
+   },
+   "encoded_bytes": 12265
+  },
+  {
+   "id": "s-chain",
+   "tags": [
+    "temporal_inherited",
+    "three_turns"
+   ],
+   "turns": [
+    {
+     "question": "What is UConn's University Travel Card suspension rule?",
+     "kind": "self_contained",
+     "checks": [],
+     "memory": {
+      "completed": true,
+      "turn_index": true,
+      "phase3": true,
+      "answer": true
+     },
+     "restarted": {
+      "completed": true,
+      "turn_index": true,
+      "phase3": true,
+      "answer": true
+     }
+    },
+    {
+     "question": "Does that apply currently?",
+     "kind": "follow_up",
+     "checks": [],
+     "memory": {
+      "completed": true,
+      "turn_index": true,
+      "phase3": true,
+      "answer": true
+     },
+     "restarted": {
+      "completed": true,
+      "turn_index": true,
+      "phase3": true,
+      "answer": true
+     }
+    },
+    {
+     "question": "What happens after 90 days?",
+     "kind": "follow_up",
+     "checks": [],
+     "memory": {
+      "completed": true,
+      "turn_index": true,
+      "phase3": true,
+      "answer": true
+     },
+     "restarted": {
+      "completed": true,
+      "turn_index": true,
+      "phase3": true,
+      "answer": true
+     }
+    }
+   ],
+   "model_calls": 3,
+   "identical_model_input": true,
+   "stored_session_equals_direct": {
+    "memory": true,
+    "restarted": true
+   },
+   "encoded_bytes": 17917
+  },
+  {
+   "id": "s-constraint",
+   "tags": [
+    "new_constraint",
+    "new_retrieval"
+   ],
+   "turns": [
+    {
+     "question": "At Oregon State, what procurement method applies to a $180,000 purchase?",
+     "kind": "self_contained",
+     "checks": [],
+     "memory": {
+      "completed": true,
+      "turn_index": true,
+      "phase3": true,
+      "answer": true
+     },
+     "restarted": {
+      "completed": true,
+      "turn_index": true,
+      "phase3": true,
+      "answer": true
+     }
+    },
+    {
+     "question": "What if it is an emergency costing less than $2 million?",
+     "kind": "follow_up",
+     "checks": [],
+     "memory": {
+      "completed": true,
+      "turn_index": true,
+      "phase3": true,
+      "answer": true
+     },
+     "restarted": {
+      "completed": true,
+      "turn_index": true,
+      "phase3": true,
+      "answer": true
+     }
+    }
+   ],
+   "model_calls": 2,
+   "identical_model_input": true,
+   "stored_session_equals_direct": {
+    "memory": true,
+    "restarted": true
+   },
+   "encoded_bytes": 11768
+  },
+  {
+   "id": "s-unrelated",
+   "tags": [
+    "self_contained"
+   ],
+   "turns": [
+    {
+     "question": "What is UConn's University Travel Card suspension rule?",
+     "kind": "self_contained",
+     "checks": [],
+     "memory": {
+      "completed": true,
+      "turn_index": true,
+      "phase3": true,
+      "answer": true
+     },
+     "restarted": {
+      "completed": true,
+      "turn_index": true,
+      "phase3": true,
+      "answer": true
+     }
+    },
+    {
+     "question": "How often must UT Austin user accounts be reviewed?",
+     "kind": "self_contained",
+     "checks": [],
+     "memory": {
+      "completed": true,
+      "turn_index": true,
+      "phase3": true,
+      "answer": true
+     },
+     "restarted": {
+      "completed": true,
+      "turn_index": true,
+      "phase3": true,
+      "answer": true
+     }
+    }
+   ],
+   "model_calls": 2,
+   "identical_model_input": true,
+   "stored_session_equals_direct": {
+    "memory": true,
+    "restarted": true
+   },
+   "encoded_bytes": 11097
+  },
+  {
+   "id": "s-ambiguous",
+   "tags": [
+    "ambiguous_reference"
+   ],
+   "turns": [
+    {
+     "question": "How often must UT Austin user accounts be reviewed, and is there a limit on the gratuities Rutgers will reimburse for business travel?",
+     "kind": "self_contained",
+     "checks": [],
+     "memory": {
+      "completed": true,
+      "turn_index": true,
+      "phase3": true,
+      "answer": true
+     },
+     "restarted": {
+      "completed": true,
+      "turn_index": true,
+      "phase3": true,
+      "answer": true
+     }
+    },
+    {
+     "question": "Does that apply currently?",
+     "kind": "unresolved",
+     "checks": [],
+     "memory": {
+      "completed": true,
+      "turn_index": true,
+      "phase3": true,
+      "answer": true
+     },
+     "restarted": {
+      "completed": true,
+      "turn_index": true,
+      "phase3": true,
+      "answer": true
+     }
+    }
+   ],
+   "model_calls": 1,
+   "identical_model_input": true,
+   "stored_session_equals_direct": {
+    "memory": true,
+    "restarted": true
+   },
+   "encoded_bytes": 7818
+  },
+  {
+   "id": "s-unsupported",
+   "tags": [
+    "unsupported_follow_up",
+    "other_organization"
+   ],
+   "turns": [
+    {
+     "question": "What are Rutgers' rules for travel advances?",
+     "kind": "self_contained",
+     "checks": [],
+     "memory": {
+      "completed": true,
+      "turn_index": true,
+      "phase3": true,
+      "answer": true
+     },
+     "restarted": {
+      "completed": true,
+      "turn_index": true,
+      "phase3": true,
+      "answer": true
+     }
+    },
+    {
+     "question": "Does Harvard University have the same rule?",
+     "kind": "unresolved",
+     "checks": [],
+     "memory": {
+      "completed": true,
+      "turn_index": true,
+      "phase3": true,
+      "answer": true
+     },
+     "restarted": {
+      "completed": true,
+      "turn_index": true,
+      "phase3": true,
+      "answer": true
+     }
+    }
+   ],
+   "model_calls": 1,
+   "identical_model_input": true,
+   "stored_session_equals_direct": {
+    "memory": true,
+    "restarted": true
+   },
+   "encoded_bytes": 5632
+  }
+ ]
+}

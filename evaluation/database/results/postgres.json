@@ -1,0 +1,322 @@
+{
+ "meta": {
+  "database": "postgresql://adaptiverag:***@127.0.0.1:5433/adaptiverag",
+  "server_version": "16.15 (Debian 16.15-1.pgdg13+2)",
+  "schema": "adaptiverag_eval",
+  "documents": 12,
+  "chunks": 466,
+  "psycopg": "3.3.6"
+ },
+ "suites": {
+  "schema": [
+   {
+    "id": "first-migrate",
+    "checks": []
+   },
+   {
+    "id": "idempotent",
+    "checks": []
+   },
+   {
+    "id": "recorded-checksums",
+    "checks": []
+   },
+   {
+    "id": "tables",
+    "tables": [
+     "chunks",
+     "corpus_loads",
+     "documents",
+     "schema_migrations"
+    ],
+    "checks": []
+   },
+   {
+    "id": "indexes",
+    "indexes": [
+     "chunks_doc_id_ordinal_key",
+     "chunks_pkey",
+     "corpus_loads_pkey",
+     "documents_document_type",
+     "documents_domain",
+     "documents_is_current",
+     "documents_organization",
+     "documents_pkey",
+     "documents_series",
+     "schema_migrations_pkey"
+    ],
+    "checks": []
+   },
+   {
+    "id": "changed-migration-refused",
+    "checks": []
+   }
+  ],
+  "load": [
+   {
+    "id": "counts",
+    "documents": 12,
+    "chunks": 466,
+    "checks": []
+   },
+   {
+    "id": "reload-identical",
+    "corpus_loads": 2,
+    "checks": []
+   },
+   {
+    "id": "manifest-hashes",
+    "checks": []
+   }
+  ],
+  "queries": [
+   {
+    "id": "documents-all",
+    "rows": 12,
+    "checks": []
+   },
+   {
+    "id": "documents-equal-metadata_lookup",
+    "checks": []
+   },
+   {
+    "id": "documents organization=McGill University",
+    "rows": 1,
+    "checks": []
+   },
+   {
+    "id": "documents organization=Oregon State University",
+    "rows": 1,
+    "checks": []
+   },
+   {
+    "id": "documents organization=Rutgers University",
+    "rows": 1,
+    "checks": []
+   },
+   {
+    "id": "documents organization=Stanford University",
+    "rows": 1,
+    "checks": []
+   },
+   {
+    "id": "documents organization=The University of Texas at Austin",
+    "rows": 1,
+    "checks": []
+   },
+   {
+    "id": "documents organization=University of Connecticut",
+    "rows": 3,
+    "checks": []
+   },
+   {
+    "id": "documents organization=University of Michigan",
+    "rows": 1,
+    "checks": []
+   },
+   {
+    "id": "documents organization=University of Pennsylvania",
+    "rows": 1,
+    "checks": []
+   },
+   {
+    "id": "documents organization=University of Rochester",
+    "rows": 1,
+    "checks": []
+   },
+   {
+    "id": "documents organization=Yale University",
+    "rows": 1,
+    "checks": []
+   },
+   {
+    "id": "documents domain=information_security",
+    "rows": 1,
+    "checks": []
+   },
+   {
+    "id": "documents domain=procurement",
+    "rows": 3,
+    "checks": []
+   },
+   {
+    "id": "documents domain=remote_work",
+    "rows": 1,
+    "checks": []
+   },
+   {
+    "id": "documents domain=travel_expenses",
+    "rows": 7,
+    "checks": []
+   },
+   {
+    "id": "documents document_type=guidance",
+    "rows": 1,
+    "checks": []
+   },
+   {
+    "id": "documents document_type=policy",
+    "rows": 6,
+    "checks": []
+   },
+   {
+    "id": "documents document_type=procedure",
+    "rows": 4,
+    "checks": []
+   },
+   {
+    "id": "documents document_type=standard",
+    "rows": 1,
+    "checks": []
+   },
+   {
+    "id": "documents is_current=True",
+    "rows": 4,
+    "checks": []
+   },
+   {
+    "id": "documents is_current=False",
+    "rows": 1,
+    "checks": []
+   },
+   {
+    "id": "document_versions uconn-travel-entertainment-procedures",
+    "versions": [
+     [
+      "travel-and-entertainment-procedures-final-ccccf9",
+      "2026-02-01",
+      false
+     ],
+     [
+      "2026-07-01-travel-and-entertainment-procedures-ca903b",
+      "2026-07-01",
+      true
+     ]
+    ],
+    "checks": []
+   },
+   {
+    "id": "document_versions unknown",
+    "checks": []
+   },
+   {
+    "id": "chunks_by_document 03-010-procurement-thresholds-and-methods-071526-0eb37f",
+    "rows": 40,
+    "checks": []
+   },
+   {
+    "id": "chunks_by_document 2026-07-01-travel-and-entertainment-procedures-ca903b",
+    "rows": 24,
+    "checks": []
+   },
+   {
+    "id": "chunks_by_document 2305-compliance-with-procurement-policies-ced954",
+    "rows": 4,
+    "checks": []
+   },
+   {
+    "id": "chunks_by_document 5-1-1-procurement-policies-administrative-guide-557216",
+    "rows": 26,
+    "checks": []
+   },
+   {
+    "id": "chunks_by_document 5002-remote-work-policy-its-your-yale-full-text-28569a",
+    "rows": 11,
+    "checks": []
+   },
+   {
+    "id": "chunks_by_document chapter-11-university-procurement-services-1dbc68",
+    "rows": 62,
+    "checks": []
+   },
+   {
+    "id": "chunks_by_document information-resources-use-and-security-policy-76b891",
+    "rows": 154,
+    "checks": []
+   },
+   {
+    "id": "chunks_by_document international-travel-policy-policies-procedures-f05fa2",
+    "rows": 18,
+    "checks": []
+   },
+   {
+    "id": "chunks_by_document procedures-for-travel-and-other-expenses-3ded29",
+    "rows": 55,
+    "checks": []
+   },
+   {
+    "id": "chunks_by_document travel-and-entertainment-policy-university-5f7c66",
+    "rows": 35,
+    "checks": []
+   },
+   {
+    "id": "chunks_by_document travel-and-entertainment-procedures-final-ccccf9",
+    "rows": 24,
+    "checks": []
+   },
+   {
+    "id": "chunks_by_document travel-booking-procurement-services-university-74c4ef",
+    "rows": 13,
+    "checks": []
+   },
+   {
+    "id": "truncation",
+    "checks": []
+   },
+   {
+    "id": "hostile-value",
+    "checks": []
+   }
+  ],
+  "failures": [
+   {
+    "id": "no-database-url",
+    "expected": "database_not_configured",
+    "got": "database_not_configured",
+    "checks": []
+   },
+   {
+    "id": "closed-port",
+    "expected": "database_unavailable",
+    "got": "database_unavailable",
+    "checks": []
+   },
+   {
+    "id": "unmigrated-schema",
+    "expected": "database_unavailable",
+    "got": "database_unavailable",
+    "checks": []
+   },
+   {
+    "id": "unloaded-schema",
+    "expected": "database_unavailable",
+    "got": "database_unavailable",
+    "checks": []
+   },
+   {
+    "id": "mistyped-parameter",
+    "expected": "invalid_arguments",
+    "got": "invalid_arguments",
+    "checks": []
+   },
+   {
+    "id": "unknown-parameter",
+    "expected": "invalid_arguments",
+    "got": "invalid_arguments",
+    "checks": []
+   },
+   {
+    "id": "sql-text",
+    "expected": "invalid_arguments",
+    "got": "invalid_arguments",
+    "checks": []
+   },
+   {
+    "id": "missing-required",
+    "expected": "invalid_arguments",
+    "got": "invalid_arguments",
+    "checks": []
+   }
+  ]
+ }
+}

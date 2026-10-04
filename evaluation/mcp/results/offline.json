@@ -1,0 +1,1802 @@
+{
+ "meta": {
+  "documents": 12,
+  "chunks": 466,
+  "tools": [
+   "document_search",
+   "metadata_lookup",
+   "database_query"
+  ]
+ },
+ "suites": {
+  "search": [
+   {
+    "id": "i-uc-jul-submit",
+    "question": "Under UConn's travel procedures effective July 1, 2026, within how many days must University Travel Card charges be submitted, and when is the card suspended?",
+    "results": 10,
+    "temporal": "point_in_time",
+    "selected": {
+     "uconn-travel-entertainment-procedures": [
+      "2026-07-01-travel-and-entertainment-procedures-ca903b"
+     ]
+    },
+    "gold_in_top10": "1/1",
+    "top": {
+     "chunk_id": "2026-07-01-travel-and-entertainment-procedures-ca903b::005-73722dbc7d99",
+     "organization": "University of Connecticut",
+     "filename": "2026-07-01-Travel-and-Entertainment-Procedures.pdf",
+     "pages": [
+      5
+     ],
+     "clause": null,
+     "effective_date": "2026-07-01",
+     "score": 6.618048667907715
+    },
+    "checks": []
+   },
+   {
+    "id": "i-uc-feb-suspend",
+    "question": "According to UConn's February 2026 Travel and Entertainment Procedures, what happens to a University Travel Card if its charges are not submitted in time?",
+    "results": 10,
+    "temporal": "point_in_time",
+    "selected": {
+     "uconn-travel-entertainment-procedures": [
+      "travel-and-entertainment-procedures-final-ccccf9"
+     ]
+    },
+    "gold_in_top10": "1/1",
+    "top": {
+     "chunk_id": "travel-and-entertainment-procedures-final-ccccf9::005-bb1bf7113880",
+     "organization": "University of Connecticut",
+     "filename": "Travel-and-Entertainment-Procedures-FINAL.pdf",
+     "pages": [
+      5
+     ],
+     "clause": null,
+     "effective_date": "2026-02-01",
+     "score": 5.922457218170166
+    },
+    "checks": []
+   },
+   {
+    "id": "i-uc-jul-owner",
+    "question": "Who owns UConn's Travel and Entertainment Procedures effective July 1, 2026, and on what date were they approved?",
+    "results": 10,
+    "temporal": "point_in_time",
+    "selected": {
+     "uconn-travel-entertainment-procedures": [
+      "2026-07-01-travel-and-entertainment-procedures-ca903b"
+     ]
+    },
+    "gold_in_top10": "1/1",
+    "top": {
+     "chunk_id": "2026-07-01-travel-and-entertainment-procedures-ca903b::001-b18d26ad0b00",
+     "organization": "University of Connecticut",
+     "filename": "2026-07-01-Travel-and-Entertainment-Procedures.pdf",
+     "pages": [
+      1
+     ],
+     "clause": null,
+     "effective_date": "2026-07-01",
+     "score": 9.053955078125
+    },
+    "checks": []
+   },
+   {
+    "id": "i-uc-cur-reinstate",
+    "question": "How does UConn currently reinstate a suspended University Travel Card?",
+    "results": 10,
+    "temporal": "current",
+    "selected": {
+     "uconn-travel-entertainment-procedures": [
+      "2026-07-01-travel-and-entertainment-procedures-ca903b"
+     ]
+    },
+    "gold_in_top10": "1/1",
+    "top": {
+     "chunk_id": "2026-07-01-travel-and-entertainment-procedures-ca903b::005-73722dbc7d99",
+     "organization": "University of Connecticut",
+     "filename": "2026-07-01-Travel-and-Entertainment-Procedures.pdf",
+     "pages": [
+      5
+     ],
+     "clause": null,
+     "effective_date": "2026-07-01",
+     "score": 5.577661514282227
+    },
+    "checks": []
+   },
+   {
+    "id": "i-uc-cur-multibed",
+    "question": "Under UConn's current procedures, may a traveler pay for a multi-bedroom accommodation with a University Travel Card?",
+    "results": 10,
+    "temporal": "current",
+    "selected": {
+     "uconn-travel-entertainment-procedures": [
+      "2026-07-01-travel-and-entertainment-procedures-ca903b"
+     ]
+    },
+    "gold_in_top10": "1/1",
+    "top": {
+     "chunk_id": "2026-07-01-travel-and-entertainment-procedures-ca903b::004-af625b230e93",
+     "organization": "University of Connecticut",
+     "filename": "2026-07-01-Travel-and-Entertainment-Procedures.pdf",
+     "pages": [
+      4
+     ],
+     "clause": null,
+     "effective_date": "2026-07-01",
+     "score": 5.4029717445373535
+    },
+    "checks": []
+   },
+   {
+    "id": "i-uc-cmp-card",
+    "question": "What did UConn's travel procedures effective February 1, 2026 and those effective July 1, 2026 each say about when a University Travel Card is suspended?",
+    "results": 10,
+    "temporal": "compare",
+    "selected": {
+     "uconn-travel-entertainment-procedures": [
+      "2026-07-01-travel-and-entertainment-procedures-ca903b",
+      "travel-and-entertainment-procedures-final-ccccf9"
+     ]
+    },
+    "gold_in_top10": "2/2",
+    "top": {
+     "chunk_id": "2026-07-01-travel-and-entertainment-procedures-ca903b::001-b18d26ad0b00",
+     "organization": "University of Connecticut",
+     "filename": "2026-07-01-Travel-and-Entertainment-Procedures.pdf",
+     "pages": [
+      1
+     ],
+     "clause": null,
+     "effective_date": "2026-07-01",
+     "score": 4.904095649719238
+    },
+    "checks": []
+   },
+   {
+    "id": "i-uc-neutral-card",
+    "question": "How long do UConn travelers have to submit University Travel Card charges before the card is suspended?",
+    "results": 10,
+    "temporal": "neutral",
+    "selected": {},
+    "gold_in_top10": "2/2",
+    "top": {
+     "chunk_id": "2026-07-01-travel-and-entertainment-procedures-ca903b::005-73722dbc7d99",
+     "organization": "University of Connecticut",
+     "filename": "2026-07-01-Travel-and-Entertainment-Procedures.pdf",
+     "pages": [
+      5
+     ],
+     "clause": null,
+     "effective_date": "2026-07-01",
+     "score": 8.135578155517578
+    },
+    "checks": []
+   },
+   {
+    "id": "i-uc-cmp-lodging",
+    "question": "Compare the multi-bedroom accommodation rules in UConn's procedures effective February 1, 2026 and July 1, 2026.",
+    "results": 10,
+    "temporal": "compare",
+    "selected": {
+     "uconn-travel-entertainment-procedures": [
+      "2026-07-01-travel-and-entertainment-procedures-ca903b",
+      "travel-and-entertainment-procedures-final-ccccf9"
+     ]
+    },
+    "gold_in_top10": "1/1",
+    "top": {
+     "chunk_id": "2026-07-01-travel-and-entertainment-procedures-ca903b::001-b18d26ad0b00",
+     "organization": "University of Connecticut",
+     "filename": "2026-07-01-Travel-and-Entertainment-Procedures.pdf",
+     "pages": [
+      1
+     ],
+     "clause": null,
+     "effective_date": "2026-07-01",
+     "score": 2.9713869094848633
+    },
+    "checks": []
+   },
+   {
+    "id": "i-uc-march-tickets",
+    "question": "Did the UConn travel procedures in effect on March 15, 2026 require travelers to buy non-refundable airline tickets?",
+    "results": 10,
+    "temporal": "point_in_time",
+    "selected": {
+     "uconn-travel-entertainment-procedures": [
+      "travel-and-entertainment-procedures-final-ccccf9"
+     ]
+    },
+    "gold_in_top10": "1/1",
+    "top": {
+     "chunk_id": "travel-and-entertainment-procedures-final-ccccf9::001-fc82968e5020",
+     "organization": "University of Connecticut",
+     "filename": "Travel-and-Entertainment-Procedures-FINAL.pdf",
+     "pages": [
+      1
+     ],
+     "clause": null,
+     "effective_date": "2026-02-01",
+     "score": 1.1636314392089844
+    },
+    "checks": []
+   },
+   {
+    "id": "i-uc-feb-reinstate",
+    "question": "Under UConn's February 2026 procedures, what must a cardholder do to get a suspended University Travel Card reinstated?",
+    "results": 10,
+    "temporal": "point_in_time",
+    "selected": {
+     "uconn-travel-entertainment-procedures": [
+      "travel-and-entertainment-procedures-final-ccccf9"
+     ]
+    },
+    "gold_in_top10": "1/1",
+    "top": {
+     "chunk_id": "travel-and-entertainment-procedures-final-ccccf9::005-bb1bf7113880",
+     "organization": "University of Connecticut",
+     "filename": "Travel-and-Entertainment-Procedures-FINAL.pdf",
+     "pages": [
+      5
+     ],
+     "clause": null,
+     "effective_date": "2026-02-01",
+     "score": 2.6014161109924316
+    },
+    "checks": []
+   },
+   {
+    "id": "i-uc-unavailable",
+    "question": "What did UConn's travel procedures effective January 1, 2025 say about travel advances?",
+    "results": 10,
+    "temporal": "point_in_time",
+    "selected": {
+     "uconn-travel-entertainment-procedures": []
+    },
+    "gold_in_top10": null,
+    "top": {
+     "chunk_id": "travel-and-entertainment-policy-university-5f7c66::002-f93cb786c1a0",
+     "organization": "University of Connecticut",
+     "filename": "Travel and Entertainment Policy _ University Policies _ University of Connecticut (capture 2026-09-25).pdf",
+     "pages": [
+      2
+     ],
+     "clause": null,
+     "effective_date": "2026-07-01",
+     "score": 1.4563512802124023
+    },
+    "checks": []
+   },
+   {
+    "id": "i-uc-neu-sio",
+    "question": "How long can a UConn business trip last before Senior Institutional Official approval is required?",
+    "results": 10,
+    "temporal": "neutral",
+    "selected": {},
+    "gold_in_top10": "1/1",
+    "top": {
+     "chunk_id": "2026-07-01-travel-and-entertainment-procedures-ca903b::002-3ca0022cdaba",
+     "organization": "University of Connecticut",
+     "filename": "2026-07-01-Travel-and-Entertainment-Procedures.pdf",
+     "pages": [
+      2
+     ],
+     "clause": null,
+     "effective_date": "2026-07-01",
+     "score": 3.026392936706543
+    },
+    "checks": []
+   },
+   {
+    "id": "i-uc-spouse",
+    "question": "What must a UConn traveler do before a spouse's or partner's travel expenses can be reimbursed?",
+    "results": 10,
+    "temporal": "neutral",
+    "selected": {},
+    "gold_in_top10": "2/2",
+    "top": {
+     "chunk_id": "travel-and-entertainment-policy-university-5f7c66::006-a0aaf7986e06",
+     "organization": "University of Connecticut",
+     "filename": "Travel and Entertainment Policy _ University Policies _ University of Connecticut (capture 2026-09-25).pdf",
+     "pages": [
+      6
+     ],
+     "clause": null,
+     "effective_date": "2026-07-01",
+     "score": 5.715432167053223
+    },
+    "checks": []
+   },
+   {
+    "id": "i-uc-personal-leg",
+    "question": "If a UConn traveler adds a personal leg to a business flight, what will the university reimburse and what must the traveler provide?",
+    "results": 10,
+    "temporal": "neutral",
+    "selected": {},
+    "gold_in_top10": "1/1",
+    "top": {
+     "chunk_id": "travel-and-entertainment-policy-university-5f7c66::006-88a5f45d99ac",
+     "organization": "University of Connecticut",
+     "filename": "Travel and Entertainment Policy _ University Policies _ University of Connecticut (capture 2026-09-25).pdf",
+     "pages": [
+      6
+     ],
+     "clause": null,
+     "effective_date": "2026-07-01",
+     "score": 5.657815933227539
+    },
+    "checks": []
+   },
+   {
+    "id": "i-ru-tips",
+    "question": "Is there a limit on the gratuities Rutgers will reimburse for business travel?",
+    "results": 10,
+    "temporal": "neutral",
+    "selected": {},
+    "gold_in_top10": "1/1",
+    "top": {
+     "chunk_id": "chapter-11-university-procurement-services-1dbc68::017-7d78efa70791",
+     "organization": "Rutgers University",
+     "filename": "Chapter 11 University Procurement Services Procedures Manual.pdf",
+     "pages": [
+      17,
+      18
+     ],
+     "clause": "11.6.3",
+     "effective_date": null,
+     "score": 4.660964488983154
+    },
+    "checks": []
+   },
+   {
+    "id": "i-ru-advance",
+    "question": "How far in advance of departure must a Rutgers travel advance request be submitted?",
+    "results": 10,
+    "temporal": "neutral",
+    "selected": {},
+    "gold_in_top10": "1/1",
+    "top": {
+     "chunk_id": "2026-07-01-travel-and-entertainment-procedures-ca903b::002-1483518e1be0",
+     "organization": "University of Connecticut",
+     "filename": "2026-07-01-Travel-and-Entertainment-Procedures.pdf",
+     "pages": [
+      2
+     ],
+     "clause": null,
+     "effective_date": "2026-07-01",
+     "score": 5.673772811889648
+    },
+    "checks": []
+   },
+   {
+    "id": "i-or-180k",
+    "question": "Oregon State expects a contract price of $180,000. Which general procurement method applies, and what does that method involve?",
+    "results": 10,
+    "temporal": "neutral",
+    "selected": {},
+    "gold_in_top10": "2/2",
+    "top": {
+     "chunk_id": "03-010-procurement-thresholds-and-methods-071526-0eb37f::003-e99d262956d2",
+     "organization": "Oregon State University",
+     "filename": "03-010 Procurement Thresholds and Methods 071526.pdf",
+     "pages": [
+      3,
+      4
+     ],
+     "clause": "5.1",
+     "effective_date": null,
+     "score": 5.426882743835449
+    },
+    "checks": []
+   },
+   {
+    "id": "i-st-invoice",
+    "question": "Under what conditions can Stanford pay an invoice that exceeds the purchase order amount without a written change order?",
+    "results": 10,
+    "temporal": "neutral",
+    "selected": {},
+    "gold_in_top10": "1/1",
+    "top": {
+     "chunk_id": "5-1-1-procurement-policies-administrative-guide-557216::003-b2b2e1ca9cba",
+     "organization": "Stanford University",
+     "filename": "5.1.1 Procurement Policies _ Administrative Guide.pdf",
+     "pages": [
+      3
+     ],
+     "clause": "6",
+     "effective_date": null,
+     "score": 8.604351043701172
+    },
+    "checks": []
+   },
+   {
+    "id": "i-pe-exception",
+    "question": "Does Penn require competitive bids for a $75,000 purchase from a Preferred Contract Supplier?",
+    "results": 10,
+    "temporal": "neutral",
+    "selected": {},
+    "gold_in_top10": "1/1",
+    "top": {
+     "chunk_id": "2305-compliance-with-procurement-policies-ced954::002-800094d09b2b",
+     "organization": "University of Pennsylvania",
+     "filename": "2305 Compliance with Procurement Policies – Division of Finance _ University of Pennsylvania.pdf",
+     "pages": [
+      2,
+      3
+     ],
+     "clause": "7",
+     "effective_date": "1990-09",
+     "score": 7.937122821807861
+    },
+    "checks": []
+   },
+   {
+    "id": "i-ut-clause",
+    "question": "Which clause of UT Austin's information resources policy sets how often user accounts must be reviewed, and how often is that?",
+    "results": 10,
+    "temporal": "neutral",
+    "selected": {},
+    "gold_in_top10": "1/1",
+    "top": {
+     "chunk_id": "information-resources-use-and-security-policy-76b891::037-c46c35eec642",
+     "organization": "The University of Texas at Austin",
+     "filename": "INFORMATION RESOURCES USE AND SECURITY POLICY _ UT Austin Information Security Office.pdf",
+     "pages": [
+      37
+     ],
+     "clause": null,
+     "effective_date": null,
+     "score": 4.259300231933594
+    },
+    "checks": []
+   },
+   {
+    "id": "i-mi-mileage",
+    "question": "What mileage rate does the University of Michigan reimburse for business travel that starts on or after August 1, 2026?",
+    "results": 10,
+    "temporal": "point_in_time",
+    "selected": {
+     "uconn-travel-entertainment-procedures": [
+      "2026-07-01-travel-and-entertainment-procedures-ca903b"
+     ]
+    },
+    "gold_in_top10": "1/1",
+    "top": {
+     "chunk_id": "travel-booking-procurement-services-university-74c4ef::003-854674a8d2df",
+     "organization": "University of Michigan",
+     "filename": "Travel Booking _ Procurement Services - University of Michigan.pdf",
+     "pages": [
+      3
+     ],
+     "clause": null,
+     "effective_date": null,
+     "score": 10.087512016296387
+    },
+    "checks": []
+   },
+   {
+    "id": "i-ro-highrisk",
+    "question": "A University of Rochester researcher plans travel to a high-risk location. How far ahead should the travel request be submitted?",
+    "results": 10,
+    "temporal": "neutral",
+    "selected": {},
+    "gold_in_top10": "1/1",
+    "top": {
+     "chunk_id": "international-travel-policy-policies-procedures-f05fa2::006-e7cd0a6f9066",
+     "organization": "University of Rochester",
+     "filename": "International Travel Policy - Policies & Procedures @ University of Rochester.pdf",
+     "pages": [
+      6,
+      7
+     ],
+     "clause": null,
+     "effective_date": null,
+     "score": 7.369095802307129
+    },
+    "checks": []
+   },
+   {
+    "id": "i-ya-internet",
+    "question": "Does Yale reimburse home internet costs for staff with an approved remote work arrangement?",
+    "results": 10,
+    "temporal": "neutral",
+    "selected": {},
+    "gold_in_top10": null,
+    "top": {
+     "chunk_id": "5002-remote-work-policy-its-your-yale-full-text-28569a::002-dd0c64b72762",
+     "organization": "Yale University",
+     "filename": "5002 Remote Work Policy _ It’s Your Yale (full-text capture 2026-09-25).pdf",
+     "pages": [
+      2
+     ],
+     "clause": null,
+     "effective_date": "2022-08-31",
+     "score": 3.9235928058624268
+    },
+    "checks": []
+   },
+   {
+    "id": "i-st-mileage",
+    "question": "What mileage rate does Stanford University reimburse for personal car use?",
+    "results": 10,
+    "temporal": "neutral",
+    "selected": {},
+    "gold_in_top10": null,
+    "top": {
+     "chunk_id": "procedures-for-travel-and-other-expenses-3ded29::015-aa350b99fc63",
+     "organization": "McGill University",
+     "filename": "procedures_for_travel_and_other_expenses_april172026_v6.9.pdf",
+     "pages": [
+      15
+     ],
+     "clause": "PR7.4",
+     "effective_date": "2026-05-01",
+     "score": 1.8723011016845703
+    },
+    "checks": []
+   },
+   {
+    "id": "i-harvard-bids",
+    "question": "What purchase amount requires competitive bids at Harvard University?",
+    "results": 10,
+    "temporal": "neutral",
+    "selected": {},
+    "gold_in_top10": null,
+    "top": {
+     "chunk_id": "2305-compliance-with-procurement-policies-ced954::002-800094d09b2b",
+     "organization": "University of Pennsylvania",
+     "filename": "2305 Compliance with Procurement Policies – Division of Finance _ University of Pennsylvania.pdf",
+     "pages": [
+      2,
+      3
+     ],
+     "clause": "7",
+     "effective_date": "1990-09",
+     "score": 3.5033020973205566
+    },
+    "checks": []
+   },
+   {
+    "id": "i-ro-tips",
+    "question": "What is the maximum tip percentage the University of Rochester will reimburse?",
+    "results": 10,
+    "temporal": "neutral",
+    "selected": {},
+    "gold_in_top10": null,
+    "top": {
+     "chunk_id": "chapter-11-university-procurement-services-1dbc68::017-7d78efa70791",
+     "organization": "Rutgers University",
+     "filename": "Chapter 11 University Procurement Services Procedures Manual.pdf",
+     "pages": [
+      17,
+      18
+     ],
+     "clause": "11.6.3",
+     "effective_date": null,
+     "score": 1.8481416702270508
+    },
+    "checks": []
+   },
+   {
+    "id": "i-uc-nyc-hotel",
+    "question": "What is the maximum nightly hotel rate UConn will reimburse in New York City?",
+    "results": 10,
+    "temporal": "neutral",
+    "selected": {},
+    "gold_in_top10": "1/1",
+    "top": {
+     "chunk_id": "travel-and-entertainment-policy-university-5f7c66::008-e92a8e596cb3",
+     "organization": "University of Connecticut",
+     "filename": "Travel and Entertainment Policy _ University Policies _ University of Connecticut (capture 2026-09-25).pdf",
+     "pages": [
+      8
+     ],
+     "clause": null,
+     "effective_date": "2026-07-01",
+     "score": -1.6677279472351074
+    },
+    "checks": []
+   },
+   {
+    "id": "mi-uc-card",
+    "question": "What is the UConn University Travel Card submission deadline, and what happens if charges aren't submitted on time?",
+    "results": 10,
+    "temporal": "neutral",
+    "selected": {},
+    "gold_in_top10": null,
+    "top": {
+     "chunk_id": "2026-07-01-travel-and-entertainment-procedures-ca903b::005-73722dbc7d99",
+     "organization": "University of Connecticut",
+     "filename": "2026-07-01-Travel-and-Entertainment-Procedures.pdf",
+     "pages": [
+      5
+     ],
+     "clause": null,
+     "effective_date": "2026-07-01",
+     "score": 6.359034538269043
+    },
+    "checks": []
+   },
+   {
+    "id": "mi-penn",
+    "question": "At Penn, what happens to purchase orders of $50,000 or more before issuance, and when are competitive bids not required?",
+    "results": 10,
+    "temporal": "neutral",
+    "selected": {},
+    "gold_in_top10": null,
+    "top": {
+     "chunk_id": "2305-compliance-with-procurement-policies-ced954::002-800094d09b2b",
+     "organization": "University of Pennsylvania",
+     "filename": "2305 Compliance with Procurement Policies – Division of Finance _ University of Pennsylvania.pdf",
+     "pages": [
+      2,
+      3
+     ],
+     "clause": "7",
+     "effective_date": "1990-09",
+     "score": 4.767698287963867
+    },
+    "checks": []
+   },
+   {
+    "id": "mi-mi-air",
+    "question": "What airfare does the University of Michigan pay for, and how far in advance does the University of Michigan recommend booking airfare?",
+    "results": 10,
+    "temporal": "neutral",
+    "selected": {},
+    "gold_in_top10": null,
+    "top": {
+     "chunk_id": "travel-booking-procurement-services-university-74c4ef::008-322b78084217",
+     "organization": "University of Michigan",
+     "filename": "Travel Booking _ Procurement Services - University of Michigan.pdf",
+     "pages": [
+      8
+     ],
+     "clause": null,
+     "effective_date": null,
+     "score": 8.048376083374023
+    },
+    "checks": []
+   },
+   {
+    "id": "mi-or-emergency",
+    "question": "At Oregon State, what procurement method applies to a $180,000 purchase, and what happens to the required process if the procurement is an emergency costing less than $2 million?",
+    "results": 10,
+    "temporal": "neutral",
+    "selected": {},
+    "gold_in_top10": null,
+    "top": {
+     "chunk_id": "03-010-procurement-thresholds-and-methods-071526-0eb37f::003-e99d262956d2",
+     "organization": "Oregon State University",
+     "filename": "03-010 Procurement Thresholds and Methods 071526.pdf",
+     "pages": [
+      3,
+      4
+     ],
+     "clause": "5.1",
+     "effective_date": null,
+     "score": 3.1874682903289795
+    },
+    "checks": []
+   },
+   {
+    "id": "mi-ut-ru",
+    "question": "How often must UT Austin user accounts be reviewed, and is there a limit on the gratuities Rutgers will reimburse for business travel?",
+    "results": 10,
+    "temporal": "neutral",
+    "selected": {},
+    "gold_in_top10": null,
+    "top": {
+     "chunk_id": "chapter-11-university-procurement-services-1dbc68::017-7d78efa70791",
+     "organization": "Rutgers University",
+     "filename": "Chapter 11 University Procurement Services Procedures Manual.pdf",
+     "pages": [
+      17,
+      18
+     ],
+     "clause": "11.6.3",
+     "effective_date": null,
+     "score": -0.1721244901418686
+    },
+    "checks": []
+   },
+   {
+    "id": "mi-st-ro",
+    "question": "Under what conditions can Stanford pay an invoice that exceeds the purchase order amount without a written change order, and how far ahead should a University of Rochester traveler submit a request for travel to a high-risk location?",
+    "results": 10,
+    "temporal": "neutral",
+    "selected": {},
+    "gold_in_top10": null,
+    "top": {
+     "chunk_id": "5-1-1-procurement-policies-administrative-guide-557216::003-b2b2e1ca9cba",
+     "organization": "Stanford University",
+     "filename": "5.1.1 Procurement Policies _ Administrative Guide.pdf",
+     "pages": [
+      3
+     ],
+     "clause": "6",
+     "effective_date": null,
+     "score": 4.345129013061523
+    },
+    "checks": []
+   },
+   {
+    "id": "mi-mi-ru-dated",
+    "question": "What mileage rate does the University of Michigan reimburse for business travel that starts on or after August 1, 2026, and how far in advance of departure must a Rutgers travel advance request be submitted?",
+    "results": 10,
+    "temporal": "point_in_time",
+    "selected": {
+     "uconn-travel-entertainment-procedures": [
+      "2026-07-01-travel-and-entertainment-procedures-ca903b"
+     ]
+    },
+    "gold_in_top10": null,
+    "top": {
+     "chunk_id": "travel-booking-procurement-services-university-74c4ef::003-854674a8d2df",
+     "organization": "University of Michigan",
+     "filename": "Travel Booking _ Procurement Services - University of Michigan.pdf",
+     "pages": [
+      3
+     ],
+     "clause": null,
+     "effective_date": null,
+     "score": 7.29843282699585
+    },
+    "checks": []
+   },
+   {
+    "id": "mi-three",
+    "question": "How often must UT Austin user accounts be reviewed, what mileage rate does the University of Michigan reimburse for travel starting on or after August 1, 2026, and how far in advance must a Rutgers travel advance request be submitted?",
+    "results": 10,
+    "temporal": "point_in_time",
+    "selected": {
+     "uconn-travel-entertainment-procedures": [
+      "2026-07-01-travel-and-entertainment-procedures-ca903b"
+     ]
+    },
+    "gold_in_top10": null,
+    "top": {
+     "chunk_id": "travel-booking-procurement-services-university-74c4ef::003-854674a8d2df",
+     "organization": "University of Michigan",
+     "filename": "Travel Booking _ Procurement Services - University of Michigan.pdf",
+     "pages": [
+      3
+     ],
+     "clause": null,
+     "effective_date": null,
+     "score": 2.4000682830810547
+    },
+    "checks": []
+   },
+   {
+    "id": "mi-uc-mixed-temporal",
+    "question": "What did UConn's February 2026 procedures say about when a University Travel Card is suspended, and may a traveler currently pay for a multi-bedroom accommodation with a University Travel Card?",
+    "results": 10,
+    "temporal": "point_in_time",
+    "selected": {
+     "uconn-travel-entertainment-procedures": [
+      "travel-and-entertainment-procedures-final-ccccf9"
+     ]
+    },
+    "gold_in_top10": null,
+    "top": {
+     "chunk_id": "travel-and-entertainment-procedures-final-ccccf9::005-bb1bf7113880",
+     "organization": "University of Connecticut",
+     "filename": "Travel-and-Entertainment-Procedures-FINAL.pdf",
+     "pages": [
+      5
+     ],
+     "clause": null,
+     "effective_date": "2026-02-01",
+     "score": 3.285983085632324
+    },
+    "checks": []
+   },
+   {
+    "id": "mi-uc-jul-scope",
+    "question": "Under UConn's procedures effective July 1, 2026, how is a suspended University Travel Card reinstated, and what approval is needed before a spouse's travel expenses can be reimbursed?",
+    "results": 10,
+    "temporal": "point_in_time",
+    "selected": {
+     "uconn-travel-entertainment-procedures": [
+      "2026-07-01-travel-and-entertainment-procedures-ca903b"
+     ]
+    },
+    "gold_in_top10": null,
+    "top": {
+     "chunk_id": "2026-07-01-travel-and-entertainment-procedures-ca903b::005-73722dbc7d99",
+     "organization": "University of Connecticut",
+     "filename": "2026-07-01-Travel-and-Entertainment-Procedures.pdf",
+     "pages": [
+      5
+     ],
+     "clause": null,
+     "effective_date": "2026-07-01",
+     "score": 3.982003688812256
+    },
+    "checks": []
+   },
+   {
+    "id": "mi-ro-harvard",
+    "question": "How far ahead should a University of Rochester traveler submit a request for travel to a high-risk location, and what purchase amount requires competitive bids at Harvard University?",
+    "results": 10,
+    "temporal": "neutral",
+    "selected": {},
+    "gold_in_top10": null,
+    "top": {
+     "chunk_id": "international-travel-policy-policies-procedures-f05fa2::006-e7cd0a6f9066",
+     "organization": "University of Rochester",
+     "filename": "International Travel Policy - Policies & Procedures @ University of Rochester.pdf",
+     "pages": [
+      6,
+      7
+     ],
+     "clause": null,
+     "effective_date": null,
+     "score": 5.317253589630127
+    },
+    "checks": []
+   },
+   {
+    "id": "mi-ru-yale",
+    "question": "How far in advance of departure must a Rutgers travel advance request be submitted, and does Yale reimburse home internet costs for staff who work remotely?",
+    "results": 10,
+    "temporal": "neutral",
+    "selected": {},
+    "gold_in_top10": null,
+    "top": {
+     "chunk_id": "chapter-11-university-procurement-services-1dbc68::019-a3a75ea77ccd",
+     "organization": "Rutgers University",
+     "filename": "Chapter 11 University Procurement Services Procedures Manual.pdf",
+     "pages": [
+      19,
+      20
+     ],
+     "clause": "11.7.8",
+     "effective_date": null,
+     "score": 3.0259292125701904
+    },
+    "checks": []
+   },
+   {
+    "id": "mi-ctl-single",
+    "question": "What does the University of Rochester policy say about tipping reimbursement?",
+    "results": 10,
+    "temporal": "neutral",
+    "selected": {},
+    "gold_in_top10": null,
+    "top": {
+     "chunk_id": "international-travel-policy-policies-procedures-f05fa2::005-d0d3faeda922",
+     "organization": "University of Rochester",
+     "filename": "International Travel Policy - Policies & Procedures @ University of Rochester.pdf",
+     "pages": [
+      5
+     ],
+     "clause": null,
+     "effective_date": null,
+     "score": 1.2044776678085327
+    },
+    "checks": []
+   },
+   {
+    "id": "mi-ctl-explain",
+    "question": "At Stanford, can a $240 invoice overage on a $2,000 standard purchase order be paid without a written change order? Explain why.",
+    "results": 10,
+    "temporal": "neutral",
+    "selected": {},
+    "gold_in_top10": null,
+    "top": {
+     "chunk_id": "5-1-1-procurement-policies-administrative-guide-557216::003-b2b2e1ca9cba",
+     "organization": "Stanford University",
+     "filename": "5.1.1 Procurement Policies _ Administrative Guide.pdf",
+     "pages": [
+      3
+     ],
+     "clause": "6",
+     "effective_date": null,
+     "score": 3.606703281402588
+    },
+    "checks": []
+   },
+   {
+    "id": "mi-ctl-refers",
+    "question": "Which clause of UT Austin's information resources policy sets how often user accounts must be reviewed, and how often is that?",
+    "results": 10,
+    "temporal": "neutral",
+    "selected": {},
+    "gold_in_top10": null,
+    "top": {
+     "chunk_id": "information-resources-use-and-security-policy-76b891::037-c46c35eec642",
+     "organization": "The University of Texas at Austin",
+     "filename": "INFORMATION RESOURCES USE AND SECURITY POLICY _ UT Austin Information Security Office.pdf",
+     "pages": [
+      37
+     ],
+     "clause": null,
+     "effective_date": null,
+     "score": 4.259300231933594
+    },
+    "checks": []
+   },
+   {
+    "id": "mi-ctl-compare",
+    "question": "Compare the February 1, 2026 and July 1, 2026 UConn Travel Card penalty rules.",
+    "results": 10,
+    "temporal": "compare",
+    "selected": {
+     "uconn-travel-entertainment-procedures": [
+      "2026-07-01-travel-and-entertainment-procedures-ca903b",
+      "travel-and-entertainment-procedures-final-ccccf9"
+     ]
+    },
+    "gold_in_top10": null,
+    "top": {
+     "chunk_id": "2026-07-01-travel-and-entertainment-procedures-ca903b::001-b18d26ad0b00",
+     "organization": "University of Connecticut",
+     "filename": "2026-07-01-Travel-and-Entertainment-Procedures.pdf",
+     "pages": [
+      1
+     ],
+     "clause": null,
+     "effective_date": "2026-07-01",
+     "score": 1.7479982376098633
+    },
+    "checks": []
+   }
+  ],
+  "remote": [
+   {
+    "id": "i-uc-jul-submit",
+    "checks": []
+   },
+   {
+    "id": "i-uc-feb-suspend",
+    "checks": []
+   },
+   {
+    "id": "i-uc-jul-owner",
+    "checks": []
+   },
+   {
+    "id": "i-uc-cur-reinstate",
+    "checks": []
+   },
+   {
+    "id": "i-uc-cur-multibed",
+    "checks": []
+   },
+   {
+    "id": "i-uc-cmp-card",
+    "checks": []
+   },
+   {
+    "id": "i-uc-neutral-card",
+    "checks": []
+   },
+   {
+    "id": "i-uc-cmp-lodging",
+    "checks": []
+   },
+   {
+    "id": "i-uc-march-tickets",
+    "checks": []
+   },
+   {
+    "id": "i-uc-feb-reinstate",
+    "checks": []
+   },
+   {
+    "id": "i-uc-unavailable",
+    "checks": []
+   },
+   {
+    "id": "i-uc-neu-sio",
+    "checks": []
+   },
+   {
+    "id": "i-uc-spouse",
+    "checks": []
+   },
+   {
+    "id": "i-uc-personal-leg",
+    "checks": []
+   },
+   {
+    "id": "i-ru-tips",
+    "checks": []
+   },
+   {
+    "id": "i-ru-advance",
+    "checks": []
+   },
+   {
+    "id": "i-or-180k",
+    "checks": []
+   },
+   {
+    "id": "i-st-invoice",
+    "checks": []
+   },
+   {
+    "id": "i-pe-exception",
+    "checks": []
+   },
+   {
+    "id": "i-ut-clause",
+    "checks": []
+   },
+   {
+    "id": "i-mi-mileage",
+    "checks": []
+   },
+   {
+    "id": "i-ro-highrisk",
+    "checks": []
+   },
+   {
+    "id": "i-ya-internet",
+    "checks": []
+   },
+   {
+    "id": "i-st-mileage",
+    "checks": []
+   },
+   {
+    "id": "i-harvard-bids",
+    "checks": []
+   },
+   {
+    "id": "i-ro-tips",
+    "checks": []
+   },
+   {
+    "id": "i-uc-nyc-hotel",
+    "checks": []
+   },
+   {
+    "id": "mi-uc-card",
+    "checks": []
+   },
+   {
+    "id": "mi-penn",
+    "checks": []
+   },
+   {
+    "id": "mi-mi-air",
+    "checks": []
+   },
+   {
+    "id": "mi-or-emergency",
+    "checks": []
+   },
+   {
+    "id": "mi-ut-ru",
+    "checks": []
+   },
+   {
+    "id": "mi-st-ro",
+    "checks": []
+   },
+   {
+    "id": "mi-mi-ru-dated",
+    "checks": []
+   },
+   {
+    "id": "mi-three",
+    "checks": []
+   },
+   {
+    "id": "mi-uc-mixed-temporal",
+    "checks": []
+   },
+   {
+    "id": "mi-uc-jul-scope",
+    "checks": []
+   },
+   {
+    "id": "mi-ro-harvard",
+    "checks": []
+   },
+   {
+    "id": "mi-ru-yale",
+    "checks": []
+   },
+   {
+    "id": "mi-ctl-single",
+    "checks": []
+   },
+   {
+    "id": "mi-ctl-explain",
+    "checks": []
+   },
+   {
+    "id": "mi-ctl-refers",
+    "checks": []
+   },
+   {
+    "id": "mi-ctl-compare",
+    "checks": []
+   }
+  ],
+  "filters": [
+   {
+    "id": "org-short-name",
+    "arguments": {
+     "query": "How long do UConn travelers have to submit University Travel Card charges before the card is suspended?",
+     "organization": "UConn",
+     "limit": 10
+    },
+    "candidates": 20,
+    "filtered_out": 3,
+    "results": [
+     [
+      "2026-07-01-travel-and-entertainment-procedures-ca903b::005-73722dbc7d99",
+      1
+     ],
+     [
+      "travel-and-entertainment-procedures-final-ccccf9::005-bb1bf7113880",
+      2
+     ],
+     [
+      "travel-and-entertainment-procedures-final-ccccf9::005-7b9397f6ba84",
+      3
+     ],
+     [
+      "2026-07-01-travel-and-entertainment-procedures-ca903b::005-a7d23de3a5c6",
+      4
+     ],
+     [
+      "travel-and-entertainment-policy-university-5f7c66::005-211ea5ecba99",
+      5
+     ],
+     [
+      "travel-and-entertainment-policy-university-5f7c66::005-cb1a5edd163e",
+      7
+     ],
+     [
+      "travel-and-entertainment-policy-university-5f7c66::007-5a42d416ec2b",
+      10
+     ],
+     [
+      "travel-and-entertainment-procedures-final-ccccf9::001-582b64b74372",
+      11
+     ],
+     [
+      "2026-07-01-travel-and-entertainment-procedures-ca903b::001-8d1922a01072",
+      12
+     ],
+     [
+      "2026-07-01-travel-and-entertainment-procedures-ca903b::001-b18d26ad0b00",
+      13
+     ]
+    ],
+    "notes": [],
+    "checks": []
+   },
+   {
+    "id": "current-only",
+    "arguments": {
+     "query": "How long do UConn travelers have to submit University Travel Card charges before the card is suspended?",
+     "current_only": true,
+     "limit": 20
+    },
+    "candidates": 20,
+    "filtered_out": 6,
+    "results": [
+     [
+      "2026-07-01-travel-and-entertainment-procedures-ca903b::005-73722dbc7d99",
+      1
+     ],
+     [
+      "2026-07-01-travel-and-entertainment-procedures-ca903b::005-a7d23de3a5c6",
+      4
+     ],
+     [
+      "travel-and-entertainment-policy-university-5f7c66::005-211ea5ecba99",
+      5
+     ],
+     [
+      "chapter-11-university-procurement-services-1dbc68::019-a3a75ea77ccd",
+      6
+     ],
+     [
+      "travel-and-entertainment-policy-university-5f7c66::005-cb1a5edd163e",
+      7
+     ],
+     [
+      "chapter-11-university-procurement-services-1dbc68::005-d3693594d7b6",
+      8
+     ],
+     [
+      "chapter-11-university-procurement-services-1dbc68::019-779fa7091a27",
+      9
+     ],
+     [
+      "travel-and-entertainment-policy-university-5f7c66::007-5a42d416ec2b",
+      10
+     ],
+     [
+      "2026-07-01-travel-and-entertainment-procedures-ca903b::001-8d1922a01072",
+      12
+     ],
+     [
+      "2026-07-01-travel-and-entertainment-procedures-ca903b::001-b18d26ad0b00",
+      13
+     ],
+     [
+      "2026-07-01-travel-and-entertainment-procedures-ca903b::004-af625b230e93",
+      15
+     ],
+     [
+      "2026-07-01-travel-and-entertainment-procedures-ca903b::004-c95fa8d3fe32",
+      16
+     ],
+     [
+      "travel-and-entertainment-policy-university-5f7c66::004-ecee129829b6",
+      18
+     ],
+     [
+      "2026-07-01-travel-and-entertainment-procedures-ca903b::006-186f24f39403",
+      20
+     ]
+    ],
+    "notes": [],
+    "checks": []
+   },
+   {
+    "id": "as-of-march",
+    "arguments": {
+     "query": "How long do UConn travelers have to submit University Travel Card charges before the card is suspended?",
+     "as_of": "2026-03-15",
+     "limit": 20
+    },
+    "candidates": 20,
+    "filtered_out": 11,
+    "results": [
+     [
+      "travel-and-entertainment-procedures-final-ccccf9::005-bb1bf7113880",
+      2
+     ],
+     [
+      "travel-and-entertainment-procedures-final-ccccf9::005-7b9397f6ba84",
+      3
+     ],
+     [
+      "chapter-11-university-procurement-services-1dbc68::019-a3a75ea77ccd",
+      6
+     ],
+     [
+      "chapter-11-university-procurement-services-1dbc68::005-d3693594d7b6",
+      8
+     ],
+     [
+      "chapter-11-university-procurement-services-1dbc68::019-779fa7091a27",
+      9
+     ],
+     [
+      "travel-and-entertainment-procedures-final-ccccf9::001-582b64b74372",
+      11
+     ],
+     [
+      "travel-and-entertainment-procedures-final-ccccf9::001-fc82968e5020",
+      14
+     ],
+     [
+      "travel-and-entertainment-procedures-final-ccccf9::004-d832d7afe8a6",
+      17
+     ],
+     [
+      "travel-and-entertainment-procedures-final-ccccf9::006-dfec256b5b28",
+      19
+     ]
+    ],
+    "notes": [
+     "as_of 2026-03-15: applicability could not be established from metadata for 1 returned document(s) without a full effective date; they are kept unverified (as_of_applicability = undetermined): chapter-11-university-procurement-services-1dbc68"
+    ],
+    "checks": []
+   },
+   {
+    "id": "as-of-march-other-orgs",
+    "arguments": {
+     "query": "What purchase amount requires competitive bids?",
+     "as_of": "2026-03-15",
+     "limit": 20
+    },
+    "candidates": 20,
+    "filtered_out": 4,
+    "results": [
+     [
+      "2305-compliance-with-procurement-policies-ced954::002-800094d09b2b",
+      1
+     ],
+     [
+      "5-1-1-procurement-policies-administrative-guide-557216::003-b68f37d5a941",
+      2
+     ],
+     [
+      "03-010-procurement-thresholds-and-methods-071526-0eb37f::005-9a54aa8be9f8",
+      3
+     ],
+     [
+      "03-010-procurement-thresholds-and-methods-071526-0eb37f::004-50c70a951d99",
+      4
+     ],
+     [
+      "03-010-procurement-thresholds-and-methods-071526-0eb37f::003-e99d262956d2",
+      5
+     ],
+     [
+      "03-010-procurement-thresholds-and-methods-071526-0eb37f::004-c3dcf461e498",
+      6
+     ],
+     [
+      "5-1-1-procurement-policies-administrative-guide-557216::003-b2b2e1ca9cba",
+      7
+     ],
+     [
+      "2305-compliance-with-procurement-policies-ced954::002-dab79191d715",
+      8
+     ],
+     [
+      "03-010-procurement-thresholds-and-methods-071526-0eb37f::002-0a557974318a",
+      9
+     ],
+     [
+      "03-010-procurement-thresholds-and-methods-071526-0eb37f::005-e9921c2802e4",
+      10
+     ],
+     [
+      "03-010-procurement-thresholds-and-methods-071526-0eb37f::001-7a470922f1bf",
+      11
+     ],
+     [
+      "03-010-procurement-thresholds-and-methods-071526-0eb37f::007-4909c046f6a3",
+      12
+     ],
+     [
+      "03-010-procurement-thresholds-and-methods-071526-0eb37f::010-1ff3fe0f464f",
+      13
+     ],
+     [
+      "03-010-procurement-thresholds-and-methods-071526-0eb37f::008-487f08420e50",
+      15
+     ],
+     [
+      "03-010-procurement-thresholds-and-methods-071526-0eb37f::012-cda1f6d6d46a",
+      16
+     ],
+     [
+      "chapter-11-university-procurement-services-1dbc68::018-1dbccb35ef43",
+      17
+     ]
+    ],
+    "notes": [
+     "as_of 2026-03-15: applicability could not be established from metadata for 4 returned document(s) without a full effective date; they are kept unverified (as_of_applicability = undetermined): 03-010-procurement-thresholds-and-methods-071526-0eb37f, 2305-compliance-with-procurement-policies-ced954, 5-1-1-procurement-policies-administrative-guide-557216, chapter-11-university-procurement-services-1dbc68"
+    ],
+    "checks": []
+   },
+   {
+    "id": "as-of-august",
+    "arguments": {
+     "query": "How long do UConn travelers have to submit University Travel Card charges before the card is suspended?",
+     "as_of": "2026-08-01",
+     "limit": 20
+    },
+    "candidates": 20,
+    "filtered_out": 6,
+    "results": [
+     [
+      "2026-07-01-travel-and-entertainment-procedures-ca903b::005-73722dbc7d99",
+      1
+     ],
+     [
+      "2026-07-01-travel-and-entertainment-procedures-ca903b::005-a7d23de3a5c6",
+      4
+     ],
+     [
+      "travel-and-entertainment-policy-university-5f7c66::005-211ea5ecba99",
+      5
+     ],
+     [
+      "chapter-11-university-procurement-services-1dbc68::019-a3a75ea77ccd",
+      6
+     ],
+     [
+      "travel-and-entertainment-policy-university-5f7c66::005-cb1a5edd163e",
+      7
+     ],
+     [
+      "chapter-11-university-procurement-services-1dbc68::005-d3693594d7b6",
+      8
+     ],
+     [
+      "chapter-11-university-procurement-services-1dbc68::019-779fa7091a27",
+      9
+     ],
+     [
+      "travel-and-entertainment-policy-university-5f7c66::007-5a42d416ec2b",
+      10
+     ],
+     [
+      "2026-07-01-travel-and-entertainment-procedures-ca903b::001-8d1922a01072",
+      12
+     ],
+     [
+      "2026-07-01-travel-and-entertainment-procedures-ca903b::001-b18d26ad0b00",
+      13
+     ],
+     [
+      "2026-07-01-travel-and-entertainment-procedures-ca903b::004-af625b230e93",
+      15
+     ],
+     [
+      "2026-07-01-travel-and-entertainment-procedures-ca903b::004-c95fa8d3fe32",
+      16
+     ],
+     [
+      "travel-and-entertainment-policy-university-5f7c66::004-ecee129829b6",
+      18
+     ],
+     [
+      "2026-07-01-travel-and-entertainment-procedures-ca903b::006-186f24f39403",
+      20
+     ]
+    ],
+    "notes": [
+     "as_of 2026-08-01: applicability could not be established from metadata for 1 returned document(s) without a full effective date; they are kept unverified (as_of_applicability = undetermined): chapter-11-university-procurement-services-1dbc68"
+    ],
+    "checks": []
+   },
+   {
+    "id": "doc-id",
+    "arguments": {
+     "query": "How long do UConn travelers have to submit University Travel Card charges before the card is suspended?",
+     "doc_id": "travel-and-entertainment-procedures-final-ccccf9",
+     "limit": 20
+    },
+    "candidates": 20,
+    "filtered_out": 14,
+    "results": [
+     [
+      "travel-and-entertainment-procedures-final-ccccf9::005-bb1bf7113880",
+      2
+     ],
+     [
+      "travel-and-entertainment-procedures-final-ccccf9::005-7b9397f6ba84",
+      3
+     ],
+     [
+      "travel-and-entertainment-procedures-final-ccccf9::001-582b64b74372",
+      11
+     ],
+     [
+      "travel-and-entertainment-procedures-final-ccccf9::001-fc82968e5020",
+      14
+     ],
+     [
+      "travel-and-entertainment-procedures-final-ccccf9::004-d832d7afe8a6",
+      17
+     ],
+     [
+      "travel-and-entertainment-procedures-final-ccccf9::006-dfec256b5b28",
+      19
+     ]
+    ],
+    "notes": [],
+    "checks": []
+   },
+   {
+    "id": "superseded-doc-current-only-empty",
+    "arguments": {
+     "query": "How long do UConn travelers have to submit University Travel Card charges before the card is suspended?",
+     "doc_id": "travel-and-entertainment-procedures-final-ccccf9",
+     "current_only": true
+    },
+    "candidates": 20,
+    "filtered_out": 20,
+    "results": [],
+    "notes": [
+     "no retrieved chunk matched the filters among the 20 candidates (filters select among the retrieval's results; they do not widen the search)"
+    ],
+    "checks": []
+   },
+   {
+    "id": "other-org-not-in-pool",
+    "arguments": {
+     "query": "How long do UConn travelers have to submit University Travel Card charges before the card is suspended?",
+     "organization": "Yale"
+    },
+    "candidates": 20,
+    "filtered_out": 20,
+    "results": [],
+    "notes": [
+     "no retrieved chunk matched the filters among the 20 candidates (filters select among the retrieval's results; they do not widen the search)"
+    ],
+    "checks": []
+   },
+   {
+    "id": "rutgers-question-rutgers-filter",
+    "arguments": {
+     "query": "How far in advance of departure must a Rutgers travel advance request be submitted?",
+     "organization": "Rutgers University",
+     "limit": 5
+    },
+    "candidates": 20,
+    "filtered_out": 7,
+    "results": [
+     [
+      "chapter-11-university-procurement-services-1dbc68::019-a3a75ea77ccd",
+      3
+     ],
+     [
+      "chapter-11-university-procurement-services-1dbc68::007-37315e9be280",
+      4
+     ],
+     [
+      "chapter-11-university-procurement-services-1dbc68::004-eab1021a5168",
+      5
+     ],
+     [
+      "chapter-11-university-procurement-services-1dbc68::020-e24805cff174",
+      6
+     ],
+     [
+      "chapter-11-university-procurement-services-1dbc68::001-fd57fb4529df",
+      7
+     ]
+    ],
+    "notes": [],
+    "checks": []
+   },
+   {
+    "id": "ranks-keep-retrieval-order",
+    "arguments": {
+     "query": "How long do UConn travelers have to submit University Travel Card charges before the card is suspended?",
+     "organization": "UConn",
+     "current_only": true,
+     "limit": 20
+    },
+    "candidates": 20,
+    "filtered_out": 9,
+    "results": [
+     [
+      "2026-07-01-travel-and-entertainment-procedures-ca903b::005-73722dbc7d99",
+      1
+     ],
+     [
+      "2026-07-01-travel-and-entertainment-procedures-ca903b::005-a7d23de3a5c6",
+      4
+     ],
+     [
+      "travel-and-entertainment-policy-university-5f7c66::005-211ea5ecba99",
+      5
+     ],
+     [
+      "travel-and-entertainment-policy-university-5f7c66::005-cb1a5edd163e",
+      7
+     ],
+     [
+      "travel-and-entertainment-policy-university-5f7c66::007-5a42d416ec2b",
+      10
+     ],
+     [
+      "2026-07-01-travel-and-entertainment-procedures-ca903b::001-8d1922a01072",
+      12
+     ],
+     [
+      "2026-07-01-travel-and-entertainment-procedures-ca903b::001-b18d26ad0b00",
+      13
+     ],
+     [
+      "2026-07-01-travel-and-entertainment-procedures-ca903b::004-af625b230e93",
+      15
+     ],
+     [
+      "2026-07-01-travel-and-entertainment-procedures-ca903b::004-c95fa8d3fe32",
+      16
+     ],
+     [
+      "travel-and-entertainment-policy-university-5f7c66::004-ecee129829b6",
+      18
+     ],
+     [
+      "2026-07-01-travel-and-entertainment-procedures-ca903b::006-186f24f39403",
+      20
+     ]
+    ],
+    "notes": [],
+    "checks": []
+   }
+  ],
+  "metadata": [
+   {
+    "id": "all-documents",
+    "documents": 12,
+    "checks": []
+   },
+   {
+    "id": "organization Oregon State",
+    "documents": [
+     "03-010-procurement-thresholds-and-methods-071526-0eb37f"
+    ],
+    "checks": []
+   },
+   {
+    "id": "organization Penn",
+    "documents": [
+     "2305-compliance-with-procurement-policies-ced954"
+    ],
+    "checks": []
+   },
+   {
+    "id": "organization Rutgers",
+    "documents": [
+     "chapter-11-university-procurement-services-1dbc68"
+    ],
+    "checks": []
+   },
+   {
+    "id": "organization Stanford",
+    "documents": [
+     "5-1-1-procurement-policies-administrative-guide-557216"
+    ],
+    "checks": []
+   },
+   {
+    "id": "organization UConn",
+    "documents": [
+     "2026-07-01-travel-and-entertainment-procedures-ca903b",
+     "travel-and-entertainment-policy-university-5f7c66",
+     "travel-and-entertainment-procedures-final-ccccf9"
+    ],
+    "checks": []
+   },
+   {
+    "id": "organization UT Austin",
+    "documents": [
+     "information-resources-use-and-security-policy-76b891"
+    ],
+    "checks": []
+   },
+   {
+    "id": "organization Yale",
+    "documents": [
+     "5002-remote-work-policy-its-your-yale-full-text-28569a"
+    ],
+    "checks": []
+   },
+   {
+    "id": "uconn-series",
+    "documents": [
+     [
+      "2026-07-01-travel-and-entertainment-procedures-ca903b",
+      "2026-07-01",
+      null,
+      true
+     ],
+     [
+      "travel-and-entertainment-procedures-final-ccccf9",
+      "2026-02-01",
+      "2026-07-01",
+      false
+     ]
+    ],
+    "checks": []
+   },
+   {
+    "id": "uconn-current",
+    "documents": [
+     "2026-07-01-travel-and-entertainment-procedures-ca903b",
+     "travel-and-entertainment-policy-university-5f7c66"
+    ],
+    "checks": []
+   },
+   {
+    "id": "chunk-lookup",
+    "chunk_id": "travel-and-entertainment-procedures-final-ccccf9::001-582b64b74372",
+    "checks": []
+   },
+   {
+    "id": "empty-combination",
+    "documents": [],
+    "checks": []
+   }
+  ],
+  "rejections": [
+   {
+    "id": "search-missing-query",
+    "tool": "document_search",
+    "expected": "invalid_arguments",
+    "got": "invalid_arguments",
+    "checks": []
+   },
+   {
+    "id": "search-extra-field",
+    "tool": "document_search",
+    "expected": "invalid_arguments",
+    "got": "invalid_arguments",
+    "checks": []
+   },
+   {
+    "id": "search-limit-too-big",
+    "tool": "document_search",
+    "expected": "invalid_arguments",
+    "got": "invalid_arguments",
+    "checks": []
+   },
+   {
+    "id": "search-bad-date",
+    "tool": "document_search",
+    "expected": "invalid_arguments",
+    "got": "invalid_arguments",
+    "checks": []
+   },
+   {
+    "id": "search-both-version-filters",
+    "tool": "document_search",
+    "expected": "invalid_arguments",
+    "got": "invalid_arguments",
+    "checks": []
+   },
+   {
+    "id": "search-unknown-org",
+    "tool": "document_search",
+    "expected": "unknown_organization",
+    "got": "unknown_organization",
+    "checks": []
+   },
+   {
+    "id": "search-unknown-doc",
+    "tool": "document_search",
+    "expected": "unknown_document",
+    "got": "unknown_document",
+    "checks": []
+   },
+   {
+    "id": "lookup-unknown-chunk",
+    "tool": "metadata_lookup",
+    "expected": "not_found",
+    "got": "not_found",
+    "checks": []
+   },
+   {
+    "id": "lookup-chunk-and-filter",
+    "tool": "metadata_lookup",
+    "expected": "invalid_arguments",
+    "got": "invalid_arguments",
+    "checks": []
+   },
+   {
+    "id": "db-sql-text",
+    "tool": "database_query",
+    "expected": "invalid_arguments",
+    "got": "invalid_arguments",
+    "checks": []
+   },
+   {
+    "id": "db-missing-parameter",
+    "tool": "database_query",
+    "expected": "invalid_arguments",
+    "got": "invalid_arguments",
+    "checks": []
+   },
+   {
+    "id": "db-not-configured",
+    "tool": "database_query",
+    "expected": "database_not_configured",
+    "got": "database_not_configured",
+    "checks": []
+   },
+   {
+    "id": "unknown-tool",
+    "tool": "shell_exec",
+    "expected": -32602,
+    "got": -32602,
+    "checks": []
+   }
+  ]
+ }
+}

@@ -1,0 +1,43 @@
+[project]
+name = "streamingliverag"
+version = "0.1.0"
+description = "Document-intelligence RAG over institutional policy PDFs"
+requires-python = ">=3.11"
+dependencies = [
+    "pymupdf>=1.24",
+    "pydantic>=2.6",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+# Dense retrieval evaluation (CPU). torch: install the CPU wheel from https://download.pytorch.org/whl/cpu
+retrieval = ["torch>=2.6", "sentence-transformers>=5", "numpy>=2", "psutil>=5.9", "einops>=0.8", "snowballstemmer>=2.2"]
+# Grounded generation (live LLM calls): credentials via GROQ_API_KEY
+generation = ["groq>=1.0", "python-dotenv>=1.0"]
+# Asynchronous job workflow over RabbitMQ (adaptive/jobs/rabbitmq.py only); the in-memory broker needs nothing
+jobs = ["pika>=1.3"]
+# Persistent session state in Redis (adaptive/session_store/redis_store.py only); REDIS_URL, e.g. redis://localhost:6379/0
+sessions = ["redis>=5"]
+# The phase 7 services (services/): HTTP interfaces and service-to-service calls; see docs/services.md
+# opentelemetry-api (phase 10A): the services create spans through it; without the SDK every span is a no-op
+services = ["fastapi>=0.110", "uvicorn>=0.29", "httpx>=0.27", "opentelemetry-api>=1.30,<2"]
+# The phase 8 MCP tool layer (services/mcp/): the official Model Context Protocol SDK; see docs/mcp.md
+mcp = ["mcp>=2.2,<3", "opentelemetry-api>=1.30,<2"]
+# The phase 9 PostgreSQL persistence (services/persistence/): DATABASE_URL; see docs/database.md
+postgres = ["psycopg[binary]>=3.2,<4", "opentelemetry-api>=1.30,<2"]
+# Phase 10A tracing (services/telemetry/): the SDK records spans (console export, the in-memory exporter of the
+# tests); see docs/telemetry.md. Nothing is exported unless OTEL_TRACES_EXPORTER / OTEL_EXPORTER_OTLP_ENDPOINT is set
+telemetry = ["opentelemetry-api>=1.30,<2", "opentelemetry-sdk>=1.30,<2"]
+# OTLP export to a collector (optional; OTLP over HTTP/protobuf)
+telemetry-otlp = ["opentelemetry-exporter-otlp-proto-http>=1.30,<2"]
+
+[tool.setuptools.packages.find]
+include = ["adaptive*", "chunking*", "evaluation*", "generation*", "ingestion*", "retrieval*", "services*", "temporal*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+markers = [
+    "corpus: tests that run against the real PDFs in corpus/ (skipped if corpus is absent)",
+    "postgres: tests against a live PostgreSQL (skipped unless ADAPTIVERAG_TEST_DATABASE_URL is set)",
+]

@@ -1,0 +1,4381 @@
+{
+ "integration": [
+  {
+   "id": "i-uc-jul-submit",
+   "question": "Under UConn's travel procedures effective July 1, 2026, within how many days must University Travel Card charges be submitted, and when is the card suspended?",
+   "expect": "answer",
+   "baseline_correct": true,
+   "loop": {
+    "retrievals": 1,
+    "rounds": [
+     1
+    ],
+    "stop_reasons": [
+     "sufficient"
+    ],
+    "queries": [
+     "Under UConn's travel procedures effective July 1, 2026, within how many days must University Travel Card charges be submitted, and when is the card suspended?"
+    ],
+    "strategies": [
+     "initial"
+    ],
+    "coverage": [
+     "sufficient: relevant sources for University of Connecticut"
+    ],
+    "retrieved": 10,
+    "new": 10,
+    "retained": [
+     10
+    ],
+    "promoted": [],
+    "skipped": []
+   },
+   "identical_model_input": true,
+   "baseline": {
+    "abstention_reason": "model_insufficient_evidence",
+    "calls": 1,
+    "context": [
+     "2026-07-01-travel-and-entertainment-procedures-ca903b::005-73722dbc7d99",
+     "2026-07-01-travel-and-entertainment-procedures-ca903b::001-b18d26ad0b00",
+     "2026-07-01-travel-and-entertainment-procedures-ca903b::005-a7d23de3a5c6",
+     "2026-07-01-travel-and-entertainment-procedures-ca903b::002-1483518e1be0",
+     "travel-and-entertainment-policy-university-5f7c66::009-e9476a7c2e5d",
+     "travel-and-entertainment-policy-university-5f7c66::002-f93cb786c1a0"
+    ]
+   },
+   "streaming": {
+    "abstention_reason": "model_insufficient_evidence",
+    "calls": 1,
+    "context": [
+     "2026-07-01-travel-and-entertainment-procedures-ca903b::005-73722dbc7d99",
+     "2026-07-01-travel-and-entertainment-procedures-ca903b::001-b18d26ad0b00",
+     "2026-07-01-travel-and-entertainment-procedures-ca903b::005-a7d23de3a5c6",
+     "2026-07-01-travel-and-entertainment-procedures-ca903b::002-1483518e1be0",
+     "travel-and-entertainment-policy-university-5f7c66::009-e9476a7c2e5d",
+     "travel-and-entertainment-policy-university-5f7c66::002-f93cb786c1a0"
+    ]
+   },
+   "gold_shown": [
+    [
+     true
+    ],
+    [
+     true
+    ]
+   ],
+   "forbidden_shown": [
+    [],
+    []
+   ],
+   "other_org_in_context": [
+    0,
+    0
+   ],
+   "gained": [],
+   "lost": [],
+   "context_organizations": [
+    {
+     "University of Connecticut": 6
+    },
+    {
+     "University of Connecticut": 6
+    }
+   ],
+   "checks": []
+  },
+  {
+   "id": "i-uc-feb-suspend",
+   "question": "According to UConn's February 2026 Travel and Entertainment Procedures, what happens to a University Travel Card if its charges are not submitted in time?",
+   "expect": "answer",
+   "baseline_correct": true,
+   "loop": {
+    "retrievals": 1,
+    "rounds": [
+     1
+    ],
+    "stop_reasons": [
+     "sufficient"
+    ],
+    "queries": [
+     "According to UConn's February 2026 Travel and Entertainment Procedures, what happens to a University Travel Card if its charges are not submitted in time?"
+    ],
+    "strategies": [
+     "initial"
+    ],
+    "coverage": [
+     "sufficient: relevant sources for University of Connecticut"
+    ],
+    "retrieved": 10,
+    "new": 10,
+    "retained": [
+     10
+    ],
+    "promoted": [],
+    "skipped": []
+   },
+   "identical_model_input": true,
+   "baseline": {
+    "abstention_reason": "model_insufficient_evidence",
+    "calls": 1,
+    "context": [
+     "travel-and-entertainment-procedures-final-ccccf9::005-bb1bf7113880",
+     "travel-and-entertainment-procedures-final-ccccf9::001-fc82968e5020",
+     "travel-and-entertainment-procedures-final-ccccf9::005-7b9397f6ba84",
+     "travel-and-entertainment-procedures-final-ccccf9::006-dfec256b5b28",
+     "travel-and-entertainment-policy-university-5f7c66::010-f1d55c03a8ed",
+     "travel-and-entertainment-policy-university-5f7c66::009-e9476a7c2e5d"
+    ]
+   },
+   "streaming": {
+    "abstention_reason": "model_insufficient_evidence",
+    "calls": 1,
+    "context": [
+     "travel-and-entertainment-procedures-final-ccccf9::005-bb1bf7113880",
+     "travel-and-entertainment-procedures-final-ccccf9::001-fc82968e5020",
+     "travel-and-entertainment-procedures-final-ccccf9::005-7b9397f6ba84",
+     "travel-and-entertainment-procedures-final-ccccf9::006-dfec256b5b28",
+     "travel-and-entertainment-policy-university-5f7c66::010-f1d55c03a8ed",
+     "travel-and-entertainment-policy-university-5f7c66::009-e9476a7c2e5d"
+    ]
+   },
+   "gold_shown": [
+    [
+     true
+    ],
+    [
+     true
+    ]
+   ],
+   "forbidden_shown": [
+    [],
+    []
+   ],
+   "other_org_in_context": [
+    0,
+    0
+   ],
+   "gained": [],
+   "lost": [],
+   "context_organizations": [
+    {
+     "University of Connecticut": 6
+    },
+    {
+     "University of Connecticut": 6
+    }
+   ],
+   "checks": []
+  },
+  {
+   "id": "i-uc-jul-owner",
+   "question": "Who owns UConn's Travel and Entertainment Procedures effective July 1, 2026, and on what date were they approved?",
+   "expect": "answer",
+   "baseline_correct": false,
+   "loop": {
+    "retrievals": 1,
+    "rounds": [
+     1
+    ],
+    "stop_reasons": [
+     "sufficient"
+    ],
+    "queries": [
+     "Who owns UConn's Travel and Entertainment Procedures effective July 1, 2026, and on what date were they approved?"
+    ],
+    "strategies": [
+     "initial"
+    ],
+    "coverage": [
+     "sufficient: relevant sources for University of Connecticut"
+    ],
+    "retrieved": 10,
+    "new": 10,
+    "retained": [
+     10
+    ],
+    "promoted": [],
+    "skipped": []
+   },
+   "identical_model_input": true,
+   "baseline": {
+    "abstention_reason": "model_insufficient_evidence",
+    "calls": 1,
+    "context": [
+     "2026-07-01-travel-and-entertainment-procedures-ca903b::001-b18d26ad0b00",
+     "travel-and-entertainment-policy-university-5f7c66::002-f93cb786c1a0",
+     "travel-and-entertainment-policy-university-5f7c66::010-28993bbcafde",
+     "2026-07-01-travel-and-entertainment-procedures-ca903b::007-0be17e9cc073",
+     "2026-07-01-travel-and-entertainment-procedures-ca903b::005-0d8a2cb5d481",
+     "2026-07-01-travel-and-entertainment-procedures-ca903b::006-abef9578bb4a"
+    ]
+   },
+   "streaming": {
+    "abstention_reason": "model_insufficient_evidence",
+    "calls": 1,
+    "context": [
+     "2026-07-01-travel-and-entertainment-procedures-ca903b::001-b18d26ad0b00",
+     "travel-and-entertainment-policy-university-5f7c66::002-f93cb786c1a0",
+     "travel-and-entertainment-policy-university-5f7c66::010-28993bbcafde",
+     "2026-07-01-travel-and-entertainment-procedures-ca903b::007-0be17e9cc073",
+     "2026-07-01-travel-and-entertainment-procedures-ca903b::005-0d8a2cb5d481",
+     "2026-07-01-travel-and-entertainment-procedures-ca903b::006-abef9578bb4a"
+    ]
+   },
+   "gold_shown": [
+    [
+     true
+    ],
+    [
+     true
+    ]
+   ],
+   "forbidden_shown": [
+    [],
+    []
+   ],
+   "other_org_in_context": [
+    0,
+    0
+   ],
+   "gained": [],
+   "lost": [],
+   "context_organizations": [
+    {
+     "University of Connecticut": 6
+    },
+    {
+     "University of Connecticut": 6
+    }
+   ],
+   "checks": []
+  },
+  {
+   "id": "i-uc-cur-reinstate",
+   "question": "How does UConn currently reinstate a suspended University Travel Card?",
+   "expect": "answer",
+   "baseline_correct": true,
+   "loop": {
+    "retrievals": 1,
+    "rounds": [
+     1
+    ],
+    "stop_reasons": [
+     "sufficient"
+    ],
+    "queries": [
+     "How does UConn currently reinstate a suspended University Travel Card?"
+    ],
+    "strategies": [
+     "initial"
+    ],
+    "coverage": [
+     "sufficient: relevant sources for University of Connecticut"
+    ],
+    "retrieved": 10,
+    "new": 10,
+    "retained": [
+     10
+    ],
+    "promoted": [],
+    "skipped": []
+   },
+   "identical_model_input": true,
+   "baseline": {
+    "abstention_reason": "model_insufficient_evidence",
+    "calls": 1,
+    "context": [
+     "2026-07-01-travel-and-entertainment-procedures-ca903b::005-73722dbc7d99",
+     "travel-and-entertainment-policy-university-5f7c66::007-5a42d416ec2b",
+     "chapter-11-university-procurement-services-1dbc68::019-779fa7091a27",
+     "2026-07-01-travel-and-entertainment-procedures-ca903b::001-b18d26ad0b00",
+     "travel-and-entertainment-policy-university-5f7c66::002-f93cb786c1a0",
+     "travel-and-entertainment-policy-university-5f7c66::007-d4d97260b555"
+    ]
+   },
+   "streaming": {
+    "abstention_reason": "model_insufficient_evidence",
+    "calls": 1,
+    "context": [
+     "2026-07-01-travel-and-entertainment-procedures-ca903b::005-73722dbc7d99",
+     "travel-and-entertainment-policy-university-5f7c66::007-5a42d416ec2b",
+     "chapter-11-university-procurement-services-1dbc68::019-779fa7091a27",
+     "2026-07-01-travel-and-entertainment-procedures-ca903b::001-b18d26ad0b00",
+     "travel-and-entertainment-policy-university-5f7c66::002-f93cb786c1a0",
+     "travel-and-entertainment-policy-university-5f7c66::007-d4d97260b555"
+    ]
+   },
+   "gold_shown": [
+    [
+     true
+    ],
+    [
+     true
+    ]
+   ],
+   "forbidden_shown": [
+    [],
+    []
+   ],
+   "other_org_in_context": [
+    1,
+    1
+   ],
+   "gained": [],
+   "lost": [],
+   "context_organizations": [
+    {
+     "University of Connecticut": 5,
+     "Rutgers University": 1
+    },
+    {
+     "University of Connecticut": 5,
+     "Rutgers University": 1
+    }
+   ],
+   "checks": []
+  },
+  {
+   "id": "i-uc-cur-multibed",
+   "question": "Under UConn's current procedures, may a traveler pay for a multi-bedroom accommodation with a University Travel Card?",
+   "expect": "answer",
+   "baseline_correct": false,
+   "loop": {
+    "retrievals": 1,
+    "rounds": [
+     1
+    ],
+    "stop_reasons": [
+     "sufficient"
+    ],
+    "queries": [
+     "Under UConn's current procedures, may a traveler pay for a multi-bedroom accommodation with a University Travel Card?"
+    ],
+    "strategies": [
+     "initial"
+    ],
+    "coverage": [
+     "sufficient: relevant sources for University of Connecticut"
+    ],
+    "retrieved": 10,
+    "new": 10,
+    "retained": [
+     10
+    ],
+    "promoted": [],
+    "skipped": []
+   },
+   "identical_model_input": true,
+   "baseline": {
+    "abstention_reason": "model_insufficient_evidence",
+    "calls": 1,
+    "context": [
+     "2026-07-01-travel-and-entertainment-procedures-ca903b::004-af625b230e93",
+     "travel-and-entertainment-policy-university-5f7c66::005-211ea5ecba99",
+     "travel-and-entertainment-policy-university-5f7c66::008-e92a8e596cb3",
+     "2026-07-01-travel-and-entertainment-procedures-ca903b::005-73722dbc7d99",
+     "chapter-11-university-procurement-services-1dbc68::004-eab1021a5168",
+     "travel-and-entertainment-policy-university-5f7c66::007-5a42d416ec2b"
+    ]
+   },
+   "streaming": {
+    "abstention_reason": "model_insufficient_evidence",
+    "calls": 1,
+    "context": [
+     "2026-07-01-travel-and-entertainment-procedures-ca903b::004-af625b230e93",
+     "travel-and-entertainment-policy-university-5f7c66::005-211ea5ecba99",
+     "travel-and-entertainment-policy-university-5f7c66::008-e92a8e596cb3",
+     "2026-07-01-travel-and-entertainment-procedures-ca903b::005-73722dbc7d99",
+     "chapter-11-university-procurement-services-1dbc68::004-eab1021a5168",
+     "travel-and-entertainment-policy-university-5f7c66::007-5a42d416ec2b"
+    ]
+   },
+   "gold_shown": [
+    [
+     true
+    ],
+    [
+     true
+    ]
+   ],
+   "forbidden_shown": [
+    [],
+    []
+   ],
+   "other_org_in_context": [
+    1,
+    1
+   ],
+   "gained": [],
+   "lost": [],
+   "context_organizations": [
+    {
+     "University of Connecticut": 5,
+     "Rutgers University": 1
+    },
+    {
+     "University of Connecticut": 5,
+     "Rutgers University": 1
+    }
+   ],
+   "checks": []
+  },
+  {
+   "id": "i-uc-cmp-card",
+   "question": "What did UConn's travel procedures effective February 1, 2026 and those effective July 1, 2026 each say about when a University Travel Card is suspended?",
+   "expect": "answer",
+   "baseline_correct": false,
+   "loop": {
+    "retrievals": 1,
+    "rounds": [
+     1
+    ],
+    "stop_reasons": [
+     "sufficient"
+    ],
+    "queries": [
+     "What did UConn's travel procedures effective February 1, 2026 and those effective July 1, 2026 each say about when a University Travel Card is suspended?"
+    ],
+    "strategies": [
+     "initial"
+    ],
+    "coverage": [
+     "sufficient: relevant sources for University of Connecticut"
+    ],
+    "retrieved": 10,
+    "new": 10,
+    "retained": [
+     10
+    ],
+    "promoted": [],
+    "skipped": []
+   },
+   "identical_model_input": true,
+   "baseline": {
+    "abstention_reason": "model_insufficient_evidence",
+    "calls": 1,
+    "context": [
+     "2026-07-01-travel-and-entertainment-procedures-ca903b::001-b18d26ad0b00",
+     "travel-and-entertainment-procedures-final-ccccf9::001-fc82968e5020",
+     "travel-and-entertainment-policy-university-5f7c66::002-f93cb786c1a0",
+     "travel-and-entertainment-procedures-final-ccccf9::005-bb1bf7113880",
+     "2026-07-01-travel-and-entertainment-procedures-ca903b::005-73722dbc7d99",
+     "travel-booking-procurement-services-university-74c4ef::003-854674a8d2df"
+    ]
+   },
+   "streaming": {
+    "abstention_reason": "model_insufficient_evidence",
+    "calls": 1,
+    "context": [
+     "2026-07-01-travel-and-entertainment-procedures-ca903b::001-b18d26ad0b00",
+     "travel-and-entertainment-procedures-final-ccccf9::001-fc82968e5020",
+     "travel-and-entertainment-policy-university-5f7c66::002-f93cb786c1a0",
+     "travel-and-entertainment-procedures-final-ccccf9::005-bb1bf7113880",
+     "2026-07-01-travel-and-entertainment-procedures-ca903b::005-73722dbc7d99",
+     "travel-booking-procurement-services-university-74c4ef::003-854674a8d2df"
+    ]
+   },
+   "gold_shown": [
+    [
+     true,
+     true
+    ],
+    [
+     true,
+     true
+    ]
+   ],
+   "forbidden_shown": [
+    [],
+    []
+   ],
+   "other_org_in_context": [
+    1,
+    1
+   ],
+   "gained": [],
+   "lost": [],
+   "context_organizations": [
+    {
+     "University of Connecticut": 5,
+     "University of Michigan": 1
+    },
+    {
+     "University of Connecticut": 5,
+     "University of Michigan": 1
+    }
+   ],
+   "checks": []
+  },
+  {
+   "id": "i-uc-neutral-card",
+   "question": "How long do UConn travelers have to submit University Travel Card charges before the card is suspended?",
+   "expect": "answer",
+   "baseline_correct": false,
+   "loop": {
+    "retrievals": 1,
+    "rounds": [
+     1
+    ],
+    "stop_reasons": [
+     "sufficient"
+    ],
+    "queries": [
+     "How long do UConn travelers have to submit University Travel Card charges before the card is suspended?"
+    ],
+    "strategies": [
+     "initial"
+    ],
+    "coverage": [
+     "sufficient: relevant sources for University of Connecticut"
+    ],
+    "retrieved": 10,
+    "new": 10,
+    "retained": [
+     10
+    ],
+    "promoted": [],
+    "skipped": []
+   },
+   "identical_model_input": true,
+   "baseline": {
+    "abstention_reason": "model_insufficient_evidence",
+    "calls": 1,
+    "context": [
+     "2026-07-01-travel-and-entertainment-procedures-ca903b::005-73722dbc7d99",
+     "travel-and-entertainment-procedures-final-ccccf9::005-bb1bf7113880",
+     "travel-and-entertainment-procedures-final-ccccf9::005-7b9397f6ba84",
+     "2026-07-01-travel-and-entertainment-procedures-ca903b::005-a7d23de3a5c6",
+     "travel-and-entertainment-policy-university-5f7c66::005-211ea5ecba99",
+     "chapter-11-university-procurement-services-1dbc68::019-a3a75ea77ccd"
+    ]
+   },
+   "streaming": {
+    "abstention_reason": "model_insufficient_evidence",
+    "calls": 1,
+    "context": [
+     "2026-07-01-travel-and-entertainment-procedures-ca903b::005-73722dbc7d99",
+     "travel-and-entertainment-procedures-final-ccccf9::005-bb1bf7113880",
+     "travel-and-entertainment-procedures-final-ccccf9::005-7b9397f6ba84",
+     "2026-07-01-travel-and-entertainment-procedures-ca903b::005-a7d23de3a5c6",
+     "travel-and-entertainment-policy-university-5f7c66::005-211ea5ecba99",
+     "chapter-11-university-procurement-services-1dbc68::019-a3a75ea77ccd"
+    ]
+   },
+   "gold_shown": [
+    [
+     true,
+     true
+    ],
+    [
+     true,
+     true
+    ]
+   ],
+   "forbidden_shown": [
+    [],
+    []
+   ],
+   "other_org_in_context": [
+    1,
+    1
+   ],
+   "gained": [],
+   "lost": [],
+   "context_organizations": [
+    {
+     "University of Connecticut": 5,
+     "Rutgers University": 1
+    },
+    {
+     "University of Connecticut": 5,
+     "Rutgers University": 1
+    }
+   ],
+   "checks": []
+  },
+  {
+   "id": "i-uc-cmp-lodging",
+   "question": "Compare the multi-bedroom accommodation rules in UConn's procedures effective February 1, 2026 and July 1, 2026.",
+   "expect": "answer",
+   "baseline_correct": true,
+   "loop": {
+    "retrievals": 1,
+    "rounds": [
+     1
+    ],
+    "stop_reasons": [
+     "sufficient"
+    ],
+    "queries": [
+     "Compare the multi-bedroom accommodation rules in UConn's procedures effective February 1, 2026 and July 1, 2026."
+    ],
+    "strategies": [
+     "initial"
+    ],
+    "coverage": [
+     "sufficient: relevant sources for University of Connecticut"
+    ],
+    "retrieved": 10,
+    "new": 10,
+    "retained": [
+     10
+    ],
+    "promoted": [],
+    "skipped": []
+   },
+   "identical_model_input": true,
+   "baseline": {
+    "abstention_reason": "model_insufficient_evidence",
+    "calls": 1,
+    "context": [
+     "2026-07-01-travel-and-entertainment-procedures-ca903b::001-b18d26ad0b00",
+     "travel-and-entertainment-procedures-final-ccccf9::001-fc82968e5020",
+     "2026-07-01-travel-and-entertainment-procedures-ca903b::004-af625b230e93",
+     "travel-and-entertainment-policy-university-5f7c66::002-f93cb786c1a0",
+     "2026-07-01-travel-and-entertainment-procedures-ca903b::005-0d8a2cb5d481",
+     "travel-and-entertainment-procedures-final-ccccf9::005-4ef3bf9cbcdd"
+    ]
+   },
+   "streaming": {
+    "abstention_reason": "model_insufficient_evidence",
+    "calls": 1,
+    "context": [
+     "2026-07-01-travel-and-entertainment-procedures-ca903b::001-b18d26ad0b00",
+     "travel-and-entertainment-procedures-final-ccccf9::001-fc82968e5020",
+     "2026-07-01-travel-and-entertainment-procedures-ca903b::004-af625b230e93",
+     "travel-and-entertainment-policy-university-5f7c66::002-f93cb786c1a0",
+     "2026-07-01-travel-and-entertainment-procedures-ca903b::005-0d8a2cb5d481",
+     "travel-and-entertainment-procedures-final-ccccf9::005-4ef3bf9cbcdd"
+    ]
+   },
+   "gold_shown": [
+    [
+     true
+    ],
+    [
+     true
+    ]
+   ],
+   "forbidden_shown": [
+    [],
+    []
+   ],
+   "other_org_in_context": [
+    0,
+    0
+   ],
+   "gained": [],
+   "lost": [],
+   "context_organizations": [
+    {
+     "University of Connecticut": 6
+    },
+    {
+     "University of Connecticut": 6
+    }
+   ],
+   "checks": []
+  },
+  {
+   "id": "i-uc-march-tickets",
+   "question": "Did the UConn travel procedures in effect on March 15, 2026 require travelers to buy non-refundable airline tickets?",
+   "expect": "abstain",
+   "baseline_correct": true,
+   "loop": {
+    "retrievals": 1,
+    "rounds": [
+     1
+    ],
+    "stop_reasons": [
+     "sufficient"
+    ],
+    "queries": [
+     "Did the UConn travel procedures in effect on March 15, 2026 require travelers to buy non-refundable airline tickets?"
+    ],
+    "strategies": [
+     "initial"
+    ],
+    "coverage": [
+     "sufficient: relevant sources for University of Connecticut"
+    ],
+    "retrieved": 10,
+    "new": 10,
+    "retained": [
+     10
+    ],
+    "promoted": [],
+    "skipped": []
+   },
+   "identical_model_input": true,
+   "baseline": {
+    "abstention_reason": "model_insufficient_evidence",
+    "calls": 1,
+    "context": [
+     "travel-and-entertainment-procedures-final-ccccf9::001-fc82968e5020",
+     "travel-booking-procurement-services-university-74c4ef::003-fd06f3fe87c0",
+     "travel-and-entertainment-policy-university-5f7c66::002-f93cb786c1a0",
+     "travel-and-entertainment-policy-university-5f7c66::007-5a42d416ec2b",
+     "travel-and-entertainment-procedures-final-ccccf9::006-e9e2ec455623",
+     "travel-and-entertainment-policy-university-5f7c66::007-d4d97260b555"
+    ]
+   },
+   "streaming": {
+    "abstention_reason": "model_insufficient_evidence",
+    "calls": 1,
+    "context": [
+     "travel-and-entertainment-procedures-final-ccccf9::001-fc82968e5020",
+     "travel-booking-procurement-services-university-74c4ef::003-fd06f3fe87c0",
+     "travel-and-entertainment-policy-university-5f7c66::002-f93cb786c1a0",
+     "travel-and-entertainment-policy-university-5f7c66::007-5a42d416ec2b",
+     "travel-and-entertainment-procedures-final-ccccf9::006-e9e2ec455623",
+     "travel-and-entertainment-policy-university-5f7c66::007-d4d97260b555"
+    ]
+   },
+   "gold_shown": [
+    [
+     false
+    ],
+    [
+     false
+    ]
+   ],
+   "forbidden_shown": [
+    [],
+    []
+   ],
+   "other_org_in_context": [
+    6,
+    6
+   ],
+   "gained": [],
+   "lost": [],
+   "context_organizations": [
+    {
+     "University of Connecticut": 5,
+     "University of Michigan": 1
+    },
+    {
+     "University of Connecticut": 5,
+     "University of Michigan": 1
+    }
+   ],
+   "checks": []
+  },
+  {
+   "id": "i-uc-feb-reinstate",
+   "question": "Under UConn's February 2026 procedures, what must a cardholder do to get a suspended University Travel Card reinstated?",
+   "expect": "abstain",
+   "baseline_correct": true,
+   "loop": {
+    "retrievals": 1,
+    "rounds": [
+     1
+    ],
+    "stop_reasons": [
+     "sufficient"
+    ],
+    "queries": [
+     "Under UConn's February 2026 procedures, what must a cardholder do to get a suspended University Travel Card reinstated?"
+    ],
+    "strategies": [
+     "initial"
+    ],
+    "coverage": [
+     "sufficient: relevant sources for University of Connecticut"
+    ],
+    "retrieved": 10,
+    "new": 10,
+    "retained": [
+     10
+    ],
+    "promoted": [],
+    "skipped": []
+   },
+   "identical_model_input": true,
+   "baseline": {
+    "abstention_reason": "model_insufficient_evidence",
+    "calls": 1,
+    "context": [
+     "travel-and-entertainment-procedures-final-ccccf9::005-bb1bf7113880",
+     "travel-and-entertainment-procedures-final-ccccf9::001-fc82968e5020",
+     "chapter-11-university-procurement-services-1dbc68::019-779fa7091a27",
+     "travel-and-entertainment-procedures-final-ccccf9::004-d832d7afe8a6",
+     "travel-and-entertainment-policy-university-5f7c66::007-5a42d416ec2b",
+     "travel-and-entertainment-procedures-final-ccccf9::006-e9e2ec455623"
+    ]
+   },
+   "streaming": {
+    "abstention_reason": "model_insufficient_evidence",
+    "calls": 1,
+    "context": [
+     "travel-and-entertainment-procedures-final-ccccf9::005-bb1bf7113880",
+     "travel-and-entertainment-procedures-final-ccccf9::001-fc82968e5020",
+     "chapter-11-university-procurement-services-1dbc68::019-779fa7091a27",
+     "travel-and-entertainment-procedures-final-ccccf9::004-d832d7afe8a6",
+     "travel-and-entertainment-policy-university-5f7c66::007-5a42d416ec2b",
+     "travel-and-entertainment-procedures-final-ccccf9::006-e9e2ec455623"
+    ]
+   },
+   "gold_shown": [
+    [
+     true
+    ],
+    [
+     true
+    ]
+   ],
+   "forbidden_shown": [
+    [],
+    []
+   ],
+   "other_org_in_context": [
+    6,
+    6
+   ],
+   "gained": [],
+   "lost": [],
+   "context_organizations": [
+    {
+     "University of Connecticut": 5,
+     "Rutgers University": 1
+    },
+    {
+     "University of Connecticut": 5,
+     "Rutgers University": 1
+    }
+   ],
+   "checks": []
+  },
+  {
+   "id": "i-uc-unavailable",
+   "question": "What did UConn's travel procedures effective January 1, 2025 say about travel advances?",
+   "expect": "abstain",
+   "baseline_correct": true,
+   "loop": {
+    "retrievals": 1,
+    "rounds": [
+     1
+    ],
+    "stop_reasons": [
+     "sufficient"
+    ],
+    "queries": [
+     "What did UConn's travel procedures effective January 1, 2025 say about travel advances?"
+    ],
+    "strategies": [
+     "initial"
+    ],
+    "coverage": [
+     "sufficient: relevant sources for University of Connecticut"
+    ],
+    "retrieved": 10,
+    "new": 10,
+    "retained": [
+     10
+    ],
+    "promoted": [],
+    "skipped": []
+   },
+   "identical_model_input": true,
+   "baseline": {
+    "abstention_reason": "model_insufficient_evidence",
+    "calls": 1,
+    "context": [
+     "travel-and-entertainment-policy-university-5f7c66::002-f93cb786c1a0",
+     "chapter-11-university-procurement-services-1dbc68::019-a3a75ea77ccd",
+     "travel-and-entertainment-policy-university-5f7c66::004-ecee129829b6",
+     "procedures-for-travel-and-other-expenses-3ded29::002-ba8519d5db0c",
+     "chapter-11-university-procurement-services-1dbc68::020-e24805cff174",
+     "travel-booking-procurement-services-university-74c4ef::003-854674a8d2df"
+    ]
+   },
+   "streaming": {
+    "abstention_reason": "model_insufficient_evidence",
+    "calls": 1,
+    "context": [
+     "travel-and-entertainment-policy-university-5f7c66::002-f93cb786c1a0",
+     "chapter-11-university-procurement-services-1dbc68::019-a3a75ea77ccd",
+     "travel-and-entertainment-policy-university-5f7c66::004-ecee129829b6",
+     "procedures-for-travel-and-other-expenses-3ded29::002-ba8519d5db0c",
+     "chapter-11-university-procurement-services-1dbc68::020-e24805cff174",
+     "travel-booking-procurement-services-university-74c4ef::003-854674a8d2df"
+    ]
+   },
+   "gold_shown": [
+    [],
+    []
+   ],
+   "forbidden_shown": [
+    [],
+    []
+   ],
+   "other_org_in_context": [
+    6,
+    6
+   ],
+   "gained": [],
+   "lost": [],
+   "context_organizations": [
+    {
+     "University of Connecticut": 2,
+     "Rutgers University": 2,
+     "McGill University": 1,
+     "University of Michigan": 1
+    },
+    {
+     "University of Connecticut": 2,
+     "Rutgers University": 2,
+     "McGill University": 1,
+     "University of Michigan": 1
+    }
+   ],
+   "checks": []
+  },
+  {
+   "id": "i-uc-neu-sio",
+   "question": "How long can a UConn business trip last before Senior Institutional Official approval is required?",
+   "expect": "answer",
+   "baseline_correct": true,
+   "loop": {
+    "retrievals": 1,
+    "rounds": [
+     1
+    ],
+    "stop_reasons": [
+     "sufficient"
+    ],
+    "queries": [
+     "How long can a UConn business trip last before Senior Institutional Official approval is required?"
+    ],
+    "strategies": [
+     "initial"
+    ],
+    "coverage": [
+     "sufficient: relevant sources for University of Connecticut"
+    ],
+    "retrieved": 10,
+    "new": 10,
+    "retained": [
+     10
+    ],
+    "promoted": [],
+    "skipped": []
+   },
+   "identical_model_input": true,
+   "baseline": {
+    "abstention_reason": "model_insufficient_evidence",
+    "calls": 1,
+    "context": [
+     "2026-07-01-travel-and-entertainment-procedures-ca903b::002-3ca0022cdaba",
+     "travel-and-entertainment-procedures-final-ccccf9::002-83b0feaea901",
+     "travel-and-entertainment-procedures-final-ccccf9::001-582b64b74372",
+     "travel-and-entertainment-policy-university-5f7c66::004-62d79af9768e",
+     "2026-07-01-travel-and-entertainment-procedures-ca903b::001-8d1922a01072",
+     "2026-07-01-travel-and-entertainment-procedures-ca903b::001-8da795f439d4"
+    ]
+   },
+   "streaming": {
+    "abstention_reason": "model_insufficient_evidence",
+    "calls": 1,
+    "context": [
+     "2026-07-01-travel-and-entertainment-procedures-ca903b::002-3ca0022cdaba",
+     "travel-and-entertainment-procedures-final-ccccf9::002-83b0feaea901",
+     "travel-and-entertainment-procedures-final-ccccf9::001-582b64b74372",
+     "travel-and-entertainment-policy-university-5f7c66::004-62d79af9768e",
+     "2026-07-01-travel-and-entertainment-procedures-ca903b::001-8d1922a01072",
+     "2026-07-01-travel-and-entertainment-procedures-ca903b::001-8da795f439d4"
+    ]
+   },
+   "gold_shown": [
+    [
+     true
+    ],
+    [
+     true
+    ]
+   ],
+   "forbidden_shown": [
+    [],
+    []
+   ],
+   "other_org_in_context": [
+    0,
+    0
+   ],
+   "gained": [],
+   "lost": [],
+   "context_organizations": [
+    {
+     "University of Connecticut": 6
+    },
+    {
+     "University of Connecticut": 6
+    }
+   ],
+   "checks": []
+  },
+  {
+   "id": "i-uc-spouse",
+   "question": "What must a UConn traveler do before a spouse's or partner's travel expenses can be reimbursed?",
+   "expect": "answer",
+   "baseline_correct": true,
+   "loop": {
+    "retrievals": 1,
+    "rounds": [
+     1
+    ],
+    "stop_reasons": [
+     "sufficient"
+    ],
+    "queries": [
+     "What must a UConn traveler do before a spouse's or partner's travel expenses can be reimbursed?"
+    ],
+    "strategies": [
+     "initial"
+    ],
+    "coverage": [
+     "sufficient: relevant sources for University of Connecticut"
+    ],
+    "retrieved": 10,
+    "new": 10,
+    "retained": [
+     10
+    ],
+    "promoted": [],
+    "skipped": []
+   },
+   "identical_model_input": true,
+   "baseline": {
+    "abstention_reason": "model_insufficient_evidence",
+    "calls": 1,
+    "context": [
+     "travel-and-entertainment-policy-university-5f7c66::006-a0aaf7986e06",
+     "2026-07-01-travel-and-entertainment-procedures-ca903b::001-8da795f439d4",
+     "travel-and-entertainment-procedures-final-ccccf9::001-ddadb25bbb86",
+     "travel-and-entertainment-policy-university-5f7c66::007-5a42d416ec2b",
+     "travel-and-entertainment-policy-university-5f7c66::007-d4d97260b555",
+     "travel-and-entertainment-policy-university-5f7c66::005-cb1a5edd163e"
+    ]
+   },
+   "streaming": {
+    "abstention_reason": "model_insufficient_evidence",
+    "calls": 1,
+    "context": [
+     "travel-and-entertainment-policy-university-5f7c66::006-a0aaf7986e06",
+     "2026-07-01-travel-and-entertainment-procedures-ca903b::001-8da795f439d4",
+     "travel-and-entertainment-procedures-final-ccccf9::001-ddadb25bbb86",
+     "travel-and-entertainment-policy-university-5f7c66::007-5a42d416ec2b",
+     "travel-and-entertainment-policy-university-5f7c66::007-d4d97260b555",
+     "travel-and-entertainment-policy-university-5f7c66::005-cb1a5edd163e"
+    ]
+   },
+   "gold_shown": [
+    [
+     true,
+     true
+    ],
+    [
+     true,
+     true
+    ]
+   ],
+   "forbidden_shown": [
+    [],
+    []
+   ],
+   "other_org_in_context": [
+    0,
+    0
+   ],
+   "gained": [],
+   "lost": [],
+   "context_organizations": [
+    {
+     "University of Connecticut": 6
+    },
+    {
+     "University of Connecticut": 6
+    }
+   ],
+   "checks": []
+  },
+  {
+   "id": "i-uc-personal-leg",
+   "question": "If a UConn traveler adds a personal leg to a business flight, what will the university reimburse and what must the traveler provide?",
+   "expect": "answer",
+   "baseline_correct": false,
+   "loop": {
+    "retrievals": 1,
+    "rounds": [
+     1
+    ],
+    "stop_reasons": [
+     "sufficient"
+    ],
+    "queries": [
+     "If a UConn traveler adds a personal leg to a business flight, what will the university reimburse and what must the traveler provide?"
+    ],
+    "strategies": [
+     "initial"
+    ],
+    "coverage": [
+     "sufficient: relevant sources for University of Connecticut"
+    ],
+    "retrieved": 10,
+    "new": 10,
+    "retained": [
+     10
+    ],
+    "promoted": [],
+    "skipped": []
+   },
+   "identical_model_input": true,
+   "baseline": {
+    "abstention_reason": "model_insufficient_evidence",
+    "calls": 1,
+    "context": [
+     "travel-and-entertainment-policy-university-5f7c66::006-88a5f45d99ac",
+     "2026-07-01-travel-and-entertainment-procedures-ca903b::003-e48a1bb78821",
+     "travel-and-entertainment-policy-university-5f7c66::007-d4d97260b555",
+     "travel-and-entertainment-procedures-final-ccccf9::003-dfaec66d97bd",
+     "travel-and-entertainment-policy-university-5f7c66::005-cb1a5edd163e",
+     "travel-and-entertainment-policy-university-5f7c66::007-5a42d416ec2b"
+    ]
+   },
+   "streaming": {
+    "abstention_reason": "model_insufficient_evidence",
+    "calls": 1,
+    "context": [
+     "travel-and-entertainment-policy-university-5f7c66::006-88a5f45d99ac",
+     "2026-07-01-travel-and-entertainment-procedures-ca903b::003-e48a1bb78821",
+     "travel-and-entertainment-policy-university-5f7c66::007-d4d97260b555",
+     "travel-and-entertainment-procedures-final-ccccf9::003-dfaec66d97bd",
+     "travel-and-entertainment-policy-university-5f7c66::005-cb1a5edd163e",
+     "travel-and-entertainment-policy-university-5f7c66::007-5a42d416ec2b"
+    ]
+   },
+   "gold_shown": [
+    [
+     true
+    ],
+    [
+     true
+    ]
+   ],
+   "forbidden_shown": [
+    [],
+    []
+   ],
+   "other_org_in_context": [
+    0,
+    0
+   ],
+   "gained": [],
+   "lost": [],
+   "context_organizations": [
+    {
+     "University of Connecticut": 6
+    },
+    {
+     "University of Connecticut": 6
+    }
+   ],
+   "checks": []
+  },
+  {
+   "id": "i-ru-tips",
+   "question": "Is there a limit on the gratuities Rutgers will reimburse for business travel?",
+   "expect": "answer",
+   "baseline_correct": true,
+   "loop": {
+    "retrievals": 1,
+    "rounds": [
+     1
+    ],
+    "stop_reasons": [
+     "sufficient"
+    ],
+    "queries": [
+     "Is there a limit on the gratuities Rutgers will reimburse for business travel?"
+    ],
+    "strategies": [
+     "initial"
+    ],
+    "coverage": [
+     "sufficient: relevant sources for Rutgers University"
+    ],
+    "retrieved": 10,
+    "new": 10,
+    "retained": [
+     10
+    ],
+    "promoted": [],
+    "skipped": []
+   },
+   "identical_model_input": true,
+   "baseline": {
+    "abstention_reason": "model_insufficient_evidence",
+    "calls": 1,
+    "context": [
+     "chapter-11-university-procurement-services-1dbc68::017-7d78efa70791",
+     "chapter-11-university-procurement-services-1dbc68::001-fd57fb4529df",
+     "travel-and-entertainment-policy-university-5f7c66::008-b105422da05e",
+     "chapter-11-university-procurement-services-1dbc68::005-c2ca5a09c71e",
+     "chapter-11-university-procurement-services-1dbc68::013-d369f6ed8dfc",
+     "chapter-11-university-procurement-services-1dbc68::012-71980fd07d59"
+    ]
+   },
+   "streaming": {
+    "abstention_reason": "model_insufficient_evidence",
+    "calls": 1,
+    "context": [
+     "chapter-11-university-procurement-services-1dbc68::017-7d78efa70791",
+     "chapter-11-university-procurement-services-1dbc68::001-fd57fb4529df",
+     "travel-and-entertainment-policy-university-5f7c66::008-b105422da05e",
+     "chapter-11-university-procurement-services-1dbc68::005-c2ca5a09c71e",
+     "chapter-11-university-procurement-services-1dbc68::013-d369f6ed8dfc",
+     "chapter-11-university-procurement-services-1dbc68::012-71980fd07d59"
+    ]
+   },
+   "gold_shown": [
+    [
+     true
+    ],
+    [
+     true
+    ]
+   ],
+   "forbidden_shown": [
+    [],
+    []
+   ],
+   "other_org_in_context": [
+    1,
+    1
+   ],
+   "gained": [],
+   "lost": [],
+   "context_organizations": [
+    {
+     "Rutgers University": 5,
+     "University of Connecticut": 1
+    },
+    {
+     "Rutgers University": 5,
+     "University of Connecticut": 1
+    }
+   ],
+   "checks": []
+  },
+  {
+   "id": "i-ru-advance",
+   "question": "How far in advance of departure must a Rutgers travel advance request be submitted?",
+   "expect": "answer",
+   "baseline_correct": true,
+   "loop": {
+    "retrievals": 1,
+    "rounds": [
+     1
+    ],
+    "stop_reasons": [
+     "sufficient"
+    ],
+    "queries": [
+     "How far in advance of departure must a Rutgers travel advance request be submitted?"
+    ],
+    "strategies": [
+     "initial"
+    ],
+    "coverage": [
+     "sufficient: relevant sources for Rutgers University"
+    ],
+    "retrieved": 10,
+    "new": 10,
+    "retained": [
+     10
+    ],
+    "promoted": [],
+    "skipped": []
+   },
+   "identical_model_input": true,
+   "baseline": {
+    "abstention_reason": "model_insufficient_evidence",
+    "calls": 1,
+    "context": [
+     "2026-07-01-travel-and-entertainment-procedures-ca903b::002-1483518e1be0",
+     "travel-and-entertainment-procedures-final-ccccf9::002-e57ccdf618c9",
+     "chapter-11-university-procurement-services-1dbc68::019-a3a75ea77ccd",
+     "chapter-11-university-procurement-services-1dbc68::007-37315e9be280",
+     "chapter-11-university-procurement-services-1dbc68::004-eab1021a5168",
+     "chapter-11-university-procurement-services-1dbc68::020-e24805cff174"
+    ]
+   },
+   "streaming": {
+    "abstention_reason": "model_insufficient_evidence",
+    "calls": 1,
+    "context": [
+     "2026-07-01-travel-and-entertainment-procedures-ca903b::002-1483518e1be0",
+     "travel-and-entertainment-procedures-final-ccccf9::002-e57ccdf618c9",
+     "chapter-11-university-procurement-services-1dbc68::019-a3a75ea77ccd",
+     "chapter-11-university-procurement-services-1dbc68::007-37315e9be280",
+     "chapter-11-university-procurement-services-1dbc68::004-eab1021a5168",
+     "chapter-11-university-procurement-services-1dbc68::020-e24805cff174"
+    ]
+   },
+   "gold_shown": [
+    [
+     true
+    ],
+    [
+     true
+    ]
+   ],
+   "forbidden_shown": [
+    [
+     "2026-07-01-travel-and-entertainment-procedures-ca903b::002-1483518e1be0",
+     "travel-and-entertainment-procedures-final-ccccf9::002-e57ccdf618c9"
+    ],
+    [
+     "2026-07-01-travel-and-entertainment-procedures-ca903b::002-1483518e1be0",
+     "travel-and-entertainment-procedures-final-ccccf9::002-e57ccdf618c9"
+    ]
+   ],
+   "other_org_in_context": [
+    2,
+    2
+   ],
+   "gained": [],
+   "lost": [],
+   "context_organizations": [
+    {
+     "University of Connecticut": 2,
+     "Rutgers University": 4
+    },
+    {
+     "University of Connecticut": 2,
+     "Rutgers University": 4
+    }
+   ],
+   "checks": []
+  },
+  {
+   "id": "i-or-180k",
+   "question": "Oregon State expects a contract price of $180,000. Which general procurement method applies, and what does that method involve?",
+   "expect": "answer",
+   "baseline_correct": true,
+   "loop": {
+    "retrievals": 1,
+    "rounds": [
+     1
+    ],
+    "stop_reasons": [
+     "sufficient"
+    ],
+    "queries": [
+     "Oregon State expects a contract price of $180,000. Which general procurement method applies, and what does that method involve?"
+    ],
+    "strategies": [
+     "initial"
+    ],
+    "coverage": [
+     "sufficient: relevant sources for Oregon State University"
+    ],
+    "retrieved": 10,
+    "new": 10,
+    "retained": [
+     10
+    ],
+    "promoted": [],
+    "skipped": []
+   },
+   "identical_model_input": true,
+   "baseline": {
+    "abstention_reason": "model_insufficient_evidence",
+    "calls": 1,
+    "context": [
+     "03-010-procurement-thresholds-and-methods-071526-0eb37f::003-e99d262956d2",
+     "03-010-procurement-thresholds-and-methods-071526-0eb37f::006-9c5e3de87200",
+     "03-010-procurement-thresholds-and-methods-071526-0eb37f::005-9a54aa8be9f8",
+     "03-010-procurement-thresholds-and-methods-071526-0eb37f::004-50c70a951d99",
+     "03-010-procurement-thresholds-and-methods-071526-0eb37f::010-46a29eb3572b",
+     "03-010-procurement-thresholds-and-methods-071526-0eb37f::004-c3dcf461e498"
+    ]
+   },
+   "streaming": {
+    "abstention_reason": "model_insufficient_evidence",
+    "calls": 1,
+    "context": [
+     "03-010-procurement-thresholds-and-methods-071526-0eb37f::003-e99d262956d2",
+     "03-010-procurement-thresholds-and-methods-071526-0eb37f::006-9c5e3de87200",
+     "03-010-procurement-thresholds-and-methods-071526-0eb37f::005-9a54aa8be9f8",
+     "03-010-procurement-thresholds-and-methods-071526-0eb37f::004-50c70a951d99",
+     "03-010-procurement-thresholds-and-methods-071526-0eb37f::010-46a29eb3572b",
+     "03-010-procurement-thresholds-and-methods-071526-0eb37f::004-c3dcf461e498"
+    ]
+   },
+   "gold_shown": [
+    [
+     true,
+     true
+    ],
+    [
+     true,
+     true
+    ]
+   ],
+   "forbidden_shown": [
+    [],
+    []
+   ],
+   "other_org_in_context": [
+    0,
+    0
+   ],
+   "gained": [],
+   "lost": [],
+   "context_organizations": [
+    {
+     "Oregon State University": 6
+    },
+    {
+     "Oregon State University": 6
+    }
+   ],
+   "checks": []
+  },
+  {
+   "id": "i-st-invoice",
+   "question": "Under what conditions can Stanford pay an invoice that exceeds the purchase order amount without a written change order?",
+   "expect": "answer",
+   "baseline_correct": false,
+   "loop": {
+    "retrievals": 1,
+    "rounds": [
+     1
+    ],
+    "stop_reasons": [
+     "sufficient"
+    ],
+    "queries": [
+     "Under what conditions can Stanford pay an invoice that exceeds the purchase order amount without a written change order?"
+    ],
+    "strategies": [
+     "initial"
+    ],
+    "coverage": [
+     "sufficient: relevant sources for Stanford University"
+    ],
+    "retrieved": 10,
+    "new": 10,
+    "retained": [
+     10
+    ],
+    "promoted": [],
+    "skipped": []
+   },
+   "identical_model_input": true,
+   "baseline": {
+    "abstention_reason": "model_insufficient_evidence",
+    "calls": 1,
+    "context": [
+     "5-1-1-procurement-policies-administrative-guide-557216::003-b2b2e1ca9cba",
+     "5-1-1-procurement-policies-administrative-guide-557216::003-781c2af916b8",
+     "5-1-1-procurement-policies-administrative-guide-557216::003-2774ab01ae83",
+     "5-1-1-procurement-policies-administrative-guide-557216::001-d921d28cf212",
+     "5-1-1-procurement-policies-administrative-guide-557216::003-e7a74e6c757a",
+     "5-1-1-procurement-policies-administrative-guide-557216::002-c9f2c833b236"
+    ]
+   },
+   "streaming": {
+    "abstention_reason": "model_insufficient_evidence",
+    "calls": 1,
+    "context": [
+     "5-1-1-procurement-policies-administrative-guide-557216::003-b2b2e1ca9cba",
+     "5-1-1-procurement-policies-administrative-guide-557216::003-781c2af916b8",
+     "5-1-1-procurement-policies-administrative-guide-557216::003-2774ab01ae83",
+     "5-1-1-procurement-policies-administrative-guide-557216::001-d921d28cf212",
+     "5-1-1-procurement-policies-administrative-guide-557216::003-e7a74e6c757a",
+     "5-1-1-procurement-policies-administrative-guide-557216::002-c9f2c833b236"
+    ]
+   },
+   "gold_shown": [
+    [
+     true
+    ],
+    [
+     true
+    ]
+   ],
+   "forbidden_shown": [
+    [],
+    []
+   ],
+   "other_org_in_context": [
+    0,
+    0
+   ],
+   "gained": [],
+   "lost": [],
+   "context_organizations": [
+    {
+     "Stanford University": 6
+    },
+    {
+     "Stanford University": 6
+    }
+   ],
+   "checks": []
+  },
+  {
+   "id": "i-pe-exception",
+   "question": "Does Penn require competitive bids for a $75,000 purchase from a Preferred Contract Supplier?",
+   "expect": "answer",
+   "baseline_correct": false,
+   "loop": {
+    "retrievals": 1,
+    "rounds": [
+     1
+    ],
+    "stop_reasons": [
+     "sufficient"
+    ],
+    "queries": [
+     "Does Penn require competitive bids for a $75,000 purchase from a Preferred Contract Supplier?"
+    ],
+    "strategies": [
+     "initial"
+    ],
+    "coverage": [
+     "sufficient: relevant sources for University of Pennsylvania"
+    ],
+    "retrieved": 10,
+    "new": 10,
+    "retained": [
+     10
+    ],
+    "promoted": [],
+    "skipped": []
+   },
+   "identical_model_input": true,
+   "baseline": {
+    "abstention_reason": "model_insufficient_evidence",
+    "calls": 1,
+    "context": [
+     "2305-compliance-with-procurement-policies-ced954::002-800094d09b2b",
+     "2305-compliance-with-procurement-policies-ced954::002-dab79191d715",
+     "2305-compliance-with-procurement-policies-ced954::001-eacaaf1d9083",
+     "5-1-1-procurement-policies-administrative-guide-557216::003-b68f37d5a941",
+     "03-010-procurement-thresholds-and-methods-071526-0eb37f::005-9a54aa8be9f8",
+     "03-010-procurement-thresholds-and-methods-071526-0eb37f::003-e99d262956d2"
+    ]
+   },
+   "streaming": {
+    "abstention_reason": "model_insufficient_evidence",
+    "calls": 1,
+    "context": [
+     "2305-compliance-with-procurement-policies-ced954::002-800094d09b2b",
+     "2305-compliance-with-procurement-policies-ced954::002-dab79191d715",
+     "2305-compliance-with-procurement-policies-ced954::001-eacaaf1d9083",
+     "5-1-1-procurement-policies-administrative-guide-557216::003-b68f37d5a941",
+     "03-010-procurement-thresholds-and-methods-071526-0eb37f::005-9a54aa8be9f8",
+     "03-010-procurement-thresholds-and-methods-071526-0eb37f::003-e99d262956d2"
+    ]
+   },
+   "gold_shown": [
+    [
+     true
+    ],
+    [
+     true
+    ]
+   ],
+   "forbidden_shown": [
+    [],
+    []
+   ],
+   "other_org_in_context": [
+    3,
+    3
+   ],
+   "gained": [],
+   "lost": [],
+   "context_organizations": [
+    {
+     "University of Pennsylvania": 3,
+     "Stanford University": 1,
+     "Oregon State University": 2
+    },
+    {
+     "University of Pennsylvania": 3,
+     "Stanford University": 1,
+     "Oregon State University": 2
+    }
+   ],
+   "checks": []
+  },
+  {
+   "id": "i-ut-clause",
+   "question": "Which clause of UT Austin's information resources policy sets how often user accounts must be reviewed, and how often is that?",
+   "expect": "answer",
+   "baseline_correct": true,
+   "loop": {
+    "retrievals": 1,
+    "rounds": [
+     1
+    ],
+    "stop_reasons": [
+     "sufficient"
+    ],
+    "queries": [
+     "Which clause of UT Austin's information resources policy sets how often user accounts must be reviewed, and how often is that?"
+    ],
+    "strategies": [
+     "initial"
+    ],
+    "coverage": [
+     "sufficient: relevant sources for The University of Texas at Austin"
+    ],
+    "retrieved": 10,
+    "new": 10,
+    "retained": [
+     10
+    ],
+    "promoted": [],
+    "skipped": []
+   },
+   "identical_model_input": true,
+   "baseline": {
+    "abstention_reason": "model_insufficient_evidence",
+    "calls": 1,
+    "context": [
+     "information-resources-use-and-security-policy-76b891::037-c46c35eec642",
+     "information-resources-use-and-security-policy-76b891::038-040d5223d33a",
+     "information-resources-use-and-security-policy-76b891::066-d1b3a8506cb7",
+     "information-resources-use-and-security-policy-76b891::042-7aa4b6bd89ac",
+     "information-resources-use-and-security-policy-76b891::043-6a16ed06ef73",
+     "information-resources-use-and-security-policy-76b891::042-a2b0d59ae44d"
+    ]
+   },
+   "streaming": {
+    "abstention_reason": "model_insufficient_evidence",
+    "calls": 1,
+    "context": [
+     "information-resources-use-and-security-policy-76b891::037-c46c35eec642",
+     "information-resources-use-and-security-policy-76b891::038-040d5223d33a",
+     "information-resources-use-and-security-policy-76b891::066-d1b3a8506cb7",
+     "information-resources-use-and-security-policy-76b891::042-7aa4b6bd89ac",
+     "information-resources-use-and-security-policy-76b891::043-6a16ed06ef73",
+     "information-resources-use-and-security-policy-76b891::042-a2b0d59ae44d"
+    ]
+   },
+   "gold_shown": [
+    [
+     true
+    ],
+    [
+     true
+    ]
+   ],
+   "forbidden_shown": [
+    [],
+    []
+   ],
+   "other_org_in_context": [
+    0,
+    0
+   ],
+   "gained": [],
+   "lost": [],
+   "context_organizations": [
+    {
+     "The University of Texas at Austin": 6
+    },
+    {
+     "The University of Texas at Austin": 6
+    }
+   ],
+   "checks": []
+  },
+  {
+   "id": "i-mi-mileage",
+   "question": "What mileage rate does the University of Michigan reimburse for business travel that starts on or after August 1, 2026?",
+   "expect": "answer",
+   "baseline_correct": true,
+   "loop": {
+    "retrievals": 1,
+    "rounds": [
+     1
+    ],
+    "stop_reasons": [
+     "sufficient"
+    ],
+    "queries": [
+     "What mileage rate does the University of Michigan reimburse for business travel that starts on or after August 1, 2026?"
+    ],
+    "strategies": [
+     "initial"
+    ],
+    "coverage": [
+     "sufficient: relevant sources for University of Michigan"
+    ],
+    "retrieved": 10,
+    "new": 10,
+    "retained": [
+     10
+    ],
+    "promoted": [],
+    "skipped": []
+   },
+   "identical_model_input": true,
+   "baseline": {
+    "abstention_reason": "model_insufficient_evidence",
+    "calls": 1,
+    "context": [
+     "travel-booking-procurement-services-university-74c4ef::003-854674a8d2df",
+     "procedures-for-travel-and-other-expenses-3ded29::015-aa350b99fc63",
+     "travel-booking-procurement-services-university-74c4ef::010-2f701a5a4c3f",
+     "travel-booking-procurement-services-university-74c4ef::003-fd06f3fe87c0",
+     "travel-booking-procurement-services-university-74c4ef::008-51f1dd578418",
+     "travel-booking-procurement-services-university-74c4ef::008-ca30a248d27c"
+    ]
+   },
+   "streaming": {
+    "abstention_reason": "model_insufficient_evidence",
+    "calls": 1,
+    "context": [
+     "travel-booking-procurement-services-university-74c4ef::003-854674a8d2df",
+     "procedures-for-travel-and-other-expenses-3ded29::015-aa350b99fc63",
+     "travel-booking-procurement-services-university-74c4ef::010-2f701a5a4c3f",
+     "travel-booking-procurement-services-university-74c4ef::003-fd06f3fe87c0",
+     "travel-booking-procurement-services-university-74c4ef::008-51f1dd578418",
+     "travel-booking-procurement-services-university-74c4ef::008-ca30a248d27c"
+    ]
+   },
+   "gold_shown": [
+    [
+     true
+    ],
+    [
+     true
+    ]
+   ],
+   "forbidden_shown": [
+    [
+     "procedures-for-travel-and-other-expenses-3ded29::015-aa350b99fc63"
+    ],
+    [
+     "procedures-for-travel-and-other-expenses-3ded29::015-aa350b99fc63"
+    ]
+   ],
+   "other_org_in_context": [
+    1,
+    1
+   ],
+   "gained": [],
+   "lost": [],
+   "context_organizations": [
+    {
+     "University of Michigan": 5,
+     "McGill University": 1
+    },
+    {
+     "University of Michigan": 5,
+     "McGill University": 1
+    }
+   ],
+   "checks": []
+  },
+  {
+   "id": "i-ro-highrisk",
+   "question": "A University of Rochester researcher plans travel to a high-risk location. How far ahead should the travel request be submitted?",
+   "expect": "answer",
+   "baseline_correct": true,
+   "loop": {
+    "retrievals": 1,
+    "rounds": [
+     1
+    ],
+    "stop_reasons": [
+     "sufficient"
+    ],
+    "queries": [
+     "A University of Rochester researcher plans travel to a high-risk location. How far ahead should the travel request be submitted?"
+    ],
+    "strategies": [
+     "initial"
+    ],
+    "coverage": [
+     "sufficient: relevant sources for University of Rochester"
+    ],
+    "retrieved": 10,
+    "new": 10,
+    "retained": [
+     10
+    ],
+    "promoted": [],
+    "skipped": []
+   },
+   "identical_model_input": true,
+   "baseline": {
+    "abstention_reason": "model_insufficient_evidence",
+    "calls": 1,
+    "context": [
+     "international-travel-policy-policies-procedures-f05fa2::006-e7cd0a6f9066",
+     "international-travel-policy-policies-procedures-f05fa2::007-2c3b2075e1f9",
+     "international-travel-policy-policies-procedures-f05fa2::003-a1eaba8083ae",
+     "international-travel-policy-policies-procedures-f05fa2::004-1e886abb7403",
+     "international-travel-policy-policies-procedures-f05fa2::005-d0d3faeda922",
+     "international-travel-policy-policies-procedures-f05fa2::002-0dd720995f48"
+    ]
+   },
+   "streaming": {
+    "abstention_reason": "model_insufficient_evidence",
+    "calls": 1,
+    "context": [
+     "international-travel-policy-policies-procedures-f05fa2::006-e7cd0a6f9066",
+     "international-travel-policy-policies-procedures-f05fa2::007-2c3b2075e1f9",
+     "international-travel-policy-policies-procedures-f05fa2::003-a1eaba8083ae",
+     "international-travel-policy-policies-procedures-f05fa2::004-1e886abb7403",
+     "international-travel-policy-policies-procedures-f05fa2::005-d0d3faeda922",
+     "international-travel-policy-policies-procedures-f05fa2::002-0dd720995f48"
+    ]
+   },
+   "gold_shown": [
+    [
+     true
+    ],
+    [
+     true
+    ]
+   ],
+   "forbidden_shown": [
+    [],
+    []
+   ],
+   "other_org_in_context": [
+    0,
+    0
+   ],
+   "gained": [],
+   "lost": [],
+   "context_organizations": [
+    {
+     "University of Rochester": 6
+    },
+    {
+     "University of Rochester": 6
+    }
+   ],
+   "checks": []
+  },
+  {
+   "id": "i-ya-internet",
+   "question": "Does Yale reimburse home internet costs for staff with an approved remote work arrangement?",
+   "expect": "abstain",
+   "baseline_correct": true,
+   "loop": {
+    "retrievals": 1,
+    "rounds": [
+     1
+    ],
+    "stop_reasons": [
+     "sufficient"
+    ],
+    "queries": [
+     "Does Yale reimburse home internet costs for staff with an approved remote work arrangement?"
+    ],
+    "strategies": [
+     "initial"
+    ],
+    "coverage": [
+     "sufficient: relevant sources for Yale University"
+    ],
+    "retrieved": 10,
+    "new": 10,
+    "retained": [
+     10
+    ],
+    "promoted": [],
+    "skipped": []
+   },
+   "identical_model_input": true,
+   "baseline": {
+    "abstention_reason": "model_insufficient_evidence",
+    "calls": 1,
+    "context": [
+     "5002-remote-work-policy-its-your-yale-full-text-28569a::002-dd0c64b72762",
+     "5002-remote-work-policy-its-your-yale-full-text-28569a::004-2d5c82f60a31",
+     "5002-remote-work-policy-its-your-yale-full-text-28569a::001-f8a2b978c1f8",
+     "5002-remote-work-policy-its-your-yale-full-text-28569a::006-4f331add879b",
+     "5002-remote-work-policy-its-your-yale-full-text-28569a::005-ffbfcd5695d2",
+     "5002-remote-work-policy-its-your-yale-full-text-28569a::002-2a206c5033bb"
+    ]
+   },
+   "streaming": {
+    "abstention_reason": "model_insufficient_evidence",
+    "calls": 1,
+    "context": [
+     "5002-remote-work-policy-its-your-yale-full-text-28569a::002-dd0c64b72762",
+     "5002-remote-work-policy-its-your-yale-full-text-28569a::004-2d5c82f60a31",
+     "5002-remote-work-policy-its-your-yale-full-text-28569a::001-f8a2b978c1f8",
+     "5002-remote-work-policy-its-your-yale-full-text-28569a::006-4f331add879b",
+     "5002-remote-work-policy-its-your-yale-full-text-28569a::005-ffbfcd5695d2",
+     "5002-remote-work-policy-its-your-yale-full-text-28569a::002-2a206c5033bb"
+    ]
+   },
+   "gold_shown": [
+    [],
+    []
+   ],
+   "forbidden_shown": [
+    [],
+    []
+   ],
+   "other_org_in_context": [
+    6,
+    6
+   ],
+   "gained": [],
+   "lost": [],
+   "context_organizations": [
+    {
+     "Yale University": 6
+    },
+    {
+     "Yale University": 6
+    }
+   ],
+   "checks": []
+  },
+  {
+   "id": "i-st-mileage",
+   "question": "What mileage rate does Stanford University reimburse for personal car use?",
+   "expect": "abstain",
+   "baseline_correct": true,
+   "loop": {
+    "retrievals": 1,
+    "rounds": [
+     3
+    ],
+    "stop_reasons": [
+     "max_rounds"
+    ],
+    "queries": [
+     "What mileage rate does Stanford University reimburse for personal car use?",
+     "What mileage rate does Stanford University reimburse for personal car use (Stanford University)",
+     "mileage rate Stanford University reimburse personal car use"
+    ],
+    "strategies": [
+     "initial",
+     "organization_focus (Stanford University)",
+     "keyword_focus"
+    ],
+    "coverage": [
+     "insufficient: no relevant source for Stanford University",
+     "insufficient: no relevant source for Stanford University",
+     "insufficient: no relevant source for Stanford University"
+    ],
+    "retrieved": 30,
+    "new": 11,
+    "retained": [
+     10
+    ],
+    "promoted": [],
+    "skipped": [
+     {
+      "strategy": "organization_focus",
+      "query": "What mileage rate does Stanford University reimburse for personal car use (Stanford University)",
+      "why": "already issued"
+     }
+    ]
+   },
+   "identical_model_input": true,
+   "baseline": {
+    "abstention_reason": "model_insufficient_evidence",
+    "calls": 1,
+    "context": [
+     "procedures-for-travel-and-other-expenses-3ded29::015-aa350b99fc63",
+     "chapter-11-university-procurement-services-1dbc68::012-7d600ef22555",
+     "travel-booking-procurement-services-university-74c4ef::003-854674a8d2df",
+     "chapter-11-university-procurement-services-1dbc68::012-71980fd07d59",
+     "travel-booking-procurement-services-university-74c4ef::008-51f1dd578418",
+     "travel-and-entertainment-policy-university-5f7c66::007-d4d97260b555"
+    ]
+   },
+   "streaming": {
+    "abstention_reason": "model_insufficient_evidence",
+    "calls": 1,
+    "context": [
+     "procedures-for-travel-and-other-expenses-3ded29::015-aa350b99fc63",
+     "chapter-11-university-procurement-services-1dbc68::012-7d600ef22555",
+     "travel-booking-procurement-services-university-74c4ef::003-854674a8d2df",
+     "chapter-11-university-procurement-services-1dbc68::012-71980fd07d59",
+     "travel-booking-procurement-services-university-74c4ef::008-51f1dd578418",
+     "travel-and-entertainment-policy-university-5f7c66::007-d4d97260b555"
+    ]
+   },
+   "gold_shown": [
+    [],
+    []
+   ],
+   "forbidden_shown": [
+    [],
+    []
+   ],
+   "other_org_in_context": [
+    6,
+    6
+   ],
+   "gained": [],
+   "lost": [],
+   "context_organizations": [
+    {
+     "McGill University": 1,
+     "Rutgers University": 2,
+     "University of Michigan": 2,
+     "University of Connecticut": 1
+    },
+    {
+     "McGill University": 1,
+     "Rutgers University": 2,
+     "University of Michigan": 2,
+     "University of Connecticut": 1
+    }
+   ],
+   "checks": []
+  },
+  {
+   "id": "i-harvard-bids",
+   "question": "What purchase amount requires competitive bids at Harvard University?",
+   "expect": "abstain",
+   "baseline_correct": true,
+   "loop": {
+    "retrievals": 1,
+    "rounds": [
+     1
+    ],
+    "stop_reasons": [
+     "structurally_unresolved"
+    ],
+    "queries": [
+     "What purchase amount requires competitive bids at Harvard University?"
+    ],
+    "strategies": [
+     "initial"
+    ],
+    "coverage": [
+     "structurally_unresolved: names only institutions outside the corpus (Harvard University)"
+    ],
+    "retrieved": 10,
+    "new": 10,
+    "retained": [
+     10
+    ],
+    "promoted": [],
+    "skipped": []
+   },
+   "identical_model_input": true,
+   "baseline": {
+    "abstention_reason": "model_insufficient_evidence",
+    "calls": 1,
+    "context": [
+     "2305-compliance-with-procurement-policies-ced954::002-800094d09b2b",
+     "5-1-1-procurement-policies-administrative-guide-557216::003-b68f37d5a941",
+     "2305-compliance-with-procurement-policies-ced954::002-dab79191d715",
+     "03-010-procurement-thresholds-and-methods-071526-0eb37f::005-9a54aa8be9f8",
+     "03-010-procurement-thresholds-and-methods-071526-0eb37f::004-50c70a951d99",
+     "5-1-1-procurement-policies-administrative-guide-557216::002-a672f59e102d"
+    ]
+   },
+   "streaming": {
+    "abstention_reason": "model_insufficient_evidence",
+    "calls": 1,
+    "context": [
+     "2305-compliance-with-procurement-policies-ced954::002-800094d09b2b",
+     "5-1-1-procurement-policies-administrative-guide-557216::003-b68f37d5a941",
+     "2305-compliance-with-procurement-policies-ced954::002-dab79191d715",
+     "03-010-procurement-thresholds-and-methods-071526-0eb37f::005-9a54aa8be9f8",
+     "03-010-procurement-thresholds-and-methods-071526-0eb37f::004-50c70a951d99",
+     "5-1-1-procurement-policies-administrative-guide-557216::002-a672f59e102d"
+    ]
+   },
+   "gold_shown": [
+    [],
+    []
+   ],
+   "forbidden_shown": [
+    [],
+    []
+   ],
+   "other_org_in_context": [
+    6,
+    6
+   ],
+   "gained": [],
+   "lost": [],
+   "context_organizations": [
+    {
+     "University of Pennsylvania": 2,
+     "Stanford University": 2,
+     "Oregon State University": 2
+    },
+    {
+     "University of Pennsylvania": 2,
+     "Stanford University": 2,
+     "Oregon State University": 2
+    }
+   ],
+   "checks": []
+  },
+  {
+   "id": "i-ro-tips",
+   "question": "What is the maximum tip percentage the University of Rochester will reimburse?",
+   "expect": "abstain",
+   "baseline_correct": true,
+   "loop": {
+    "retrievals": 1,
+    "rounds": [
+     3
+    ],
+    "stop_reasons": [
+     "max_rounds"
+    ],
+    "queries": [
+     "What is the maximum tip percentage the University of Rochester will reimburse?",
+     "What is the maximum tip percentage the University of Rochester will reimburse (University of Rochester)",
+     "maximum tip percentage University Rochester reimburse"
+    ],
+    "strategies": [
+     "initial",
+     "organization_focus (University of Rochester)",
+     "keyword_focus"
+    ],
+    "coverage": [
+     "insufficient: no relevant source for University of Rochester",
+     "insufficient: no relevant source for University of Rochester",
+     "insufficient: no relevant source for University of Rochester"
+    ],
+    "retrieved": 30,
+    "new": 12,
+    "retained": [
+     10
+    ],
+    "promoted": [],
+    "skipped": [
+     {
+      "strategy": "organization_focus",
+      "query": "What is the maximum tip percentage the University of Rochester will reimburse (University of Rochester)",
+      "why": "already issued"
+     }
+    ]
+   },
+   "identical_model_input": true,
+   "baseline": {
+    "abstention_reason": "model_insufficient_evidence",
+    "calls": 1,
+    "context": [
+     "chapter-11-university-procurement-services-1dbc68::017-7d78efa70791",
+     "travel-and-entertainment-policy-university-5f7c66::008-b105422da05e",
+     "travel-booking-procurement-services-university-74c4ef::003-854674a8d2df",
+     "international-travel-policy-policies-procedures-f05fa2::005-d0d3faeda922",
+     "travel-and-entertainment-policy-university-5f7c66::005-cb1a5edd163e",
+     "international-travel-policy-policies-procedures-f05fa2::009-9b43dbd6be67"
+    ]
+   },
+   "streaming": {
+    "abstention_reason": "model_insufficient_evidence",
+    "calls": 1,
+    "context": [
+     "chapter-11-university-procurement-services-1dbc68::017-7d78efa70791",
+     "travel-and-entertainment-policy-university-5f7c66::008-b105422da05e",
+     "travel-booking-procurement-services-university-74c4ef::003-854674a8d2df",
+     "international-travel-policy-policies-procedures-f05fa2::005-d0d3faeda922",
+     "travel-and-entertainment-policy-university-5f7c66::005-cb1a5edd163e",
+     "international-travel-policy-policies-procedures-f05fa2::009-9b43dbd6be67"
+    ]
+   },
+   "gold_shown": [
+    [],
+    []
+   ],
+   "forbidden_shown": [
+    [],
+    []
+   ],
+   "other_org_in_context": [
+    6,
+    6
+   ],
+   "gained": [],
+   "lost": [],
+   "context_organizations": [
+    {
+     "Rutgers University": 1,
+     "University of Connecticut": 2,
+     "University of Michigan": 1,
+     "University of Rochester": 2
+    },
+    {
+     "Rutgers University": 1,
+     "University of Connecticut": 2,
+     "University of Michigan": 1,
+     "University of Rochester": 2
+    }
+   ],
+   "checks": []
+  },
+  {
+   "id": "i-uc-nyc-hotel",
+   "question": "What is the maximum nightly hotel rate UConn will reimburse in New York City?",
+   "expect": "abstain",
+   "baseline_correct": true,
+   "loop": {
+    "retrievals": 1,
+    "rounds": [
+     3
+    ],
+    "stop_reasons": [
+     "max_rounds"
+    ],
+    "queries": [
+     "What is the maximum nightly hotel rate UConn will reimburse in New York City?",
+     "What is the maximum nightly hotel rate UConn will reimburse in New York City (University of Connecticut)",
+     "maximum nightly hotel rate UConn reimburse New York City"
+    ],
+    "strategies": [
+     "initial",
+     "organization_focus (University of Connecticut)",
+     "keyword_focus"
+    ],
+    "coverage": [
+     "insufficient: no source in the context reaches the relevance threshold (best -1.67)",
+     "insufficient: no source in the context reaches the relevance threshold (best -1.67)",
+     "insufficient: no source in the context reaches the relevance threshold (best -1.67)"
+    ],
+    "retrieved": 30,
+    "new": 13,
+    "retained": [
+     10
+    ],
+    "promoted": [],
+    "skipped": [
+     {
+      "strategy": "organization_focus",
+      "query": "What is the maximum nightly hotel rate UConn will reimburse in New York City (University of Connecticut)",
+      "why": "already issued"
+     }
+    ]
+   },
+   "identical_model_input": true,
+   "baseline": {
+    "abstention_reason": "low_relevance",
+    "calls": 0,
+    "context": [
+     "travel-and-entertainment-policy-university-5f7c66::008-e92a8e596cb3",
+     "travel-and-entertainment-policy-university-5f7c66::007-d4d97260b555",
+     "travel-and-entertainment-policy-university-5f7c66::005-211ea5ecba99",
+     "2026-07-01-travel-and-entertainment-procedures-ca903b::006-46b9a892b5be",
+     "travel-and-entertainment-procedures-final-ccccf9::006-877fecb50e01",
+     "2026-07-01-travel-and-entertainment-procedures-ca903b::004-af625b230e93"
+    ]
+   },
+   "streaming": {
+    "abstention_reason": "low_relevance",
+    "calls": 0,
+    "context": [
+     "travel-and-entertainment-policy-university-5f7c66::008-e92a8e596cb3",
+     "travel-and-entertainment-policy-university-5f7c66::007-d4d97260b555",
+     "travel-and-entertainment-policy-university-5f7c66::005-211ea5ecba99",
+     "2026-07-01-travel-and-entertainment-procedures-ca903b::006-46b9a892b5be",
+     "travel-and-entertainment-procedures-final-ccccf9::006-877fecb50e01",
+     "2026-07-01-travel-and-entertainment-procedures-ca903b::004-af625b230e93"
+    ]
+   },
+   "gold_shown": [
+    [
+     true
+    ],
+    [
+     true
+    ]
+   ],
+   "forbidden_shown": [
+    [],
+    []
+   ],
+   "other_org_in_context": [
+    6,
+    6
+   ],
+   "gained": [],
+   "lost": [],
+   "context_organizations": [
+    {
+     "University of Connecticut": 6
+    },
+    {
+     "University of Connecticut": 6
+    }
+   ],
+   "checks": []
+  }
+ ],
+ "phase6": [
+  {
+   "id": "s6-uc-ru-scope",
+   "question": "At UConn, what is the University Travel Card suspension rule, and at Rutgers, what is the travel advance rule?",
+   "expect": "answer",
+   "baseline_correct": null,
+   "loop": {
+    "retrievals": 1,
+    "rounds": [
+     2
+    ],
+    "stop_reasons": [
+     "sufficient"
+    ],
+    "queries": [
+     "At UConn, what is the University Travel Card suspension rule, and at Rutgers, what is the travel advance rule?",
+     "At UConn, what is the University Travel Card suspension rule, and, what is the travel advance rule (University of Connecticut)"
+    ],
+    "strategies": [
+     "initial",
+     "organization_focus (University of Connecticut)"
+    ],
+    "coverage": [
+     "insufficient: no relevant source for University of Connecticut",
+     "sufficient: relevant sources for University of Connecticut, Rutgers University"
+    ],
+    "retrieved": 20,
+    "new": 18,
+    "retained": [
+     10
+    ],
+    "promoted": [
+     "travel-and-entertainment-procedures-final-ccccf9::005-bb1bf7113880"
+    ],
+    "skipped": []
+   },
+   "identical_model_input": false,
+   "baseline": {
+    "abstention_reason": "model_insufficient_evidence",
+    "calls": 1,
+    "context": [
+     "chapter-11-university-procurement-services-1dbc68::004-eab1021a5168",
+     "chapter-11-university-procurement-services-1dbc68::019-a3a75ea77ccd",
+     "chapter-11-university-procurement-services-1dbc68::021-c2e36bbe00a2",
+     "chapter-11-university-procurement-services-1dbc68::019-779fa7091a27",
+     "chapter-11-university-procurement-services-1dbc68::005-d3693594d7b6",
+     "chapter-11-university-procurement-services-1dbc68::021-98b06fbdaea3"
+    ]
+   },
+   "streaming": {
+    "abstention_reason": "model_insufficient_evidence",
+    "calls": 1,
+    "context": [
+     "chapter-11-university-procurement-services-1dbc68::004-eab1021a5168",
+     "chapter-11-university-procurement-services-1dbc68::019-a3a75ea77ccd",
+     "chapter-11-university-procurement-services-1dbc68::021-c2e36bbe00a2",
+     "chapter-11-university-procurement-services-1dbc68::019-779fa7091a27",
+     "chapter-11-university-procurement-services-1dbc68::005-d3693594d7b6",
+     "travel-and-entertainment-procedures-final-ccccf9::005-bb1bf7113880"
+    ]
+   },
+   "gold_shown": [
+    [
+     false,
+     true
+    ],
+    [
+     true,
+     true
+    ]
+   ],
+   "forbidden_shown": [
+    [],
+    []
+   ],
+   "other_org_in_context": [
+    0,
+    0
+   ],
+   "gained": [
+    "travel-and-entertainment-procedures-final-ccccf9::005-bb1bf7113880"
+   ],
+   "lost": [
+    "chapter-11-university-procurement-services-1dbc68::021-98b06fbdaea3"
+   ],
+   "context_organizations": [
+    {
+     "Rutgers University": 6
+    },
+    {
+     "Rutgers University": 5,
+     "University of Connecticut": 1
+    }
+   ],
+   "checks": []
+  },
+  {
+   "id": "s6-harvard-penn-scope",
+   "question": "At Harvard University, what is the procurement policy, and at Penn, what is the procurement policy?",
+   "expect": "partial",
+   "baseline_correct": null,
+   "loop": {
+    "retrievals": 1,
+    "rounds": [
+     1
+    ],
+    "stop_reasons": [
+     "sufficient"
+    ],
+    "queries": [
+     "At Harvard University, what is the procurement policy, and at Penn, what is the procurement policy?"
+    ],
+    "strategies": [
+     "initial"
+    ],
+    "coverage": [
+     "sufficient: relevant sources for University of Pennsylvania"
+    ],
+    "retrieved": 10,
+    "new": 10,
+    "retained": [
+     10
+    ],
+    "promoted": [],
+    "skipped": []
+   },
+   "identical_model_input": true,
+   "baseline": {
+    "abstention_reason": "model_insufficient_evidence",
+    "calls": 1,
+    "context": [
+     "2305-compliance-with-procurement-policies-ced954::001-eacaaf1d9083",
+     "5-1-1-procurement-policies-administrative-guide-557216::003-b68f37d5a941",
+     "2305-compliance-with-procurement-policies-ced954::002-800094d09b2b",
+     "5-1-1-procurement-policies-administrative-guide-557216::001-d6f6fc657140",
+     "5-1-1-procurement-policies-administrative-guide-557216::001-ffeee37eb089",
+     "2305-compliance-with-procurement-policies-ced954::001-1324cfa4fdd9"
+    ]
+   },
+   "streaming": {
+    "abstention_reason": "model_insufficient_evidence",
+    "calls": 1,
+    "context": [
+     "2305-compliance-with-procurement-policies-ced954::001-eacaaf1d9083",
+     "5-1-1-procurement-policies-administrative-guide-557216::003-b68f37d5a941",
+     "2305-compliance-with-procurement-policies-ced954::002-800094d09b2b",
+     "5-1-1-procurement-policies-administrative-guide-557216::001-d6f6fc657140",
+     "5-1-1-procurement-policies-administrative-guide-557216::001-ffeee37eb089",
+     "2305-compliance-with-procurement-policies-ced954::001-1324cfa4fdd9"
+    ]
+   },
+   "gold_shown": [
+    [],
+    []
+   ],
+   "forbidden_shown": [
+    [],
+    []
+   ],
+   "other_org_in_context": [
+    3,
+    3
+   ],
+   "gained": [],
+   "lost": [],
+   "context_organizations": [
+    {
+     "University of Pennsylvania": 3,
+     "Stanford University": 3
+    },
+    {
+     "University of Pennsylvania": 3,
+     "Stanford University": 3
+    }
+   ],
+   "checks": []
+  }
+ ],
+ "phase2": [
+  {
+   "id": "mi-uc-card",
+   "question": "What is the UConn University Travel Card submission deadline, and what happens if charges aren't submitted on time?",
+   "loop": {
+    "retrievals": 3,
+    "rounds": [
+     1,
+     1,
+     1
+    ],
+    "stop_reasons": [
+     "sufficient",
+     "sufficient",
+     "sufficient"
+    ],
+    "queries": [
+     "What is the UConn University Travel Card submission deadline, and what happens if charges aren't submitted on time?",
+     "What is the UConn University Travel Card submission deadline?",
+     "what happens if charges aren't submitted on time? (University of Connecticut)"
+    ],
+    "strategies": [
+     "initial",
+     "initial",
+     "initial"
+    ],
+    "coverage": [
+     "sufficient: relevant sources for University of Connecticut",
+     "sufficient: relevant sources for University of Connecticut",
+     "sufficient: relevant sources for University of Connecticut"
+    ],
+    "retrieved": 30,
+    "new": 30,
+    "retained": [
+     10,
+     10,
+     10
+    ],
+    "promoted": [],
+    "skipped": []
+   },
+   "strategy": [
+    "delegate",
+    "delegate"
+   ],
+   "calls": [
+    1,
+    1
+   ],
+   "identical_model_input": true,
+   "intents": [
+    {
+     "expect": "answer",
+     "gold_shown": [
+      [
+       true
+      ],
+      [
+       true
+      ]
+     ]
+    },
+    {
+     "expect": "answer",
+     "gold_shown": [
+      [
+       true
+      ],
+      [
+       true
+      ]
+     ]
+    }
+   ],
+   "checks": []
+  },
+  {
+   "id": "mi-penn",
+   "question": "At Penn, what happens to purchase orders of $50,000 or more before issuance, and when are competitive bids not required?",
+   "loop": {
+    "retrievals": 3,
+    "rounds": [
+     1,
+     1,
+     1
+    ],
+    "stop_reasons": [
+     "sufficient",
+     "sufficient",
+     "sufficient"
+    ],
+    "queries": [
+     "At Penn, what happens to purchase orders of $50,000 or more before issuance, and when are competitive bids not required?",
+     "At Penn, what happens to purchase orders of $50,000 or more before issuance?",
+     "At Penn, when are competitive bids not required?"
+    ],
+    "strategies": [
+     "initial",
+     "initial",
+     "initial"
+    ],
+    "coverage": [
+     "sufficient: relevant sources for University of Pennsylvania",
+     "sufficient: relevant sources for University of Pennsylvania",
+     "sufficient: relevant sources for University of Pennsylvania"
+    ],
+    "retrieved": 30,
+    "new": 30,
+    "retained": [
+     10,
+     10,
+     10
+    ],
+    "promoted": [],
+    "skipped": []
+   },
+   "strategy": [
+    "delegate",
+    "delegate"
+   ],
+   "calls": [
+    1,
+    1
+   ],
+   "identical_model_input": true,
+   "intents": [
+    {
+     "expect": "answer",
+     "gold_shown": [
+      [
+       true
+      ],
+      [
+       true
+      ]
+     ]
+    },
+    {
+     "expect": "answer",
+     "gold_shown": [
+      [
+       true
+      ],
+      [
+       true
+      ]
+     ]
+    }
+   ],
+   "checks": []
+  },
+  {
+   "id": "mi-mi-air",
+   "question": "What airfare does the University of Michigan pay for, and how far in advance does the University of Michigan recommend booking airfare?",
+   "loop": {
+    "retrievals": 3,
+    "rounds": [
+     1,
+     1,
+     1
+    ],
+    "stop_reasons": [
+     "sufficient",
+     "sufficient",
+     "sufficient"
+    ],
+    "queries": [
+     "What airfare does the University of Michigan pay for, and how far in advance does the University of Michigan recommend booking airfare?",
+     "What airfare does the University of Michigan pay for?",
+     "how far in advance does the University of Michigan recommend booking airfare?"
+    ],
+    "strategies": [
+     "initial",
+     "initial",
+     "initial"
+    ],
+    "coverage": [
+     "sufficient: relevant sources for University of Michigan",
+     "sufficient: relevant sources for University of Michigan",
+     "sufficient: relevant sources for University of Michigan"
+    ],
+    "retrieved": 30,
+    "new": 30,
+    "retained": [
+     10,
+     10,
+     10
+    ],
+    "promoted": [],
+    "skipped": []
+   },
+   "strategy": [
+    "delegate",
+    "delegate"
+   ],
+   "calls": [
+    1,
+    1
+   ],
+   "identical_model_input": true,
+   "intents": [
+    {
+     "expect": "answer",
+     "gold_shown": [
+      [
+       true
+      ],
+      [
+       true
+      ]
+     ]
+    },
+    {
+     "expect": "answer",
+     "gold_shown": [
+      [
+       true
+      ],
+      [
+       true
+      ]
+     ]
+    }
+   ],
+   "checks": []
+  },
+  {
+   "id": "mi-or-emergency",
+   "question": "At Oregon State, what procurement method applies to a $180,000 purchase, and what happens to the required process if the procurement is an emergency costing less than $2 million?",
+   "loop": {
+    "retrievals": 3,
+    "rounds": [
+     1,
+     1,
+     1
+    ],
+    "stop_reasons": [
+     "sufficient",
+     "sufficient",
+     "sufficient"
+    ],
+    "queries": [
+     "At Oregon State, what procurement method applies to a $180,000 purchase, and what happens to the required process if the procurement is an emergency costing less than $2 million?",
+     "At Oregon State, what procurement method applies to a $180,000 purchase?",
+     "At Oregon State, what happens to the required process if the procurement is an emergency costing less than $2 million?"
+    ],
+    "strategies": [
+     "initial",
+     "initial",
+     "initial"
+    ],
+    "coverage": [
+     "sufficient: relevant sources for Oregon State University",
+     "sufficient: relevant sources for Oregon State University",
+     "sufficient: relevant sources for Oregon State University"
+    ],
+    "retrieved": 30,
+    "new": 30,
+    "retained": [
+     10,
+     10,
+     10
+    ],
+    "promoted": [],
+    "skipped": []
+   },
+   "strategy": [
+    "delegate",
+    "delegate"
+   ],
+   "calls": [
+    1,
+    1
+   ],
+   "identical_model_input": true,
+   "intents": [
+    {
+     "expect": "answer",
+     "gold_shown": [
+      [
+       true
+      ],
+      [
+       true
+      ]
+     ]
+    },
+    {
+     "expect": "answer",
+     "gold_shown": [
+      [
+       true
+      ],
+      [
+       true
+      ]
+     ]
+    }
+   ],
+   "checks": []
+  },
+  {
+   "id": "mi-ut-ru",
+   "question": "How often must UT Austin user accounts be reviewed, and is there a limit on the gratuities Rutgers will reimburse for business travel?",
+   "loop": {
+    "retrievals": 3,
+    "rounds": [
+     3,
+     1,
+     1
+    ],
+    "stop_reasons": [
+     "max_rounds",
+     "sufficient",
+     "sufficient"
+    ],
+    "queries": [
+     "How often must UT Austin user accounts be reviewed, and is there a limit on the gratuities Rutgers will reimburse for business travel?",
+     "How often must UT Austin user accounts be reviewed, and is there a limit on the gratuities will reimburse for business travel (The University of Texas at Austin)",
+     "How often must user accounts be reviewed, and is there a limit on the gratuities Rutgers will reimburse for business travel (Rutgers University)",
+     "How often must UT Austin user accounts be reviewed?",
+     "is there a limit on the gratuities Rutgers will reimburse for business travel?"
+    ],
+    "strategies": [
+     "initial",
+     "organization_focus (The University of Texas at Austin)",
+     "organization_focus (Rutgers University)",
+     "initial",
+     "initial"
+    ],
+    "coverage": [
+     "insufficient: no source in the context reaches the relevance threshold (best -0.17)",
+     "insufficient: no source in the context reaches the relevance threshold (best -0.17)",
+     "insufficient: no source in the context reaches the relevance threshold (best -0.17)",
+     "sufficient: relevant sources for The University of Texas at Austin",
+     "sufficient: relevant sources for Rutgers University"
+    ],
+    "retrieved": 50,
+    "new": 39,
+    "retained": [
+     10,
+     10,
+     10
+    ],
+    "promoted": [],
+    "skipped": [
+     {
+      "strategy": "organization_focus",
+      "query": "How often must UT Austin user accounts be reviewed, and is there a limit on the gratuities will reimburse for business travel (The University of Texas at Austin)",
+      "why": "already issued"
+     }
+    ]
+   },
+   "strategy": [
+    "fused",
+    "fused"
+   ],
+   "calls": [
+    1,
+    1
+   ],
+   "identical_model_input": true,
+   "intents": [
+    {
+     "expect": "answer",
+     "gold_shown": [
+      [
+       true
+      ],
+      [
+       true
+      ]
+     ]
+    },
+    {
+     "expect": "answer",
+     "gold_shown": [
+      [
+       true
+      ],
+      [
+       true
+      ]
+     ]
+    }
+   ],
+   "checks": []
+  },
+  {
+   "id": "mi-st-ro",
+   "question": "Under what conditions can Stanford pay an invoice that exceeds the purchase order amount without a written change order, and how far ahead should a University of Rochester traveler submit a request for travel to a high-risk location?",
+   "loop": {
+    "retrievals": 3,
+    "rounds": [
+     3,
+     1,
+     1
+    ],
+    "stop_reasons": [
+     "max_rounds",
+     "sufficient",
+     "sufficient"
+    ],
+    "queries": [
+     "Under what conditions can Stanford pay an invoice that exceeds the purchase order amount without a written change order, and how far ahead should a University of Rochester traveler submit a request for travel to a high-risk location?",
+     "Under what conditions can pay an invoice that exceeds the purchase order amount without a written change order, and how far ahead should a University of Rochester traveler submit a request for travel to a high-risk location (University of Rochester)",
+     "Under conditions Stanford pay invoice exceeds purchase order amount without written change order far ahead University Rochester traveler submit request travel high-risk location",
+     "Under what conditions can Stanford pay an invoice that exceeds the purchase order amount without a written change order?",
+     "how far ahead should a University of Rochester traveler submit a request for travel to a high-risk location?"
+    ],
+    "strategies": [
+     "initial",
+     "organization_focus (University of Rochester)",
+     "keyword_focus",
+     "initial",
+     "initial"
+    ],
+    "coverage": [
+     "insufficient: no relevant source for University of Rochester",
+     "insufficient: no relevant source for University of Rochester",
+     "insufficient: no relevant source for University of Rochester",
+     "sufficient: relevant sources for Stanford University",
+     "sufficient: relevant sources for University of Rochester"
+    ],
+    "retrieved": 50,
+    "new": 38,
+    "retained": [
+     10,
+     10,
+     10
+    ],
+    "promoted": [],
+    "skipped": [
+     {
+      "strategy": "organization_focus",
+      "query": "Under what conditions can pay an invoice that exceeds the purchase order amount without a written change order, and how far ahead should a University of Rochester traveler submit a request for travel to a high-risk location (University of Rochester)",
+      "why": "already issued"
+     }
+    ]
+   },
+   "strategy": [
+    "fused",
+    "fused"
+   ],
+   "calls": [
+    1,
+    1
+   ],
+   "identical_model_input": true,
+   "intents": [
+    {
+     "expect": "answer",
+     "gold_shown": [
+      [
+       true
+      ],
+      [
+       true
+      ]
+     ]
+    },
+    {
+     "expect": "answer",
+     "gold_shown": [
+      [
+       true
+      ],
+      [
+       true
+      ]
+     ]
+    }
+   ],
+   "checks": []
+  },
+  {
+   "id": "mi-mi-ru-dated",
+   "question": "What mileage rate does the University of Michigan reimburse for business travel that starts on or after August 1, 2026, and how far in advance of departure must a Rutgers travel advance request be submitted?",
+   "loop": {
+    "retrievals": 3,
+    "rounds": [
+     1,
+     1,
+     1
+    ],
+    "stop_reasons": [
+     "sufficient",
+     "sufficient",
+     "sufficient"
+    ],
+    "queries": [
+     "What mileage rate does the University of Michigan reimburse for business travel that starts on or after August 1, 2026, and how far in advance of departure must a Rutgers travel advance request be submitted?",
+     "What mileage rate does the University of Michigan reimburse for business travel that starts on or after August 1, 2026?",
+     "how far in advance of departure must a Rutgers travel advance request be submitted?"
+    ],
+    "strategies": [
+     "initial",
+     "initial",
+     "initial"
+    ],
+    "coverage": [
+     "sufficient: relevant sources for University of Michigan, Rutgers University",
+     "sufficient: relevant sources for University of Michigan",
+     "sufficient: relevant sources for Rutgers University"
+    ],
+    "retrieved": 30,
+    "new": 30,
+    "retained": [
+     10,
+     10,
+     10
+    ],
+    "promoted": [],
+    "skipped": []
+   },
+   "strategy": [
+    "per_intent",
+    "per_intent"
+   ],
+   "calls": [
+    2,
+    2
+   ],
+   "identical_model_input": true,
+   "intents": [
+    {
+     "expect": "answer",
+     "gold_shown": [
+      [
+       true
+      ],
+      [
+       true
+      ]
+     ]
+    },
+    {
+     "expect": "answer",
+     "gold_shown": [
+      [
+       true
+      ],
+      [
+       true
+      ]
+     ]
+    }
+   ],
+   "checks": []
+  },
+  {
+   "id": "mi-three",
+   "question": "How often must UT Austin user accounts be reviewed, what mileage rate does the University of Michigan reimburse for travel starting on or after August 1, 2026, and how far in advance must a Rutgers travel advance request be submitted?",
+   "loop": {
+    "retrievals": 4,
+    "rounds": [
+     3,
+     1,
+     1,
+     1
+    ],
+    "stop_reasons": [
+     "max_rounds",
+     "sufficient",
+     "sufficient",
+     "sufficient"
+    ],
+    "queries": [
+     "How often must UT Austin user accounts be reviewed, what mileage rate does the University of Michigan reimburse for travel starting on or after August 1, 2026, and how far in advance must a Rutgers travel advance request be submitted?",
+     "How often must UT Austin user accounts be reviewed, what mileage rate does the reimburse for travel starting on or after August 1, 2026, and how far in advance must a travel advance request be submitted (The University of Texas at Austin)",
+     "How often must user accounts be reviewed, what mileage rate does the reimburse for travel starting on or after August 1, 2026, and how far in advance must a Rutgers travel advance request be submitted (Rutgers University)",
+     "How often must UT Austin user accounts be reviewed?",
+     "what mileage rate does the University of Michigan reimburse for travel starting on or after August 1, 2026?",
+     "how far in advance must a Rutgers travel advance request be submitted?"
+    ],
+    "strategies": [
+     "initial",
+     "organization_focus (The University of Texas at Austin)",
+     "organization_focus (Rutgers University)",
+     "initial",
+     "initial",
+     "initial"
+    ],
+    "coverage": [
+     "insufficient: no relevant source for The University of Texas at Austin, Rutgers University",
+     "insufficient: no relevant source for The University of Texas at Austin, Rutgers University",
+     "insufficient: no relevant source for The University of Texas at Austin, Rutgers University",
+     "sufficient: relevant sources for The University of Texas at Austin",
+     "sufficient: relevant sources for University of Michigan",
+     "sufficient: relevant sources for Rutgers University"
+    ],
+    "retrieved": 60,
+    "new": 48,
+    "retained": [
+     10,
+     10,
+     10,
+     10
+    ],
+    "promoted": [],
+    "skipped": [
+     {
+      "strategy": "organization_focus",
+      "query": "How often must UT Austin user accounts be reviewed, what mileage rate does the reimburse for travel starting on or after August 1, 2026, and how far in advance must a travel advance request be submitted (The University of Texas at Austin)",
+      "why": "already issued"
+     }
+    ]
+   },
+   "strategy": [
+    "per_intent",
+    "per_intent"
+   ],
+   "calls": [
+    3,
+    3
+   ],
+   "identical_model_input": true,
+   "intents": [
+    {
+     "expect": "answer",
+     "gold_shown": [
+      [
+       true
+      ],
+      [
+       true
+      ]
+     ]
+    },
+    {
+     "expect": "answer",
+     "gold_shown": [
+      [
+       true
+      ],
+      [
+       true
+      ]
+     ]
+    },
+    {
+     "expect": "answer",
+     "gold_shown": [
+      [
+       true
+      ],
+      [
+       true
+      ]
+     ]
+    }
+   ],
+   "checks": []
+  },
+  {
+   "id": "mi-uc-mixed-temporal",
+   "question": "What did UConn's February 2026 procedures say about when a University Travel Card is suspended, and may a traveler currently pay for a multi-bedroom accommodation with a University Travel Card?",
+   "loop": {
+    "retrievals": 3,
+    "rounds": [
+     1,
+     1,
+     1
+    ],
+    "stop_reasons": [
+     "sufficient",
+     "sufficient",
+     "sufficient"
+    ],
+    "queries": [
+     "What did UConn's February 2026 procedures say about when a University Travel Card is suspended, and may a traveler currently pay for a multi-bedroom accommodation with a University Travel Card?",
+     "What did UConn's February 2026 procedures say about when a University Travel Card is suspended?",
+     "may a traveler currently pay for a multi-bedroom accommodation with a University Travel Card? (University of Connecticut)"
+    ],
+    "strategies": [
+     "initial",
+     "initial",
+     "initial"
+    ],
+    "coverage": [
+     "sufficient: relevant sources for University of Connecticut",
+     "sufficient: relevant sources for University of Connecticut",
+     "sufficient: relevant sources for University of Connecticut"
+    ],
+    "retrieved": 30,
+    "new": 30,
+    "retained": [
+     10,
+     10,
+     10
+    ],
+    "promoted": [],
+    "skipped": []
+   },
+   "strategy": [
+    "per_intent",
+    "per_intent"
+   ],
+   "calls": [
+    2,
+    2
+   ],
+   "identical_model_input": true,
+   "intents": [
+    {
+     "expect": "answer",
+     "gold_shown": [
+      [
+       true
+      ],
+      [
+       true
+      ]
+     ]
+    },
+    {
+     "expect": "answer",
+     "gold_shown": [
+      [
+       true
+      ],
+      [
+       true
+      ]
+     ]
+    }
+   ],
+   "checks": []
+  },
+  {
+   "id": "mi-uc-jul-scope",
+   "question": "Under UConn's procedures effective July 1, 2026, how is a suspended University Travel Card reinstated, and what approval is needed before a spouse's travel expenses can be reimbursed?",
+   "loop": {
+    "retrievals": 3,
+    "rounds": [
+     1,
+     1,
+     1
+    ],
+    "stop_reasons": [
+     "sufficient",
+     "sufficient",
+     "sufficient"
+    ],
+    "queries": [
+     "Under UConn's procedures effective July 1, 2026, how is a suspended University Travel Card reinstated, and what approval is needed before a spouse's travel expenses can be reimbursed?",
+     "Under UConn's procedures effective July 1, 2026, how is a suspended University Travel Card reinstated?",
+     "Under UConn's procedures effective July 1, 2026, what approval is needed before a spouse's travel expenses can be reimbursed?"
+    ],
+    "strategies": [
+     "initial",
+     "initial",
+     "initial"
+    ],
+    "coverage": [
+     "sufficient: relevant sources for University of Connecticut",
+     "sufficient: relevant sources for University of Connecticut",
+     "sufficient: relevant sources for University of Connecticut"
+    ],
+    "retrieved": 30,
+    "new": 30,
+    "retained": [
+     10,
+     10,
+     10
+    ],
+    "promoted": [],
+    "skipped": []
+   },
+   "strategy": [
+    "delegate",
+    "delegate"
+   ],
+   "calls": [
+    1,
+    1
+   ],
+   "identical_model_input": true,
+   "intents": [
+    {
+     "expect": "answer",
+     "gold_shown": [
+      [
+       true
+      ],
+      [
+       true
+      ]
+     ]
+    },
+    {
+     "expect": "answer",
+     "gold_shown": [
+      [
+       true
+      ],
+      [
+       true
+      ]
+     ]
+    }
+   ],
+   "checks": []
+  },
+  {
+   "id": "mi-ro-harvard",
+   "question": "How far ahead should a University of Rochester traveler submit a request for travel to a high-risk location, and what purchase amount requires competitive bids at Harvard University?",
+   "loop": {
+    "retrievals": 3,
+    "rounds": [
+     1,
+     1,
+     1
+    ],
+    "stop_reasons": [
+     "sufficient",
+     "sufficient",
+     "structurally_unresolved"
+    ],
+    "queries": [
+     "How far ahead should a University of Rochester traveler submit a request for travel to a high-risk location, and what purchase amount requires competitive bids at Harvard University?",
+     "How far ahead should a University of Rochester traveler submit a request for travel to a high-risk location?",
+     "what purchase amount requires competitive bids at Harvard University?"
+    ],
+    "strategies": [
+     "initial",
+     "initial",
+     "initial"
+    ],
+    "coverage": [
+     "sufficient: relevant sources for University of Rochester",
+     "sufficient: relevant sources for University of Rochester",
+     "structurally_unresolved: names only institutions outside the corpus (Harvard University)"
+    ],
+    "retrieved": 30,
+    "new": 30,
+    "retained": [
+     10,
+     10,
+     10
+    ],
+    "promoted": [],
+    "skipped": []
+   },
+   "strategy": [
+    "fused",
+    "fused"
+   ],
+   "calls": [
+    1,
+    1
+   ],
+   "identical_model_input": true,
+   "intents": [
+    {
+     "expect": "answer",
+     "gold_shown": [
+      [
+       true
+      ],
+      [
+       true
+      ]
+     ]
+    },
+    {
+     "expect": "abstain",
+     "gold_shown": [
+      [],
+      []
+     ]
+    }
+   ],
+   "checks": []
+  },
+  {
+   "id": "mi-ru-yale",
+   "question": "How far in advance of departure must a Rutgers travel advance request be submitted, and does Yale reimburse home internet costs for staff who work remotely?",
+   "loop": {
+    "retrievals": 3,
+    "rounds": [
+     3,
+     1,
+     1
+    ],
+    "stop_reasons": [
+     "max_rounds",
+     "sufficient",
+     "sufficient"
+    ],
+    "queries": [
+     "How far in advance of departure must a Rutgers travel advance request be submitted, and does Yale reimburse home internet costs for staff who work remotely?",
+     "How far in advance of departure must a travel advance request be submitted, and does Yale reimburse home internet costs for staff who work remotely (Yale University)",
+     "far advance departure Rutgers travel advance request submitted Yale reimburse home internet costs staff work remotely",
+     "How far in advance of departure must a Rutgers travel advance request be submitted?",
+     "does Yale reimburse home internet costs for staff who work remotely?"
+    ],
+    "strategies": [
+     "initial",
+     "organization_focus (Yale University)",
+     "keyword_focus",
+     "initial",
+     "initial"
+    ],
+    "coverage": [
+     "insufficient: no relevant source for Yale University",
+     "insufficient: no relevant source for Yale University",
+     "insufficient: no relevant source for Yale University",
+     "sufficient: relevant sources for Rutgers University",
+     "sufficient: relevant sources for Yale University"
+    ],
+    "retrieved": 50,
+    "new": 36,
+    "retained": [
+     10,
+     10,
+     10
+    ],
+    "promoted": [],
+    "skipped": [
+     {
+      "strategy": "organization_focus",
+      "query": "How far in advance of departure must a travel advance request be submitted, and does Yale reimburse home internet costs for staff who work remotely (Yale University)",
+      "why": "already issued"
+     }
+    ]
+   },
+   "strategy": [
+    "fused",
+    "fused"
+   ],
+   "calls": [
+    1,
+    1
+   ],
+   "identical_model_input": true,
+   "intents": [
+    {
+     "expect": "answer",
+     "gold_shown": [
+      [
+       true
+      ],
+      [
+       true
+      ]
+     ]
+    },
+    {
+     "expect": "abstain",
+     "gold_shown": [
+      [],
+      []
+     ]
+    }
+   ],
+   "checks": []
+  },
+  {
+   "id": "mi-ctl-single",
+   "question": "What does the University of Rochester policy say about tipping reimbursement?",
+   "loop": {
+    "retrievals": 1,
+    "rounds": [
+     1
+    ],
+    "stop_reasons": [
+     "sufficient"
+    ],
+    "queries": [
+     "What does the University of Rochester policy say about tipping reimbursement?"
+    ],
+    "strategies": [
+     "initial"
+    ],
+    "coverage": [
+     "sufficient: relevant sources for University of Rochester"
+    ],
+    "retrieved": 10,
+    "new": 10,
+    "retained": [
+     10
+    ],
+    "promoted": [],
+    "skipped": []
+   },
+   "strategy": [
+    "delegate",
+    "delegate"
+   ],
+   "calls": [
+    1,
+    1
+   ],
+   "identical_model_input": true,
+   "intents": [],
+   "checks": []
+  },
+  {
+   "id": "mi-ctl-explain",
+   "question": "At Stanford, can a $240 invoice overage on a $2,000 standard purchase order be paid without a written change order? Explain why.",
+   "loop": {
+    "retrievals": 1,
+    "rounds": [
+     1
+    ],
+    "stop_reasons": [
+     "sufficient"
+    ],
+    "queries": [
+     "At Stanford, can a $240 invoice overage on a $2,000 standard purchase order be paid without a written change order? Explain why."
+    ],
+    "strategies": [
+     "initial"
+    ],
+    "coverage": [
+     "sufficient: relevant sources for Stanford University"
+    ],
+    "retrieved": 10,
+    "new": 10,
+    "retained": [
+     10
+    ],
+    "promoted": [],
+    "skipped": []
+   },
+   "strategy": [
+    "delegate",
+    "delegate"
+   ],
+   "calls": [
+    1,
+    1
+   ],
+   "identical_model_input": true,
+   "intents": [],
+   "checks": []
+  },
+  {
+   "id": "mi-ctl-refers",
+   "question": "Which clause of UT Austin's information resources policy sets how often user accounts must be reviewed, and how often is that?",
+   "loop": {
+    "retrievals": 1,
+    "rounds": [
+     1
+    ],
+    "stop_reasons": [
+     "sufficient"
+    ],
+    "queries": [
+     "Which clause of UT Austin's information resources policy sets how often user accounts must be reviewed, and how often is that?"
+    ],
+    "strategies": [
+     "initial"
+    ],
+    "coverage": [
+     "sufficient: relevant sources for The University of Texas at Austin"
+    ],
+    "retrieved": 10,
+    "new": 10,
+    "retained": [
+     10
+    ],
+    "promoted": [],
+    "skipped": []
+   },
+   "strategy": [
+    "delegate",
+    "delegate"
+   ],
+   "calls": [
+    1,
+    1
+   ],
+   "identical_model_input": true,
+   "intents": [],
+   "checks": []
+  },
+  {
+   "id": "mi-ctl-compare",
+   "question": "Compare the February 1, 2026 and July 1, 2026 UConn Travel Card penalty rules.",
+   "loop": {
+    "retrievals": 1,
+    "rounds": [
+     1
+    ],
+    "stop_reasons": [
+     "sufficient"
+    ],
+    "queries": [
+     "Compare the February 1, 2026 and July 1, 2026 UConn Travel Card penalty rules."
+    ],
+    "strategies": [
+     "initial"
+    ],
+    "coverage": [
+     "sufficient: relevant sources for University of Connecticut"
+    ],
+    "retrieved": 10,
+    "new": 10,
+    "retained": [
+     10
+    ],
+    "promoted": [],
+    "skipped": []
+   },
+   "strategy": [
+    "delegate",
+    "delegate"
+   ],
+   "calls": [
+    1,
+    1
+   ],
+   "identical_model_input": true,
+   "intents": [],
+   "checks": []
+  }
+ ],
+ "phase3": [
+  {
+   "id": "s-direct",
+   "turns": [
+    {
+     "question": "What are Rutgers' rules for travel advances?",
+     "kind": [
+      "self_contained",
+      "self_contained"
+     ],
+     "same_resolution": true,
+     "loop": {
+      "retrievals": 1,
+      "rounds": [
+       1
+      ],
+      "stop_reasons": [
+       "sufficient"
+      ],
+      "queries": [
+       "What are Rutgers' rules for travel advances?"
+      ],
+      "strategies": [
+       "initial"
+      ],
+      "coverage": [
+       "sufficient: relevant sources for Rutgers University"
+      ],
+      "retrieved": 10,
+      "new": 10,
+      "retained": [
+       10
+      ],
+      "promoted": [],
+      "skipped": []
+     },
+     "identical_model_input": true,
+     "gold_shown": [
+      [
+       true
+      ],
+      [
+       true
+      ]
+     ],
+     "checks": []
+    },
+    {
+     "question": "What documentation is required after the trip?",
+     "kind": [
+      "follow_up",
+      "follow_up"
+     ],
+     "same_resolution": true,
+     "loop": {
+      "retrievals": 1,
+      "rounds": [
+       1
+      ],
+      "stop_reasons": [
+       "sufficient"
+      ],
+      "queries": [
+       "(Earlier in this conversation: What are Rutgers' rules for travel advances). What documentation is required after the trip?"
+      ],
+      "strategies": [
+       "initial"
+      ],
+      "coverage": [
+       "sufficient: relevant sources for Rutgers University"
+      ],
+      "retrieved": 10,
+      "new": 10,
+      "retained": [
+       10
+      ],
+      "promoted": [],
+      "skipped": []
+     },
+     "identical_model_input": true,
+     "gold_shown": [
+      [
+       true
+      ],
+      [
+       true
+      ]
+     ],
+     "checks": []
+    }
+   ]
+  },
+  {
+   "id": "s-reference",
+   "turns": [
+    {
+     "question": "What is UConn's University Travel Card suspension rule?",
+     "kind": [
+      "self_contained",
+      "self_contained"
+     ],
+     "same_resolution": true,
+     "loop": {
+      "retrievals": 1,
+      "rounds": [
+       1
+      ],
+      "stop_reasons": [
+       "sufficient"
+      ],
+      "queries": [
+       "What is UConn's University Travel Card suspension rule?"
+      ],
+      "strategies": [
+       "initial"
+      ],
+      "coverage": [
+       "sufficient: relevant sources for University of Connecticut"
+      ],
+      "retrieved": 10,
+      "new": 10,
+      "retained": [
+       10
+      ],
+      "promoted": [],
+      "skipped": []
+     },
+     "identical_model_input": true,
+     "gold_shown": [
+      [
+       true
+      ],
+      [
+       true
+      ]
+     ],
+     "checks": []
+    },
+    {
+     "question": "What happens if they are still unresolved after 90 days?",
+     "kind": [
+      "follow_up",
+      "follow_up"
+     ],
+     "same_resolution": true,
+     "loop": {
+      "retrievals": 1,
+      "rounds": [
+       1
+      ],
+      "stop_reasons": [
+       "sufficient"
+      ],
+      "queries": [
+       "(Earlier in this conversation: What is UConn's University Travel Card suspension rule). What happens if they are still unresolved after 90 days?"
+      ],
+      "strategies": [
+       "initial"
+      ],
+      "coverage": [
+       "sufficient: relevant sources for University of Connecticut"
+      ],
+      "retrieved": 10,
+      "new": 10,
+      "retained": [
+       10
+      ],
+      "promoted": [],
+      "skipped": []
+     },
+     "identical_model_input": true,
+     "gold_shown": [
+      [
+       true
+      ],
+      [
+       true
+      ]
+     ],
+     "checks": []
+    }
+   ]
+  },
+  {
+   "id": "s-temporal",
+   "turns": [
+    {
+     "question": "What did UConn's February 2026 procedures say about when a University Travel Card is suspended?",
+     "kind": [
+      "self_contained",
+      "self_contained"
+     ],
+     "same_resolution": true,
+     "loop": {
+      "retrievals": 1,
+      "rounds": [
+       1
+      ],
+      "stop_reasons": [
+       "sufficient"
+      ],
+      "queries": [
+       "What did UConn's February 2026 procedures say about when a University Travel Card is suspended?"
+      ],
+      "strategies": [
+       "initial"
+      ],
+      "coverage": [
+       "sufficient: relevant sources for University of Connecticut"
+      ],
+      "retrieved": 10,
+      "new": 10,
+      "retained": [
+       10
+      ],
+      "promoted": [],
+      "skipped": []
+     },
+     "identical_model_input": true,
+     "gold_shown": [
+      [
+       true
+      ],
+      [
+       true
+      ]
+     ],
+     "checks": []
+    },
+    {
+     "question": "Does that still apply under the current procedures?",
+     "kind": [
+      "follow_up",
+      "follow_up"
+     ],
+     "same_resolution": true,
+     "loop": {
+      "retrievals": 1,
+      "rounds": [
+       1
+      ],
+      "stop_reasons": [
+       "sufficient"
+      ],
+      "queries": [
+       "(Earlier in this conversation: What did UConn's procedures say about when a University Travel Card is suspended). Does that still apply under the current procedures?"
+      ],
+      "strategies": [
+       "initial"
+      ],
+      "coverage": [
+       "sufficient: relevant sources for University of Connecticut"
+      ],
+      "retrieved": 10,
+      "new": 10,
+      "retained": [
+       10
+      ],
+      "promoted": [],
+      "skipped": []
+     },
+     "identical_model_input": true,
+     "gold_shown": [
+      [
+       true
+      ],
+      [
+       true
+      ]
+     ],
+     "checks": []
+    }
+   ]
+  },
+  {
+   "id": "s-chain",
+   "turns": [
+    {
+     "question": "What is UConn's University Travel Card suspension rule?",
+     "kind": [
+      "self_contained",
+      "self_contained"
+     ],
+     "same_resolution": true,
+     "loop": {
+      "retrievals": 1,
+      "rounds": [
+       1
+      ],
+      "stop_reasons": [
+       "sufficient"
+      ],
+      "queries": [
+       "What is UConn's University Travel Card suspension rule?"
+      ],
+      "strategies": [
+       "initial"
+      ],
+      "coverage": [
+       "sufficient: relevant sources for University of Connecticut"
+      ],
+      "retrieved": 10,
+      "new": 10,
+      "retained": [
+       10
+      ],
+      "promoted": [],
+      "skipped": []
+     },
+     "identical_model_input": true,
+     "gold_shown": [
+      [
+       true
+      ],
+      [
+       true
+      ]
+     ],
+     "checks": []
+    },
+    {
+     "question": "Does that apply currently?",
+     "kind": [
+      "follow_up",
+      "follow_up"
+     ],
+     "same_resolution": true,
+     "loop": {
+      "retrievals": 1,
+      "rounds": [
+       1
+      ],
+      "stop_reasons": [
+       "sufficient"
+      ],
+      "queries": [
+       "(Earlier in this conversation: What is UConn's University Travel Card suspension rule). Does that apply currently?"
+      ],
+      "strategies": [
+       "initial"
+      ],
+      "coverage": [
+       "sufficient: relevant sources for University of Connecticut"
+      ],
+      "retrieved": 10,
+      "new": 10,
+      "retained": [
+       10
+      ],
+      "promoted": [],
+      "skipped": []
+     },
+     "identical_model_input": true,
+     "gold_shown": [
+      [
+       true
+      ],
+      [
+       true
+      ]
+     ],
+     "checks": []
+    },
+    {
+     "question": "What happens after 90 days?",
+     "kind": [
+      "follow_up",
+      "follow_up"
+     ],
+     "same_resolution": true,
+     "loop": {
+      "retrievals": 1,
+      "rounds": [
+       1
+      ],
+      "stop_reasons": [
+       "sufficient"
+      ],
+      "queries": [
+       "(Earlier in this conversation: What is UConn's University Travel Card suspension rule; Does that apply; version: currently). What happens after 90 days?"
+      ],
+      "strategies": [
+       "initial"
+      ],
+      "coverage": [
+       "sufficient: relevant sources for University of Connecticut"
+      ],
+      "retrieved": 10,
+      "new": 10,
+      "retained": [
+       10
+      ],
+      "promoted": [],
+      "skipped": []
+     },
+     "identical_model_input": true,
+     "gold_shown": [
+      [
+       true
+      ],
+      [
+       true
+      ]
+     ],
+     "checks": []
+    }
+   ]
+  },
+  {
+   "id": "s-constraint",
+   "turns": [
+    {
+     "question": "At Oregon State, what procurement method applies to a $180,000 purchase?",
+     "kind": [
+      "self_contained",
+      "self_contained"
+     ],
+     "same_resolution": true,
+     "loop": {
+      "retrievals": 1,
+      "rounds": [
+       1
+      ],
+      "stop_reasons": [
+       "sufficient"
+      ],
+      "queries": [
+       "At Oregon State, what procurement method applies to a $180,000 purchase?"
+      ],
+      "strategies": [
+       "initial"
+      ],
+      "coverage": [
+       "sufficient: relevant sources for Oregon State University"
+      ],
+      "retrieved": 10,
+      "new": 10,
+      "retained": [
+       10
+      ],
+      "promoted": [],
+      "skipped": []
+     },
+     "identical_model_input": true,
+     "gold_shown": [
+      [
+       true
+      ],
+      [
+       true
+      ]
+     ],
+     "checks": []
+    },
+    {
+     "question": "What if it is an emergency costing less than $2 million?",
+     "kind": [
+      "follow_up",
+      "follow_up"
+     ],
+     "same_resolution": true,
+     "loop": {
+      "retrievals": 1,
+      "rounds": [
+       1
+      ],
+      "stop_reasons": [
+       "sufficient"
+      ],
+      "queries": [
+       "(Earlier in this conversation: At Oregon State, what procurement method applies to a $180,000 purchase). What if it is an emergency costing less than $2 million?"
+      ],
+      "strategies": [
+       "initial"
+      ],
+      "coverage": [
+       "sufficient: relevant sources for Oregon State University"
+      ],
+      "retrieved": 10,
+      "new": 10,
+      "retained": [
+       10
+      ],
+      "promoted": [],
+      "skipped": []
+     },
+     "identical_model_input": true,
+     "gold_shown": [
+      [
+       true
+      ],
+      [
+       true
+      ]
+     ],
+     "checks": []
+    }
+   ]
+  },
+  {
+   "id": "s-unrelated",
+   "turns": [
+    {
+     "question": "What is UConn's University Travel Card suspension rule?",
+     "kind": [
+      "self_contained",
+      "self_contained"
+     ],
+     "same_resolution": true,
+     "loop": {
+      "retrievals": 1,
+      "rounds": [
+       1
+      ],
+      "stop_reasons": [
+       "sufficient"
+      ],
+      "queries": [
+       "What is UConn's University Travel Card suspension rule?"
+      ],
+      "strategies": [
+       "initial"
+      ],
+      "coverage": [
+       "sufficient: relevant sources for University of Connecticut"
+      ],
+      "retrieved": 10,
+      "new": 10,
+      "retained": [
+       10
+      ],
+      "promoted": [],
+      "skipped": []
+     },
+     "identical_model_input": true,
+     "gold_shown": [
+      [
+       true
+      ],
+      [
+       true
+      ]
+     ],
+     "checks": []
+    },
+    {
+     "question": "How often must UT Austin user accounts be reviewed?",
+     "kind": [
+      "self_contained",
+      "self_contained"
+     ],
+     "same_resolution": true,
+     "loop": {
+      "retrievals": 1,
+      "rounds": [
+       1
+      ],
+      "stop_reasons": [
+       "sufficient"
+      ],
+      "queries": [
+       "How often must UT Austin user accounts be reviewed?"
+      ],
+      "strategies": [
+       "initial"
+      ],
+      "coverage": [
+       "sufficient: relevant sources for The University of Texas at Austin"
+      ],
+      "retrieved": 10,
+      "new": 10,
+      "retained": [
+       10
+      ],
+      "promoted": [],
+      "skipped": []
+     },
+     "identical_model_input": true,
+     "gold_shown": [
+      [
+       true
+      ],
+      [
+       true
+      ]
+     ],
+     "checks": []
+    }
+   ]
+  },
+  {
+   "id": "s-ambiguous",
+   "turns": [
+    {
+     "question": "How often must UT Austin user accounts be reviewed, and is there a limit on the gratuities Rutgers will reimburse for business travel?",
+     "kind": [
+      "self_contained",
+      "self_contained"
+     ],
+     "same_resolution": true,
+     "loop": {
+      "retrievals": 3,
+      "rounds": [
+       3,
+       1,
+       1
+      ],
+      "stop_reasons": [
+       "max_rounds",
+       "sufficient",
+       "sufficient"
+      ],
+      "queries": [
+       "How often must UT Austin user accounts be reviewed, and is there a limit on the gratuities Rutgers will reimburse for business travel?",
+       "How often must UT Austin user accounts be reviewed, and is there a limit on the gratuities will reimburse for business travel (The University of Texas at Austin)",
+       "How often must user accounts be reviewed, and is there a limit on the gratuities Rutgers will reimburse for business travel (Rutgers University)",
+       "How often must UT Austin user accounts be reviewed?",
+       "is there a limit on the gratuities Rutgers will reimburse for business travel?"
+      ],
+      "strategies": [
+       "initial",
+       "organization_focus (The University of Texas at Austin)",
+       "organization_focus (Rutgers University)",
+       "initial",
+       "initial"
+      ],
+      "coverage": [
+       "insufficient: no source in the context reaches the relevance threshold (best -0.17)",
+       "insufficient: no source in the context reaches the relevance threshold (best -0.17)",
+       "insufficient: no source in the context reaches the relevance threshold (best -0.17)",
+       "sufficient: relevant sources for The University of Texas at Austin",
+       "sufficient: relevant sources for Rutgers University"
+      ],
+      "retrieved": 50,
+      "new": 39,
+      "retained": [
+       10,
+       10,
+       10
+      ],
+      "promoted": [],
+      "skipped": [
+       {
+        "strategy": "organization_focus",
+        "query": "How often must UT Austin user accounts be reviewed, and is there a limit on the gratuities will reimburse for business travel (The University of Texas at Austin)",
+        "why": "already issued"
+       }
+      ]
+     },
+     "identical_model_input": true,
+     "gold_shown": [
+      [],
+      []
+     ],
+     "checks": []
+    },
+    {
+     "question": "Does that apply currently?",
+     "kind": [
+      "unresolved",
+      "unresolved"
+     ],
+     "same_resolution": true,
+     "loop": {
+      "retrievals": 0,
+      "rounds": [],
+      "stop_reasons": [],
+      "queries": [],
+      "strategies": [],
+      "coverage": [],
+      "retrieved": 0,
+      "new": 0,
+      "retained": [],
+      "promoted": [],
+      "skipped": []
+     },
+     "identical_model_input": true,
+     "gold_shown": [
+      [],
+      []
+     ],
+     "checks": []
+    }
+   ]
+  },
+  {
+   "id": "s-unsupported",
+   "turns": [
+    {
+     "question": "What are Rutgers' rules for travel advances?",
+     "kind": [
+      "self_contained",
+      "self_contained"
+     ],
+     "same_resolution": true,
+     "loop": {
+      "retrievals": 1,
+      "rounds": [
+       1
+      ],
+      "stop_reasons": [
+       "sufficient"
+      ],
+      "queries": [
+       "What are Rutgers' rules for travel advances?"
+      ],
+      "strategies": [
+       "initial"
+      ],
+      "coverage": [
+       "sufficient: relevant sources for Rutgers University"
+      ],
+      "retrieved": 10,
+      "new": 10,
+      "retained": [
+       10
+      ],
+      "promoted": [],
+      "skipped": []
+     },
+     "identical_model_input": true,
+     "gold_shown": [
+      [
+       true
+      ],
+      [
+       true
+      ]
+     ],
+     "checks": []
+    },
+    {
+     "question": "Does Harvard University have the same rule?",
+     "kind": [
+      "unresolved",
+      "unresolved"
+     ],
+     "same_resolution": true,
+     "loop": {
+      "retrievals": 0,
+      "rounds": [],
+      "stop_reasons": [],
+      "queries": [],
+      "strategies": [],
+      "coverage": [],
+      "retrieved": 0,
+      "new": 0,
+      "retained": [],
+      "promoted": [],
+      "skipped": []
+     },
+     "identical_model_input": true,
+     "gold_shown": [
+      [],
+      []
+     ],
+     "checks": []
+    }
+   ]
+  }
+ ]
+}

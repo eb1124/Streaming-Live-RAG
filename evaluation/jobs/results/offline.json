@@ -1,0 +1,369 @@
+{
+ "conversations": [
+  {
+   "id": "s-direct",
+   "tags": [
+    "direct_follow_up",
+    "new_retrieval"
+   ],
+   "turns": [
+    {
+     "question": "What are Rutgers' rules for travel advances?",
+     "job_id": "0ba624522fb34f6c8ee35e84d39dac6e",
+     "states": [
+      "queued",
+      "processing",
+      "completed"
+     ],
+     "resolution": "self_contained",
+     "expected_resolution": "self_contained",
+     "same_resolution": true,
+     "same_answer": true,
+     "answer_status": "abstained",
+     "error": null,
+     "checks": []
+    },
+    {
+     "question": "What documentation is required after the trip?",
+     "job_id": "0f1de449ab434f30aa900995f30baed8",
+     "states": [
+      "queued",
+      "processing",
+      "completed"
+     ],
+     "resolution": "follow_up",
+     "expected_resolution": "follow_up",
+     "same_resolution": true,
+     "same_answer": true,
+     "answer_status": "abstained",
+     "error": null,
+     "checks": []
+    }
+   ],
+   "model_calls": 2,
+   "identical_model_input": true,
+   "broker_rejected": 0
+  },
+  {
+   "id": "s-reference",
+   "tags": [
+    "reference"
+   ],
+   "turns": [
+    {
+     "question": "What is UConn's University Travel Card suspension rule?",
+     "job_id": "0f46ab88a45f41d0a0ef58211731226b",
+     "states": [
+      "queued",
+      "processing",
+      "completed"
+     ],
+     "resolution": "self_contained",
+     "expected_resolution": "self_contained",
+     "same_resolution": true,
+     "same_answer": true,
+     "answer_status": "abstained",
+     "error": null,
+     "checks": []
+    },
+    {
+     "question": "What happens if they are still unresolved after 90 days?",
+     "job_id": "d84b3cdf046c467ca6ba89e49bc9da22",
+     "states": [
+      "queued",
+      "processing",
+      "completed"
+     ],
+     "resolution": "follow_up",
+     "expected_resolution": "follow_up",
+     "same_resolution": true,
+     "same_answer": true,
+     "answer_status": "abstained",
+     "error": null,
+     "checks": []
+    }
+   ],
+   "model_calls": 2,
+   "identical_model_input": true,
+   "broker_rejected": 0
+  },
+  {
+   "id": "s-temporal",
+   "tags": [
+    "temporal_refinement",
+    "version_change"
+   ],
+   "turns": [
+    {
+     "question": "What did UConn's February 2026 procedures say about when a University Travel Card is suspended?",
+     "job_id": "2c0227b3838f4b5aaa51b106b125679b",
+     "states": [
+      "queued",
+      "processing",
+      "completed"
+     ],
+     "resolution": "self_contained",
+     "expected_resolution": "self_contained",
+     "same_resolution": true,
+     "same_answer": true,
+     "answer_status": "abstained",
+     "error": null,
+     "checks": []
+    },
+    {
+     "question": "Does that still apply under the current procedures?",
+     "job_id": "01495835fcb24311a3e341feed015fff",
+     "states": [
+      "queued",
+      "processing",
+      "completed"
+     ],
+     "resolution": "follow_up",
+     "expected_resolution": "follow_up",
+     "same_resolution": true,
+     "same_answer": true,
+     "answer_status": "abstained",
+     "error": null,
+     "checks": []
+    }
+   ],
+   "model_calls": 2,
+   "identical_model_input": true,
+   "broker_rejected": 0
+  },
+  {
+   "id": "s-chain",
+   "tags": [
+    "temporal_inherited",
+    "three_turns"
+   ],
+   "turns": [
+    {
+     "question": "What is UConn's University Travel Card suspension rule?",
+     "job_id": "e1cd3a5006e04a9f9beace4bae4466ea",
+     "states": [
+      "queued",
+      "processing",
+      "completed"
+     ],
+     "resolution": "self_contained",
+     "expected_resolution": "self_contained",
+     "same_resolution": true,
+     "same_answer": true,
+     "answer_status": "abstained",
+     "error": null,
+     "checks": []
+    },
+    {
+     "question": "Does that apply currently?",
+     "job_id": "8717447ae463452aa7499bed2645b5c8",
+     "states": [
+      "queued",
+      "processing",
+      "completed"
+     ],
+     "resolution": "follow_up",
+     "expected_resolution": "follow_up",
+     "same_resolution": true,
+     "same_answer": true,
+     "answer_status": "abstained",
+     "error": null,
+     "checks": []
+    },
+    {
+     "question": "What happens after 90 days?",
+     "job_id": "5206e7e4014846b8a287721aed7dd173",
+     "states": [
+      "queued",
+      "processing",
+      "completed"
+     ],
+     "resolution": "follow_up",
+     "expected_resolution": "follow_up",
+     "same_resolution": true,
+     "same_answer": true,
+     "answer_status": "abstained",
+     "error": null,
+     "checks": []
+    }
+   ],
+   "model_calls": 3,
+   "identical_model_input": true,
+   "broker_rejected": 0
+  },
+  {
+   "id": "s-constraint",
+   "tags": [
+    "new_constraint",
+    "new_retrieval"
+   ],
+   "turns": [
+    {
+     "question": "At Oregon State, what procurement method applies to a $180,000 purchase?",
+     "job_id": "039bf0f1ad664355a7a870869513543c",
+     "states": [
+      "queued",
+      "processing",
+      "completed"
+     ],
+     "resolution": "self_contained",
+     "expected_resolution": "self_contained",
+     "same_resolution": true,
+     "same_answer": true,
+     "answer_status": "abstained",
+     "error": null,
+     "checks": []
+    },
+    {
+     "question": "What if it is an emergency costing less than $2 million?",
+     "job_id": "eaac391550084d059e3bdcd04c4c6946",
+     "states": [
+      "queued",
+      "processing",
+      "completed"
+     ],
+     "resolution": "follow_up",
+     "expected_resolution": "follow_up",
+     "same_resolution": true,
+     "same_answer": true,
+     "answer_status": "abstained",
+     "error": null,
+     "checks": []
+    }
+   ],
+   "model_calls": 2,
+   "identical_model_input": true,
+   "broker_rejected": 0
+  },
+  {
+   "id": "s-unrelated",
+   "tags": [
+    "self_contained"
+   ],
+   "turns": [
+    {
+     "question": "What is UConn's University Travel Card suspension rule?",
+     "job_id": "233eefcb7efe472b97b2da2b88c1021c",
+     "states": [
+      "queued",
+      "processing",
+      "completed"
+     ],
+     "resolution": "self_contained",
+     "expected_resolution": "self_contained",
+     "same_resolution": true,
+     "same_answer": true,
+     "answer_status": "abstained",
+     "error": null,
+     "checks": []
+    },
+    {
+     "question": "How often must UT Austin user accounts be reviewed?",
+     "job_id": "02cc73a087854d2dbb5f194c4e559cf3",
+     "states": [
+      "queued",
+      "processing",
+      "completed"
+     ],
+     "resolution": "self_contained",
+     "expected_resolution": "self_contained",
+     "same_resolution": true,
+     "same_answer": true,
+     "answer_status": "abstained",
+     "error": null,
+     "checks": []
+    }
+   ],
+   "model_calls": 2,
+   "identical_model_input": true,
+   "broker_rejected": 0
+  },
+  {
+   "id": "s-ambiguous",
+   "tags": [
+    "ambiguous_reference"
+   ],
+   "turns": [
+    {
+     "question": "How often must UT Austin user accounts be reviewed, and is there a limit on the gratuities Rutgers will reimburse for business travel?",
+     "job_id": "32ecffb5715941aeb20305c9cad28266",
+     "states": [
+      "queued",
+      "processing",
+      "completed"
+     ],
+     "resolution": "self_contained",
+     "expected_resolution": "self_contained",
+     "same_resolution": true,
+     "same_answer": true,
+     "answer_status": "abstained",
+     "error": null,
+     "checks": []
+    },
+    {
+     "question": "Does that apply currently?",
+     "job_id": "20bfdf7e17e04b028dd842df0db270be",
+     "states": [
+      "queued",
+      "processing",
+      "completed"
+     ],
+     "resolution": "unresolved",
+     "expected_resolution": "unresolved",
+     "same_resolution": true,
+     "same_answer": true,
+     "answer_status": "abstained",
+     "error": null,
+     "checks": []
+    }
+   ],
+   "model_calls": 1,
+   "identical_model_input": true,
+   "broker_rejected": 0
+  },
+  {
+   "id": "s-unsupported",
+   "tags": [
+    "unsupported_follow_up",
+    "other_organization"
+   ],
+   "turns": [
+    {
+     "question": "What are Rutgers' rules for travel advances?",
+     "job_id": "c78602b90a5a4435aa589cb57bdfc142",
+     "states": [
+      "queued",
+      "processing",
+      "completed"
+     ],
+     "resolution": "self_contained",
+     "expected_resolution": "self_contained",
+     "same_resolution": true,
+     "same_answer": true,
+     "answer_status": "abstained",
+     "error": null,
+     "checks": []
+    },
+    {
+     "question": "Does Harvard University have the same rule?",
+     "job_id": "acdb5209b9d141d6a0c7714513eba3fd",
+     "states": [
+      "queued",
+      "processing",
+      "completed"
+     ],
+     "resolution": "unresolved",
+     "expected_resolution": "unresolved",
+     "same_resolution": true,
+     "same_answer": true,
+     "answer_status": "abstained",
+     "error": null,
+     "checks": []
+    }
+   ],
+   "model_calls": 1,
+   "identical_model_input": true,
+   "broker_rejected": 0
+  }
+ ]
+}

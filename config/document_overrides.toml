@@ -1,0 +1,133 @@
+# Curated, per-document corrections. Keyed by the ORIGINAL filename in corpus/.
+#
+# Rules (enforced by ingestion/metadata.py; rejected overrides produce an `override_rejected` warning):
+#   Facts about the document -- title, organization, version, effective_date, revision_date:
+#       { value, evidence, note? }   `evidence` must literally occur in the PDF text or PDF metadata
+#                                     (the filename does not count).
+#   Curator classification / acquisition provenance -- domain, document_type, authority_level,
+#   source_url, captured_at:
+#       { value, basis, evidence? }  `basis` is required; `evidence`, if given, is verified.
+#   Document identity across versions (curated; `basis` required) -- series_id, superseded_date, is_current:
+#       series_id        shared by every version of the same document (no series_id = only version in corpus)
+#       superseded_date  the date a newer version took effect
+#       is_current       true | false, as of the curation date; omitted = unknown (null)
+#   drop_line_patterns               regexes (full-line match) for noise the generic rules cannot remove.
+#   calibri_fonts                    font-name substrings to treat as Calibri for ligature repair
+#                                    (PDFs whose embedded font names are anonymized).
+#   profile                          force a profile (see ingestion/profiles.py).
+#   exclude_sections_from_retrieval  [{ title, reason }]: blocks stay in the JSON, flagged for the chunker.
+#   curator_warnings                 free-text issues surfaced in the manifest and validation report.
+#
+# Vocabularies
+#   domain          travel_expenses | procurement | remote_work | information_security
+#   document_type   policy | procedure | standard | guidance
+#   authority_level authoritative  - the issuer's official text (issued PDF, or explicitly designated official)
+#                   official_web   - browser capture of the issuer's official policy web page
+#                   informational  - service / guidance content, not a policy instrument
+#
+# Replacement history and sources: corpus_archive/README.md
+
+[documents."2305 Compliance with Procurement Policies – Division of Finance _ University of Pennsylvania.pdf"]
+domain = { value = "procurement", basis = "title", evidence = "2305 Compliance with Procurement Policies" }
+document_type = { value = "policy", basis = "listed under the site's Financial Policies section", evidence = "HOME / FINANCIAL POLICIES / 2305 COMPLIANCE WITH PROCUREMENT POLICIES" }
+authority_level = { value = "official_web", basis = "browser capture of the Division of Finance policy page; no alternative official PDF was sought" }
+drop_line_patterns = ['Manage Cookies', 'Accept Cookies']  # cookie-banner buttons
+
+[documents."5.1.1 Procurement Policies _ Administrative Guide.pdf"]
+organization = { value = "Stanford University", evidence = "Stanford University" }
+domain = { value = "procurement", basis = "title", evidence = "5.1.1 Procurement Policies" }
+document_type = { value = "policy", basis = "Administrative Guide memo stating university policy", evidence = "This Guide Memo outlines university procurement policies" }
+authority_level = { value = "official_web", basis = "browser capture of the Administrative Guide web page; no alternative official PDF was sought" }
+
+[documents."5002 Remote Work Policy _ It’s Your Yale (full-text capture 2026-09-25).pdf"]
+organization = { value = "Yale University", evidence = "Copyright © 2026 Yale University" }
+domain = { value = "remote_work", basis = "title", evidence = "5002 Remote Work Policy" }
+document_type = { value = "policy", basis = "contains the policy statement and policy sections 5002.1-5002.5", evidence = "Policy Statement" }
+authority_level = { value = "official_web", basis = "Yale publishes this policy only as a web page (no PDF of the policy is linked from it)" }
+source_url = { value = "https://your.yale.edu/policies-procedures/5002-remote-work-policy", basis = "page fetched by curator over HTTP; the capture was printed from that fetched HTML, so the PDF carries no browser URL footer" }
+is_current = { value = true, basis = "fetched from the live official policy page on 2026-09-25" }
+captured_at = { value = "2026-09-25", basis = "fetch date. Method: headless Chrome print of the fetched official HTML with a print-only CSS rule removing height/overflow clipping (the site's print CSS hid sections 5002.1-5002.5). Page text unmodified; source HTML archived in corpus_archive/sources/" }
+
+[documents."Chapter 11 University Procurement Services Procedures Manual.pdf"]
+organization = { value = "Rutgers University", evidence = "Rutgers University Procurement Services" }
+# Title is taken automatically from the page-1 heading (not the filename, not the PDF title field "Month XX, XXXX").
+domain = { value = "travel_expenses", basis = "page-1 heading, not the filename ('Procurement Services Procedures Manual')", evidence = "11.0 TRAVEL AND EXPENSE MANAGEMENT" }
+document_type = { value = "procedure", basis = "a standard operating procedure implementing University Policy 40.4.1", evidence = "This procedure is in accordance with University Policy 40.4.1" }
+authority_level = { value = "authoritative", basis = "PDF issued by University Procurement Services; its footer warns printed copies may not be current", evidence = "A printed copy of this document is uncontrolled" }
+
+[documents."INFORMATION RESOURCES USE AND SECURITY POLICY _ UT Austin Information Security Office.pdf"]
+organization = { value = "The University of Texas at Austin", evidence = "The University of Texas at Austin" }
+domain = { value = "information_security", basis = "title", evidence = "INFORMATION RESOURCES USE AND SECURITY POLICY" }
+document_type = { value = "policy", basis = "policy text with numbered standards", evidence = "It is the policy of the university to" }
+authority_level = { value = "official_web", basis = "browser capture of the Information Security Office policy page; no alternative official PDF was sought" }
+exclude_sections_from_retrieval = [
+  { title = "Revision History", reason = "revision_history_table_unreliable" },  # pp.78-93; borderless table read cell by cell. Revisit for temporal retrieval.
+]
+
+[documents."International Travel Policy - Policies & Procedures @ University of Rochester.pdf"]
+domain = { value = "travel_expenses", basis = "title (the content covers travel risk and registration rather than expenses)", evidence = "International Travel Policy" }
+document_type = { value = "policy", basis = "title and heading label", evidence = "International Travel Policy" }
+authority_level = { value = "official_web", basis = "browser capture of the university Policies & Procedures page; no alternative official PDF was sought" }
+
+[documents."procedures_for_travel_and_other_expenses_april172026_v6.9.pdf"]
+organization = { value = "McGill University", evidence = "McGill students", note = "INDIRECT: the document never states its organization in a title, heading or header. It is inferred from running text only ('McGill students', 'McGill email address', 'McGill Virtual Credit Card', 'Minerva'). 'McGill University' is the curator's normalized name; the text only says 'McGill'." }
+domain = { value = "travel_expenses", basis = "title", evidence = "PROCEDURES FOR TRAVEL AND OTHER EXPENSES" }
+document_type = { value = "procedure", basis = "title; implements a separate policy", evidence = "Refer to the Travel and Other Expenses Policy" }
+authority_level = { value = "authoritative", basis = "versioned, dated PDF issued by the institution (Revision V6.9)", evidence = "V6.9" }
+
+[documents."03-010 Procurement Thresholds and Methods 071526.pdf"]
+organization = { value = "Oregon State University", evidence = "Oregon State University" }
+domain = { value = "procurement", basis = "title", evidence = "Procurement Thresholds" }
+document_type = { value = "standard", basis = "the document is a University Standard", evidence = "University Standard 03-010" }
+authority_level = { value = "authoritative", basis = "the university's HTML page states 'The PDF is the official text of the policy' and links this file as 'Download the Policy: (PDF)' (page archived in corpus_archive/sources/)" }
+source_url = { value = "https://policy.oregonstate.edu/sites/policy.oregonstate.edu/files/03-010%20Procurement%20Thresholds%20and%20Methods%20071526.pdf", basis = "downloaded by curator from the link on the official policy page" }
+captured_at = { value = "2026-09-25", basis = "download date" }
+is_current = { value = true, basis = "linked as the official text from the live policy page on 2026-09-25; the page and PDF both read 'Last Revised July 15, 2026'" }
+
+[documents."Travel Booking _ Procurement Services - University of Michigan.pdf"]
+domain = { value = "travel_expenses", basis = "title", evidence = "Travel Booking" }
+document_type = { value = "guidance", basis = "a Procurement Services travel-booking service page (booking partner, announcements, contacts). It points to a separate policy instead of stating one", evidence = "The Travel and Business Hosting Expense Policy is" }
+authority_level = { value = "informational", basis = "service page, not a policy instrument" }
+curator_warnings = [
+  "Contains time-sensitive announcements (e.g. mileage rate effective August 1, 2026); answers must cite the capture date.",
+]
+
+[documents."Travel and Entertainment Policy _ University Policies _ University of Connecticut (capture 2026-09-25).pdf"]
+domain = { value = "travel_expenses", basis = "title", evidence = "Travel and Entertainment Policy" }
+document_type = { value = "policy", basis = "the policy text itself (background, definitions, policy statement)", evidence = "POLICY STATEMENT" }
+authority_level = { value = "official_web", basis = "published by the Office of University Compliance only as a web page on policy.uconn.edu (no PDF of the policy is linked); reached from the travel landing page link 'Complete Travel Policy (Effective 2/1/26)'" }
+is_current = { value = true, basis = "browser capture of the live official policy page on 2026-09-25" }
+drop_line_patterns = ['OK', 'More Information']  # cookie-banner buttons, if present
+exclude_sections_from_retrieval = [  # policy-site sidebar printed after the policy
+  { title = "Frequently Viewed", reason = "site_sidebar" },
+  { title = "Contact Us", reason = "site_sidebar" },
+  { title = "Reportline", reason = "site_sidebar" },
+]
+
+[documents."Travel-and-Entertainment-Procedures-FINAL.pdf"]
+# February 1, 2026 version. Kept deliberately (curator decision 2026-09-25) alongside the July 1, 2026
+# version below; the two are separate documents in one series. Do not overwrite.
+organization = { value = "University of Connecticut", evidence = "All UConn Campuses", note = "UConn is named by its short name in the applicability field" }
+domain = { value = "travel_expenses", basis = "title", evidence = "Travel and Entertainment Procedures" }
+document_type = { value = "procedure", basis = "states it supports the Travel and Entertainment Policy", evidence = "These procedures support the implementation" }
+authority_level = { value = "authoritative", basis = "procedures PDF issued by the university" }
+series_id = { value = "uconn-travel-entertainment-procedures", basis = "same title, owner and applicability as 2026-07-01-Travel-and-Entertainment-Procedures.pdf; earlier effective date", evidence = "Travel and Entertainment Procedures" }
+superseded_date = { value = "July 1, 2026", basis = "effective date of the newer version (2026-07-01-Travel-and-Entertainment-Procedures.pdf, approved June 17, 2026), which the official policy page linked as its procedures on 2026-09-25" }
+is_current = { value = false, basis = "superseded on July 1, 2026 by 2026-07-01-Travel-and-Entertainment-Procedures.pdf" }
+curator_warnings = [
+  "Superseded version (effective February 1, 2026 - June 30, 2026). Kept for historical questions; the current version is 2026-07-01-Travel-and-Entertainment-Procedures.pdf.",
+]
+
+[documents."2026-07-01-Travel-and-Entertainment-Procedures.pdf"]
+# July 1, 2026 version, added 2026-09-25 (see corpus_archive/README.md). Supersedes the February 1, 2026 version.
+profile = "office_export"  # Word document printed with "Microsoft: Print To PDF" (PDF title "Microsoft Word - ...")
+calibri_fonts = ["CIDFont+F"]  # Print to PDF anonymizes the embedded Calibri as CIDFont+F1..F7 ("ExecuƟve", "permiƩed")
+organization = { value = "University of Connecticut", evidence = "All UConn Campuses", note = "UConn is named by its short name in the applicability field" }
+revision_date = { value = "June 17, 2026", evidence = "Revised June 17, 2026" }
+domain = { value = "travel_expenses", basis = "title", evidence = "Travel and Entertainment Procedures" }
+document_type = { value = "procedure", basis = "states it supports the Travel and Entertainment Policy", evidence = "These procedures support the implementation" }
+authority_level = { value = "authoritative", basis = "procedures PDF issued by the university, linked from the official policy page" }
+source_url = { value = "https://policy.media.uconn.edu/wp-content/uploads/sites/3519/2023/06/2026-07-01-Travel-and-Entertainment-Procedures.pdf", basis = "downloaded unchanged by curator from the 'Travel and Entertainment Procedures' link under PROCEDURES/APPENDICES on the official policy page (archived in corpus_archive/sources/)" }
+captured_at = { value = "2026-09-25", basis = "download date" }
+series_id = { value = "uconn-travel-entertainment-procedures", basis = "same title, owner and applicability as Travel-and-Entertainment-Procedures-FINAL.pdf; later effective date", evidence = "Travel and Entertainment Procedures" }
+is_current = { value = true, basis = "the version the official policy page linked as its procedures on 2026-09-25" }
